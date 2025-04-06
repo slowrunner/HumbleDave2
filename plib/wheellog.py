@@ -85,7 +85,7 @@ current_heading_estimate = 0
 wheelLog = logging.getLogger('wheelLog')
 wheelLog.setLevel(logging.INFO)
 
-loghandler = logging.FileHandler('/home/ubuntu/HumbleDave2/wheel.log')
+loghandler = logging.FileHandler('/home/ubuntu/HumbleDave2/logs/wheel.log')
 
 logformatter = logging.Formatter('%(asctime)s|[%(filename)s.%(funcName)s]%(message)s',"%Y-%m-%d %H:%M")
 loghandler.setFormatter(logformatter)

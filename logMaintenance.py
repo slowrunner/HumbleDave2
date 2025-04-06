@@ -13,7 +13,7 @@ Documentation:
 
 import sys
 
-sys.path.append('/home/ubuntu/HumbleDave/plib')
+sys.path.append('/home/ubuntu/HumbleDave2/plib')
 import lifeLog
 
 from time import sleep

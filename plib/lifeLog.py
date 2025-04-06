@@ -28,7 +28,7 @@ import logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
-loghandler = logging.FileHandler('/home/ubuntu/HumbleDave2/life.log')
+loghandler = logging.FileHandler('/home/ubuntu/HumbleDave2/logs/life.log')
 
 logformatter = logging.Formatter('%(asctime)s|[%(filename)s.%(funcName)s]%(message)s',"%Y-%m-%d %H:%M")
 loghandler.setFormatter(logformatter)

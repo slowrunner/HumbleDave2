@@ -1,0 +1,16 @@
+msg/BatteryState.idl
+msg/BatteryState.msg
+msg/DockStatus.idl
+msg/DockStatus.msg
+srv/Dock.idl
+srv/Dock.srv
+srv/Dock_Request.msg
+srv/Dock_Response.msg
+srv/Say.idl
+srv/Say.srv
+srv/Say_Request.msg
+srv/Say_Response.msg
+srv/Undock.idl
+srv/Undock.srv
+srv/Undock_Request.msg
+srv/Undock_Response.msg

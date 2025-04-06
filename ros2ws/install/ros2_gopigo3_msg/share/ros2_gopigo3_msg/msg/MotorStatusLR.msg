@@ -1,1 +1,3 @@
-/home/ubuntu/HumbleDave2/ros2ws/src/ros2_gopigo3_msg/msg/MotorStatusLR.msg
+std_msgs/Header header
+MotorStatus left
+MotorStatus right

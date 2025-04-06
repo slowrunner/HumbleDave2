@@ -2,17 +2,22 @@
 
 echo -e "\n*** VERSIONS ***"
 
-echo "*** ROS 2 Humble Hawksbill ***"
+echo "*** ROS 2 Humble Hawksbill Desktop ***"
 
-echo "*** Ubuntu 22.04 Server (64-bit)"
+echo "*** Ubuntu 22.04 Desktop (64-bit)"
 
-echo "*** OpenCV 4.5.4"
+echo "*** Docker ***"
 
-echo "*** Custom built libcamera"
+# echo "*** OpenCV 4.5.4"
 
-echo "*** YDLIDAR-SDK version 1.1.2"
+# echo "*** Custom built libcamera"
 
-echo "*** ROS2-GoPiGo3 image: v4 Updates applied Nov 2023"
+# echo "*** YDLIDAR-SDK version 1.1.2"
 
-echo "*** Python3.10 ***"
+echo "*** Custom GoPiGo3 API for Bookworm and Pi5"
+
+echo "*** PiOS Bookworm Desktop 64-bit ***"
+
+pyversion=`(python3 --version)`
+echo "*** ${pyversion} ***"
 

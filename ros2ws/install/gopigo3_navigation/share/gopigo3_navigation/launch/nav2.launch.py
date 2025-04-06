@@ -1,1 +1,0 @@
-/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation/launch/nav2.launch.py

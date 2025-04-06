@@ -186,12 +186,16 @@
 2025-04-03 22:37|Current Battery 12.2v EasyGoPiGo3 Reading 11.29v
 2025-04-03 22:55|[logMaintenance.py.main]** REINCARNATING HUMBLE DAVE - 3 APR 2025 **
 2025-04-03 22:56|[logMaintenance.py.main]** due to Pi5 I2C failure on GoPi5Go **
-2025-04-05 23:35|lifelogger.dEmain execution: 48.95
-2025-04-05 23:38|lifelogger.dEmain execution: 49.00
-2025-04-05 23:41|lifelogger.dEmain execution: 49.05
-2025-04-05 23:44|lifelogger.dEmain execution: 49.10
-2025-04-05 23:47|lifelogger.dEmain execution: 49.15
-2025-04-05 23:50|lifelogger.dEmain execution: 49.20
-2025-04-05 23:53|lifelogger.dEmain execution: 49.25
-2025-04-05 23:56|lifelogger.dEmain execution: 49.30
-2025-04-05 23:59|lifelogger.dEmain execution: 49.35
+2025-04-06 00:20|lifelogger.dEmain execution: 49.70
+2025-04-06 00:58|------------ boot ------------
+2025-04-06 00:58|Current Battery 12.2v EasyGoPiGo3 Reading 11.72v
+2025-04-06 01:25|lifelogger.dEmain execution: 0.45
+2025-04-06 01:30|------------ boot ------------
+2025-04-06 01:30|Current Battery 12.5v EasyGoPiGo3 Reading 11.61v
+2025-04-06 14:45|lifelogger.dEmain execution: 13.25
+2025-04-06 14:51|------------ boot ------------
+2025-04-06 14:51|Current Battery 11.3v EasyGoPiGo3 Reading 10.37v
+2025-04-06 15:51|lifelogger.dEmain execution: 1.00
+2025-04-06 15:54|lifelogger.dEmain execution: 1.05
+2025-04-06 15:57|lifelogger.dEmain execution: 1.10
+2025-04-06 15:58|[logMaintenance.py.main]** Conversion of GoPi5Go-Dave to HumbleDave2 in progress **

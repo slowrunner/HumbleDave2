@@ -1,1 +1,0 @@
-/home/ubuntu/HumbleDave2/ros2ws/src/ros2_mpu9250_driver/launch/mpu9250driver_launch.py

@@ -1,4 +1,4 @@
-Feature / Bot	GoPiGo3 “ROSbot”
+Feature / Bot	GoPiGo3 “Humble Dave 2”
 
 | Feature | Detail |
 | --- | --- |
@@ -41,28 +41,15 @@ Feature / Bot	GoPiGo3 “ROSbot”
 | I2C | Parallel wired -interchangeable |
 | | 2x “Grove” HW I2C ports | 
 | | (level converted) |
-| | “1”) DI Distance Sensor | 
-| | “2”) unused |
+| | “1”) MPU9250 IMU | 
+| | “2”) INA219 Voltage/current |
 | Castor | 3/4” Pololu plastic ball |
 | Power Switch	| Push/Push |
-| Pan | TowerPro SG90 Micro Servo |
 | | |
 | Sensors: | |
 
    Battery V	12bit intrinsic float, 16:1 div, 
 8.6mV precision, 70mv variation
-
-   Distance TOF	VL53L0X  I2C $20 1-78” +/-12.5deg beam (~36” at max detect range)
-~20ms continuous , ~120ms single reading 1%-5% variation, 6 reading average 1%-3% variation
-I2C 0x2A
-
-   Pi Camera v1.3
-   - 5MP 1080p30 2592 x 1944 pixels
-     35mm focal length equiv.
-     focus 1 m to inf. 
-     H 53 deg x V 41 deg
-     f/2.9
-     (Use 1296 x 976 and 2x2 binning for better low light SNR) , Flex Cable 18”/457mm
 
    Encoders	720 counts / rev   (6 count/motor_rev x 120:1 gear reduction)
 (APIs in degrees, 360 / wheel rev)
@@ -78,8 +65,8 @@ Indicators
 
 Processor	Raspberry Pi 4
 * 1.8GHz Four-core Cortex-A72
-* 2 GB RAM
-* 32GB SD card / ~8GB used 
+* 4 GB RAM
+* 32GB SD card / ~10GB used 
 * 600ma idle - 1.34A full load
 
 ADC 	ATMEL SAMC20J
@@ -93,4 +80,4 @@ equiv. 500mA at 5v
 Active Current Draw ( Motors, Camera, Sensors, Servo )	800 mA - 2A
 Run Time	4-5 h (~30Wh), 
 
-Extended ROSbot Cost	$??? Nov 2023
+Extended ROSbot Cost	$??? Apr 2025

@@ -1,1 +1,0 @@
-/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_ekf/launch/ekf_v3.launch.py

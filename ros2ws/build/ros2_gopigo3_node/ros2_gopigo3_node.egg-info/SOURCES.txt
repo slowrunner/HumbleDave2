@@ -3,6 +3,7 @@ setup.cfg
 setup.py
 launch/ros2_dave_state_and_joint.launch.py
 launch/ros2_finmark_state_and_joint.launch.py
+launch/ros2_gopi5go_dave_state_and_joint.launch.py
 launch/ros2_gpgMin_state_and_joint.launch.py
 resource/ros2_gopigo3_node
 ros2_gopigo3_node/__init__.py
@@ -20,6 +21,9 @@ ros2_gopigo3_node.egg-info/entry_points.txt
 ros2_gopigo3_node.egg-info/requires.txt
 ros2_gopigo3_node.egg-info/top_level.txt
 ros2_gopigo3_node.egg-info/zip-safe
+urdf/common_properties.urdf
 urdf/dave.urdf
 urdf/finmark.urdf
+urdf/gopi5go_dave.urdf
+urdf/gpg3_gopi5go_dave.urdf
 urdf/gpgMin.urdf

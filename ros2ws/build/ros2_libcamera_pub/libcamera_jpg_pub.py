@@ -1,1 +1,0 @@
-/home/ubuntu/HumbleDave2/ros2ws/src/ros2_libcamera_pub/libcamera_jpg_pub.py

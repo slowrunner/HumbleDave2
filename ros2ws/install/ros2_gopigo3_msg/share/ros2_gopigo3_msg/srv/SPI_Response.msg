@@ -1,1 +1,2 @@
-/home/ubuntu/HumbleDave2/ros2ws/build/ros2_gopigo3_msg/rosidl_cmake/srv/SPI_Response.msg
+
+uint8[] data_in     # received byte array

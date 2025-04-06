@@ -1,5 +1,16 @@
 #!/bin/bash
 
+basedir=HumbleDave2
+echo -e "\n*** Switching to ~/${basedir}/ros2ws"
+cd ~/$basedir/ros2ws
+
+echo -e "\n*** Sourcing /opt/ros/humble/setup.bash"
+. /opt/ros/humble/setup.bash
+
+echo -e "\n*** Sourcing install/setup.bash"
+. ~/$basedir/ros2ws/install/setup.bash
+
+
 if [ "$#" -ne 2 ]; then
   echo "USAGE: ./create_node_in_pkg.sh node_name pkg_name"
   exit

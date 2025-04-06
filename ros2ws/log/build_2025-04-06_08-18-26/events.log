@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.001690] (-) JobUnselected: {'identifier': 'apriltag_msgs'}
+[0.001815] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.002400] (-) JobUnselected: {'identifier': 'dave_interfaces'}
+[0.002484] (-) JobUnselected: {'identifier': 'explorer_wanderer'}
+[0.002558] (-) JobUnselected: {'identifier': 'gpg3_cartographer'}
+[0.002633] (-) JobUnselected: {'identifier': 'gpg3_navigation2'}
+[0.002705] (-) JobUnselected: {'identifier': 'nav2_gopigo3'}
+[0.002908] (-) JobUnselected: {'identifier': 'ros2_gopigo3_msg'}
+[0.003182] (-) JobUnselected: {'identifier': 'ros2_gopigo3_node'}
+[0.003339] (-) JobUnselected: {'identifier': 'ros2_libcamera_pub'}
+[0.003430] (-) JobUnselected: {'identifier': 'scan_client'}
+[0.003520] (-) JobUnselected: {'identifier': 'teleop_gopigo3_keyboard'}
+[0.003726] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.003928] (dave) JobQueued: {'identifier': 'dave', 'dependencies': OrderedDict()}
+[0.004130] (dave) JobStarted: {'identifier': 'dave'}
+[0.099023] (-) TimerEvent: {}
+[0.200003] (-) TimerEvent: {}
+[0.300786] (-) TimerEvent: {}
+[0.401686] (-) TimerEvent: {}
+[0.502444] (-) TimerEvent: {}
+[0.603110] (-) TimerEvent: {}
+[0.703746] (-) TimerEvent: {}
+[0.804538] (-) TimerEvent: {}
+[0.905507] (-) TimerEvent: {}
+[1.006140] (-) TimerEvent: {}
+[1.106745] (-) TimerEvent: {}
+[1.207395] (-) TimerEvent: {}
+[1.307992] (-) TimerEvent: {}
+[1.408647] (-) TimerEvent: {}
+[1.509513] (-) TimerEvent: {}
+[1.610345] (-) TimerEvent: {}
+[1.711468] (-) TimerEvent: {}
+[1.812252] (-) TimerEvent: {}
+[1.913450] (-) TimerEvent: {}
+[2.014203] (-) TimerEvent: {}
+[2.114876] (-) TimerEvent: {}
+[2.215556] (-) TimerEvent: {}
+[2.316270] (-) TimerEvent: {}
+[2.416870] (-) TimerEvent: {}
+[2.517712] (-) TimerEvent: {}
+[2.618320] (-) TimerEvent: {}
+[2.718931] (-) TimerEvent: {}
+[2.819562] (-) TimerEvent: {}
+[2.920204] (-) TimerEvent: {}
+[3.020887] (-) TimerEvent: {}
+[3.121496] (-) TimerEvent: {}
+[3.222107] (-) TimerEvent: {}
+[3.322723] (-) TimerEvent: {}
+[3.423649] (-) TimerEvent: {}
+[3.524783] (-) TimerEvent: {}
+[3.551015] (dave) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/HumbleDave2/ros2ws/build/dave/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/HumbleDave2/ros2ws/build/dave', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.0.0.129 50240 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/HumbleDave2/ros2ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'ROS_LOG_DIR': '/home/ubuntu/HumbleDave/ros2ws/roslogs', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/home/ubuntu/HumbleDave/ros2ws', 'COLCON_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install:/home/ubuntu/ros2ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/HumbleDave/ros2ws/install/HoROS8:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/HumbleDave2/ros2ws/build/dave', 'SSH_CONNECTION': '10.0.0.129 50240 10.0.0.53 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/HumbleDave2/ros2ws/build/dave/prefix_override:/home/ubuntu/HumbleDave2/ros2ws/install/dave/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/local/lib/python3.10/dist-packages:/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/HoROS8:/home/ubuntu/HumbleDave/ros2ws/install/HoROS8/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf'}, 'shell': False}
+[3.624908] (-) TimerEvent: {}
+[3.725609] (-) TimerEvent: {}
+[3.826223] (-) TimerEvent: {}
+[3.926843] (-) TimerEvent: {}
+[4.027433] (-) TimerEvent: {}
+[4.128016] (-) TimerEvent: {}
+[4.228581] (-) TimerEvent: {}
+[4.329143] (-) TimerEvent: {}
+[4.429716] (-) TimerEvent: {}
+[4.530299] (-) TimerEvent: {}
+[4.630945] (-) TimerEvent: {}
+[4.731576] (-) TimerEvent: {}
+[4.766330] (dave) StdoutLine: {'line': b'running develop\n'}
+[4.831726] (-) TimerEvent: {}
+[4.932337] (-) TimerEvent: {}
+[5.032967] (-) TimerEvent: {}
+[5.133582] (-) TimerEvent: {}
+[5.234190] (-) TimerEvent: {}
+[5.334810] (-) TimerEvent: {}
+[5.435417] (-) TimerEvent: {}
+[5.467650] (dave) StdoutLine: {'line': b'running egg_info\n'}
+[5.468232] (dave) StdoutLine: {'line': b'creating dave.egg-info\n'}
+[5.468666] (dave) StdoutLine: {'line': b'writing dave.egg-info/PKG-INFO\n'}
+[5.469556] (dave) StdoutLine: {'line': b'writing dependency_links to dave.egg-info/dependency_links.txt\n'}
+[5.470188] (dave) StdoutLine: {'line': b'writing entry points to dave.egg-info/entry_points.txt\n'}
+[5.470683] (dave) StdoutLine: {'line': b'writing requirements to dave.egg-info/requires.txt\n'}
+[5.471193] (dave) StdoutLine: {'line': b'writing top-level names to dave.egg-info/top_level.txt\n'}
+[5.472064] (dave) StdoutLine: {'line': b"writing manifest file 'dave.egg-info/SOURCES.txt'\n"}
+[5.478652] (dave) StdoutLine: {'line': b"reading manifest file 'dave.egg-info/SOURCES.txt'\n"}
+[5.481460] (dave) StdoutLine: {'line': b"writing manifest file 'dave.egg-info/SOURCES.txt'\n"}
+[5.488571] (dave) StdoutLine: {'line': b'running build_ext\n'}
+[5.489375] (dave) StdoutLine: {'line': b'Creating /home/ubuntu/HumbleDave2/ros2ws/install/dave/lib/python3.10/site-packages/dave.egg-link (link to .)\n'}
+[5.492446] (dave) StdoutLine: {'line': b'Installing battery_node script to /home/ubuntu/HumbleDave2/ros2ws/install/dave/lib/dave\n'}
+[5.493346] (dave) StdoutLine: {'line': b'Installing dave_node script to /home/ubuntu/HumbleDave2/ros2ws/install/dave/lib/dave\n'}
+[5.493953] (dave) StdoutLine: {'line': b'Installing docking_node script to /home/ubuntu/HumbleDave2/ros2ws/install/dave/lib/dave\n'}
+[5.494602] (dave) StdoutLine: {'line': b'Installing say_client script to /home/ubuntu/HumbleDave2/ros2ws/install/dave/lib/dave\n'}
+[5.495332] (dave) StdoutLine: {'line': b'Installing say_node script to /home/ubuntu/HumbleDave2/ros2ws/install/dave/lib/dave\n'}
+[5.495936] (dave) StdoutLine: {'line': b'Installing test_dock script to /home/ubuntu/HumbleDave2/ros2ws/install/dave/lib/dave\n'}
+[5.497014] (dave) StdoutLine: {'line': b'\n'}
+[5.497558] (dave) StdoutLine: {'line': b'Installed /home/ubuntu/HumbleDave2/ros2ws/build/dave\n'}
+[5.498066] (dave) StdoutLine: {'line': b'running install_data\n'}
+[5.498567] (dave) StdoutLine: {'line': b'creating /home/ubuntu/HumbleDave2/ros2ws/install/dave/share/ament_index\n'}
+[5.498958] (dave) StdoutLine: {'line': b'creating /home/ubuntu/HumbleDave2/ros2ws/install/dave/share/ament_index/resource_index\n'}
+[5.499538] (dave) StdoutLine: {'line': b'creating /home/ubuntu/HumbleDave2/ros2ws/install/dave/share/ament_index/resource_index/packages\n'}
+[5.500023] (dave) StdoutLine: {'line': b'copying resource/dave -> /home/ubuntu/HumbleDave2/ros2ws/install/dave/share/ament_index/resource_index/packages\n'}
+[5.500974] (dave) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/HumbleDave2/ros2ws/install/dave/share/dave\n'}
+[5.535772] (-) TimerEvent: {}
+[5.636831] (-) TimerEvent: {}
+[5.648601] (dave) CommandEnded: {'returncode': 0}
+[5.736946] (-) TimerEvent: {}
+[5.838111] (-) TimerEvent: {}
+[5.939039] (-) TimerEvent: {}
+[5.971047] (dave) JobEnded: {'identifier': 'dave', 'rc': 0}
+[5.973866] (-) EventReactorShutdown: {}

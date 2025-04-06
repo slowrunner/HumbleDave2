@@ -1,1 +1,3 @@
-/home/ubuntu/HumbleDave2/ros2ws/src/ros2_gopigo3_msg/srv/SPI.srv
+uint8[] data_out    # sent byte array
+---
+uint8[] data_in     # received byte array

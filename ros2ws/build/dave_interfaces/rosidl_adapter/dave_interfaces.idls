@@ -1,0 +1,5 @@
+/home/ubuntu/HumbleDave2/ros2ws/build/dave_interfaces/rosidl_adapter/dave_interfaces:srv/Say.idl
+/home/ubuntu/HumbleDave2/ros2ws/build/dave_interfaces/rosidl_adapter/dave_interfaces:srv/Dock.idl
+/home/ubuntu/HumbleDave2/ros2ws/build/dave_interfaces/rosidl_adapter/dave_interfaces:srv/Undock.idl
+/home/ubuntu/HumbleDave2/ros2ws/build/dave_interfaces/rosidl_adapter/dave_interfaces:msg/BatteryState.idl
+/home/ubuntu/HumbleDave2/ros2ws/build/dave_interfaces/rosidl_adapter/dave_interfaces:msg/DockStatus.idl

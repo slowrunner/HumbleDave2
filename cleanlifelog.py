@@ -17,8 +17,8 @@ import argparse
 
 dtNow = datetime.datetime.now()
 
-inFileName = "/home/ubuntu/HumbleDave2/life.log"
-outFileName = "/home/ubuntu/HumbleDave2/life.log"
+inFileName = "/home/ubuntu/HumbleDave2/logs/life.log"
+outFileName = "/home/ubuntu/HumbleDave2/logs/life.log"
 # bkupFileName = "/home/pi/Carl/life.log.bkup_"+dtNow.strftime("%Y%m%d_%H%M%S")
 bkupFileName = "/home/ubuntu/HumbleDave2/tmp/life.log.bak"
 
