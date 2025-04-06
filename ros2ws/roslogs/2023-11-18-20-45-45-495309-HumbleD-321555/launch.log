@@ -1,3 +1,0 @@
-1700358345.4980853 [INFO] [launch]: All log files can be found below /home/ubuntu/HumbleDave/ros2ws/roslogs/2023-11-18-20-45-45-495309-HumbleD-321555
-1700358345.4986808 [INFO] [launch]: Default logging verbosity is set to INFO
-1700358346.8854263 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Included launch description missing required argument 'map' (description: 'Full path to map yaml file to load'), given: [params_file]

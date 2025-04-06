@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 #
 # loglife.py   digital entity to log each three minutes of life
-#              to /home/ubuntu/HumbleDave/life.log
+#              to /home/ubuntu/HumbleDave2/life.log
 #
 # with sudo crontab -e
-#      @reboot /home/ubuntu/HumbleDave/nohup_loglife.py
-# touch /home/ubuntu/HumbleDave/life.log
-# chmod 777 /home/ubuntu/HumbleDave/life.log
+#      @reboot /home/ubuntu/HumbleDave2/nohup_loglife.py
+# touch /home/ubuntu/HumbleDave2/life.log
+# chmod 777 /home/ubuntu/HumbleDave2/life.log
 #
 
 import time
 import sys
-sys.path.insert(1,"/home/ubuntu/HumbleDave/plib/")
+sys.path.insert(1,"/home/ubuntu/HumbleDave2/plib/")
 import multiprocessing
 import logging
 import traceback
@@ -22,7 +22,7 @@ import battery
 # create logger
 logger = logging.getLogger('lifelog')
 logger.setLevel(logging.INFO)
-loghandler = logging.FileHandler('/home/ubuntu/HumbleDave/life.log')
+loghandler = logging.FileHandler('/home/ubuntu/HumbleDave2/life.log')
 logformatter = logging.Formatter('%(asctime)s|%(message)s',"%Y-%m-%d %H:%M")
 loghandler.setFormatter(logformatter)
 logger.addHandler(loghandler)

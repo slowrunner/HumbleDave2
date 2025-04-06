@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Routine Shutdown Requested"
-batt=`(/home/ubuntu/HumbleDave/plib/battery.py)`
-/home/ubuntu/HumbleDave/logMaintenance.py "Routine Shutdown"
-/home/ubuntu/HumbleDave/logMaintenance.py "'$batt'"
+batt=`(/home/ubuntu/HumbleDave2/plib/battery.py)`
+/home/ubuntu/HumbleDave2/logMaintenance.py "Routine Shutdown"
+/home/ubuntu/HumbleDave2/logMaintenance.py "'$batt'"
 sudo shutdown -h +2

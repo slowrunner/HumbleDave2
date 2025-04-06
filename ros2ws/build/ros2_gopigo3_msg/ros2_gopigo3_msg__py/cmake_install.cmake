@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg/ros2_gopigo3_msg__py
+# Install script for directory: /home/ubuntu/HumbleDave2/ros2ws/build/ros2_gopigo3_msg/ros2_gopigo3_msg__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg")
+  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_msg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

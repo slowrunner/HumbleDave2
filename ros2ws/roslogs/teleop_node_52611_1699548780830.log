@@ -1,4 +1,0 @@
-[INFO] [1699548782.149733721] [TeleopTwistJoy]: Teleop enable button 5.
-[INFO] [1699548782.149958700] [TeleopTwistJoy]: Linear axis x on 5 at scale 0.500000.
-[INFO] [1699548782.150009940] [TeleopTwistJoy]: Angular axis yaw on 2 at scale 0.500000.
-[INFO] [1699549024.726992533] [rclcpp]: signal_handler(signum=15)

@@ -2,7 +2,7 @@
 
 # file:  rosbotDataJson.py
 #
-# Serialize data values to /home/ubuntu/HumbleDave/rosbotData.json
+# Serialize data values to /home/ubuntu/HumbleDave2/rosbotData.json
 #
 # Methods:
 #    saveData(dataname, datavalue, logit=False)   # adds datanaem:datavalue to rosbotData.json file
@@ -11,7 +11,7 @@
 #    printData()                 # prints contents of rosbotData.json
 #
 import sys
-sys.path.append('/home/ubuntu/HumbleDave/plib')
+sys.path.append('/home/ubuntu/HumbleDave2/plib')
 
 import json
 import threading
@@ -35,7 +35,7 @@ def saveData(dataname, datavalue, logit=False):
             lData[dataname] = datavalue
             # print("   lData:",lData)
 
-            with open('/home/ubuntu/HumbleDave/rosbotData.json', 'w') as outfile:
+            with open('/home/ubuntu/HumbleDave2/rosbotData.json', 'w') as outfile:
                 json.dump( lData, outfile )
             # print("   Data.json updated")
             if logit: runLog.logger.info("** Data '{}' = {} updated **".format(dataname, datavalue))
@@ -60,7 +60,7 @@ def delData(dataname):
                 del lData[dataname]
                 # print("   lData:", lData)
 
-                with open('/home/ubuntu/HumbleDave/rosbotData.json', 'w') as outfile:
+                with open('/home/ubuntu/HumbleDave2/rosbotData.json', 'w') as outfile:
                     json.dump( lData, outfile )
                 # print("   Data.json updated")
             # else:   print("   {} not found in Data".format(dataname))
@@ -77,7 +77,7 @@ def getData(dataname=None):
     # print("-- getData({}) called".format(dataname))
 
     try:
-        with open('/home/ubuntu/HumbleDave/rosbotData.json', 'r') as infile:
+        with open('/home/ubuntu/HumbleDave2/rosbotData.json', 'r') as infile:
             lData = json.load(infile)
             if (dataname == None):
                 return lData

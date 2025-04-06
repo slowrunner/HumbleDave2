@@ -6,7 +6,7 @@
 #
 # Note: bc scale=x only works for division!
 #
-logfile="/home/ubuntu/HumbleDave/ros2ws/odometer.log"
+logfile="/home/ubuntu/HumbleDave2/ros2ws/odometer.log"
 echo "ROS2 ODOMETRY STATS"
 
 # echo "(Cleaning life.log first)"

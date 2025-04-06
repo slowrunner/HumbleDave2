@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/HumbleDave/ros2ws/src/ros2_mpu9250_driver
+# Install script for directory: /home/ubuntu/HumbleDave2/ros2ws/src/ros2_mpu9250_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver")
+  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/HumbleDave2/ros2ws/install/mpu9250driver")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,12 +43,12 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/ubuntu/HumbleDave/ros2ws/build/mpu9250driver/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/ubuntu/HumbleDave2/ros2ws/build/mpu9250driver/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/HumbleDave/ros2ws/build/mpu9250driver/lib/cmake_install.cmake")
+  include("/home/ubuntu/HumbleDave2/ros2ws/build/mpu9250driver/lib/cmake_install.cmake")
 
 endif()
 
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/HumbleDave/ros2ws/build/mpu9250driver/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/HumbleDave2/ros2ws/build/mpu9250driver/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

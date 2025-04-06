@@ -1,2 +1,0 @@
-[INFO] [1699759294.644156126] [tf2_echo]: Waiting for transform base_link ->  laser_frame: Invalid frame ID "base_link" passed to canTransform argument target_frame - frame does not exist
-[INFO] [1699759307.875508689] [rclcpp]: signal_handler(signum=2)

@@ -6,9 +6,9 @@
 #
 echo "TOTAL LIFE STATISTICS"
 echo "(Cleaning life.log first)"
-/home/ubuntu/HumbleDave/cleanlifelog.py
+/home/ubuntu/HumbleDave2/cleanlifelog.py
 echo " "
-fn="/home/ubuntu/HumbleDave/life.log"
+fn="/home/ubuntu/HumbleDave2/life.log"
 totalLife=`(awk -F':' '{sum+=$3}END{print sum;}' $fn)`
 echo "Total Life: " $totalLife "hrs (since June 10, 2021)"
 echo "Sessions (boot): " `(grep -c "\- boot \-" $fn)`

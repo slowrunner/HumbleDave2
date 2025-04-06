@@ -1,3 +1,0 @@
-[INFO] [1700960000.361082796] [joy_node]: No haptic (rumble) available, skipping initialization
-[INFO] [1700960000.361462718] [joy_node]: Opened joystick: Controller.  deadzone: 0.300000
-[INFO] [1700960291.763701485] [rclcpp]: signal_handler(signum=2)

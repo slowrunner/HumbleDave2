@@ -13,7 +13,7 @@ import sys
 import logging
 
 try:
-    sys.path.append('/home/ubuntu/HumbleDave/plib')
+    sys.path.append('/home/ubuntu/HumbleDave2/plib')
     # import speak
     # import tiltpan
     # import status
@@ -85,7 +85,7 @@ current_heading_estimate = 0
 wheelLog = logging.getLogger('wheelLog')
 wheelLog.setLevel(logging.INFO)
 
-loghandler = logging.FileHandler('/home/ubuntu/HumbleDave/wheel.log')
+loghandler = logging.FileHandler('/home/ubuntu/HumbleDave2/wheel.log')
 
 logformatter = logging.Formatter('%(asctime)s|[%(filename)s.%(funcName)s]%(message)s',"%Y-%m-%d %H:%M")
 loghandler.setFormatter(logformatter)

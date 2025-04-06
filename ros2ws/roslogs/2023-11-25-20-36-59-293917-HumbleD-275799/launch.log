@@ -1,4 +1,0 @@
-1700962619.3050959 [INFO] [launch]: All log files can be found below /home/ubuntu/HumbleDave/ros2ws/roslogs/2023-11-25-20-36-59-293917-HumbleD-275799
-1700962619.3065815 [INFO] [launch]: Default logging verbosity is set to INFO
-1700962620.1837766 [INFO] [localization_slam_toolbox_node-1]: process started with pid [275842]
-1700962743.1233702 [ERROR] [localization_slam_toolbox_node-1]: process has died [pid 275842, exit code -11, cmd '/opt/ros/humble/lib/slam_toolbox/localization_slam_toolbox_node --ros-args -r __node:=slam_toolbox --params-file /opt/ros/humble/share/slam_toolbox/config/mapper_params_localization.yaml'].

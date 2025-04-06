@@ -4,8 +4,8 @@ echo -e "\n*** REBUILDING ROS2 GOPIGO3"
 
 echo "*** Executing rebuild.sh ***"
 
-echo "*** cd ~/HumbleDave/ros2ws"
-cd ~/HumbleDave/ros2ws
+echo "*** cd ~/HumbleDave2/ros2ws"
+cd ~/HumbleDave2/ros2ws
 
 echo "*** rosdep install -i --from-path src"
 rosdep install -i --from-path src

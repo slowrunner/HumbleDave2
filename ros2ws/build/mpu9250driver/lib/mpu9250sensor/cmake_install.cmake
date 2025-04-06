@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/HumbleDave/ros2ws/src/ros2_mpu9250_driver/lib/mpu9250sensor
+# Install script for directory: /home/ubuntu/HumbleDave2/ros2ws/src/ros2_mpu9250_driver/lib/mpu9250sensor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver")
+  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/HumbleDave2/ros2ws/install/mpu9250driver")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

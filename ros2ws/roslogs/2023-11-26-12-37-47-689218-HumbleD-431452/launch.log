@@ -1,4 +1,0 @@
-1701020267.6924524 [INFO] [launch]: All log files can be found below /home/ubuntu/HumbleDave/ros2ws/roslogs/2023-11-26-12-37-47-689218-HumbleD-431452
-1701020267.6931081 [INFO] [launch]: Default logging verbosity is set to INFO
-1701020268.2404797 [INFO] [sync_slam_toolbox_node-1]: process started with pid [431453]
-1701020846.2243085 [ERROR] [sync_slam_toolbox_node-1]: process has died [pid 431453, exit code -6, cmd '/opt/ros/humble/lib/slam_toolbox/sync_slam_toolbox_node --ros-args -r __node:=slam_toolbox -r __ns:=/ --params-file /tmp/tmp19jqxyse --params-file /tmp/launch_params_es8d_f2o -r /tf:=tf -r /tf_static:=tf_static -r /scan:=scan -r /map:=map -r /map_metadata:=map_metadata'].

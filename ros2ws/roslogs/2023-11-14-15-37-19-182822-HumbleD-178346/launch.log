@@ -1,6 +1,0 @@
-1699994239.1861780 [INFO] [launch]: All log files can be found below /home/ubuntu/HumbleDave/ros2ws/roslogs/2023-11-14-15-37-19-182822-HumbleD-178346
-1699994239.1868460 [INFO] [launch]: Default logging verbosity is set to INFO
-1699994239.8594496 [INFO] [robot_state_publisher-1]: process started with pid [178361]
-1699994239.8610332 [INFO] [joint_state_publisher-2]: process started with pid [178363]
-1699994512.8391297 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 178361]
-1699994513.5805507 [ERROR] [joint_state_publisher-2]: process has died [pid 178363, exit code 1, cmd '/opt/ros/humble/lib/joint_state_publisher/joint_state_publisher /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node/dave.urdf --ros-args -r __node:=joint_state_publisher'].

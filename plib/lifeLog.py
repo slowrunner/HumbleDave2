@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 #
 # lifeLog.py   allow user scripts to 
-#              log to Dave's /home/ubuntu/HumbleDave/life.log
+#              log to Dave's /home/ubuntu/HumbleDave2/life.log
 #
 # Formats message as:
 # YYYY-MM-DD HH:MM|[<script.py>.<funcName>]<message>
 #
 # USAGE:
 #    import sys
-#    sys.path.append('/home/ubuntu/HumbleDave/plib')
+#    sys.path.append('/home/ubuntu/HumbleDave2/plib')
 #    import lifeLog
 #
 #
@@ -28,7 +28,7 @@ import logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
-loghandler = logging.FileHandler('/home/ubuntu/HumbleDave/life.log')
+loghandler = logging.FileHandler('/home/ubuntu/HumbleDave2/life.log')
 
 logformatter = logging.Formatter('%(asctime)s|[%(filename)s.%(funcName)s]%(message)s',"%Y-%m-%d %H:%M")
 loghandler.setFormatter(logformatter)

@@ -19,7 +19,7 @@ import signal
 import os
 from datetime import datetime
 
-sys.path.insert(1,"/home/ubuntu/HumbleDave/plib")
+sys.path.insert(1,"/home/ubuntu/HumbleDave2/plib")
 from noinit_easygopigo3 import EasyGoPiGo3
 import battery
 import leds
@@ -119,13 +119,13 @@ def main():
                     last_leg_count = 0
                     warning_led_on = False
                     leds.wifi_blinker_off(egpg)
-                    os.system("/home/ubuntu/HumbleDave/logMaintenance.py 'safetyShutdown: voltage warning blinker deactivated '")
+                    os.system("/home/ubuntu/HumbleDave2/logMaintenance.py 'safetyShutdown: voltage warning blinker deactivated '")
         if (warning_led_on == False) and battery.on_last_leg(egpg):
             last_leg_count += 1
             if last_leg_count > 4:
                 warning_led_on = True
                 leds.wifi_blinker_on(egpg,color=leds.ORANGE)
-                os.system("/home/ubuntu/HumbleDave/logMaintenance.py 'safetyShutdown: voltage warning blinker activated '")
+                os.system("/home/ubuntu/HumbleDave2/logMaintenance.py 'safetyShutdown: voltage warning blinker activated '")
                 last_leg_count = 150  # allow plenty of bouncing around the low mark
         if (batteryLowCount > 3):
           vBatt,_ = battery.vBatt_vReading(egpg)
@@ -133,8 +133,8 @@ def main():
           print ("BATTERY %.2f volts BATTERY LOW - SHUTTING DOWN NOW" % vBatt)
           egpg.reset_all()
           time.sleep(1)
-          os.system("/home/ubuntu/HumbleDave/logMaintenance.py 'SAFETY SHUTDOWN - BATTERY LOW'")
-          str_log_voltages = "/home/ubuntu/HumbleDave/logMaintenance.py " + " '" + battery.voltages_string(egpg) +"' "
+          os.system("/home/ubuntu/HumbleDave2/logMaintenance.py 'SAFETY SHUTDOWN - BATTERY LOW'")
+          str_log_voltages = "/home/ubuntu/HumbleDave2/logMaintenance.py " + " '" + battery.voltages_string(egpg) +"' "
           os.system(str_log_voltages)
           time.sleep(1)
           # os.system("sudo shutdown +10")   # for testing

@@ -1,4 +1,0 @@
-[INFO] [1701173302.722877703] [mpu9250driver_node]: Calibrating...
-[WARN] [1701173359.143312912] [mpu9250driver_node]: New subscription discovered on topic '/imu_sensor/imu', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
-[WARN] [1701173920.437325511] [mpu9250driver_node]: New subscription discovered on topic '/imu_sensor/imu', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: DURABILITY_QOS_POLICY
-[INFO] [1701174513.884571891] [rclcpp]: signal_handler(signum=2)

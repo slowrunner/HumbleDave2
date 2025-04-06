@@ -1,0 +1,24 @@
+[8.515s] Invoking command in '/home/ubuntu/HumbleDave2/ros2ws/build/HoROS8': PYTHONPATH=/home/ubuntu/HumbleDave2/ros2ws/build/HoROS8/prefix_override:/home/ubuntu/HumbleDave2/ros2ws/install/HoROS8/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave2/ros2ws/build/HoROS8/build --no-deps install_data
+[10.482s] running develop
+[11.775s] running egg_info
+[11.776s] creating HoROS8.egg-info
+[11.777s] writing HoROS8.egg-info/PKG-INFO
+[11.779s] writing dependency_links to HoROS8.egg-info/dependency_links.txt
+[11.780s] writing entry points to HoROS8.egg-info/entry_points.txt
+[11.781s] writing requirements to HoROS8.egg-info/requires.txt
+[11.782s] writing top-level names to HoROS8.egg-info/top_level.txt
+[11.783s] writing manifest file 'HoROS8.egg-info/SOURCES.txt'
+[11.793s] reading manifest file 'HoROS8.egg-info/SOURCES.txt'
+[11.798s] writing manifest file 'HoROS8.egg-info/SOURCES.txt'
+[11.809s] running build_ext
+[11.811s] Creating /home/ubuntu/HumbleDave2/ros2ws/install/HoROS8/lib/python3.10/site-packages/HoROS8.egg-link (link to .)
+[11.816s] Installing wanderAround script to /home/ubuntu/HumbleDave2/ros2ws/install/HoROS8/lib/HoROS8
+[11.818s] 
+[11.819s] Installed /home/ubuntu/HumbleDave2/ros2ws/build/HoROS8
+[11.820s] running install_data
+[11.821s] creating /home/ubuntu/HumbleDave2/ros2ws/install/HoROS8/share/ament_index
+[11.822s] creating /home/ubuntu/HumbleDave2/ros2ws/install/HoROS8/share/ament_index/resource_index
+[11.823s] creating /home/ubuntu/HumbleDave2/ros2ws/install/HoROS8/share/ament_index/resource_index/packages
+[11.825s] copying resource/HoROS8 -> /home/ubuntu/HumbleDave2/ros2ws/install/HoROS8/share/ament_index/resource_index/packages
+[11.826s] copying package.xml -> /home/ubuntu/HumbleDave2/ros2ws/install/HoROS8/share/HoROS8
+[12.062s] Invoked command in '/home/ubuntu/HumbleDave2/ros2ws/build/HoROS8' returned '0': PYTHONPATH=/home/ubuntu/HumbleDave2/ros2ws/build/HoROS8/prefix_override:/home/ubuntu/HumbleDave2/ros2ws/install/HoROS8/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave2/ros2ws/build/HoROS8/build --no-deps install_data

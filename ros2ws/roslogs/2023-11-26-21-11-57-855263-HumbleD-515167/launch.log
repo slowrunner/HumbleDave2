@@ -1,4 +1,0 @@
-1701051117.8582530 [INFO] [launch]: All log files can be found below /home/ubuntu/HumbleDave/ros2ws/roslogs/2023-11-26-21-11-57-855263-HumbleD-515167
-1701051117.8588812 [INFO] [launch]: Default logging verbosity is set to INFO
-1701051118.3639014 [ERROR] [launch.actions.declare_launch_argument]: Argument "sync" provided value "false slam_params_file:=/home/ubuntu/HumbleDave/ros2ws/my_mapper_online_async.yaml" is not valid. Valid options are: ['true', 'false']
-1701051118.3664153 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Argument "sync" provided value "false slam_params_file:=/home/ubuntu/HumbleDave/ros2ws/my_mapper_online_async.yaml" is not valid. Valid options are: ['true', 'false']

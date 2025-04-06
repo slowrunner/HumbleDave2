@@ -1,0 +1,35 @@
+[6.113s] Invoking command in '/home/ubuntu/HumbleDave2/ros2ws/build/ros2_gopigo3_node': AMENT_PREFIX_PATH=/home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/HumbleDave2/ros2ws/build/ros2_gopigo3_node/prefix_override:/home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave2/ros2ws/build/ros2_gopigo3_node/build --no-deps install_data
+[8.178s] running develop
+[10.275s] running egg_info
+[10.276s] creating ros2_gopigo3_node.egg-info
+[10.277s] writing ros2_gopigo3_node.egg-info/PKG-INFO
+[10.278s] writing dependency_links to ros2_gopigo3_node.egg-info/dependency_links.txt
+[10.279s] writing entry points to ros2_gopigo3_node.egg-info/entry_points.txt
+[10.280s] writing requirements to ros2_gopigo3_node.egg-info/requires.txt
+[10.281s] writing top-level names to ros2_gopigo3_node.egg-info/top_level.txt
+[10.283s] writing manifest file 'ros2_gopigo3_node.egg-info/SOURCES.txt'
+[10.295s] reading manifest file 'ros2_gopigo3_node.egg-info/SOURCES.txt'
+[10.300s] writing manifest file 'ros2_gopigo3_node.egg-info/SOURCES.txt'
+[10.312s] running build_ext
+[10.314s] Creating /home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages/ros2-gopigo3-node.egg-link (link to .)
+[10.319s] Installing distance_sensor script to /home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node
+[10.321s] Installing distance_sensor_subscriber script to /home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node
+[10.322s] Installing gopigo3_node script to /home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node
+[10.324s] Installing imu_sensor script to /home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node
+[10.325s] Installing odometer script to /home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node
+[10.326s] Installing ultrasonic_ranger script to /home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node
+[10.330s] 
+[10.332s] Installed /home/ubuntu/HumbleDave2/ros2ws/build/ros2_gopigo3_node
+[10.333s] running install_data
+[10.334s] creating /home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/share/ament_index
+[10.335s] creating /home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/share/ament_index/resource_index
+[10.340s] creating /home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/share/ament_index/resource_index/packages
+[10.343s] copying resource/ros2_gopigo3_node -> /home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/share/ament_index/resource_index/packages
+[10.344s] copying package.xml -> /home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node
+[10.345s] copying launch/ros2_gpgMin_state_and_joint.launch.py -> /home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node
+[10.347s] copying launch/ros2_finmark_state_and_joint.launch.py -> /home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node
+[10.349s] copying launch/ros2_dave_state_and_joint.launch.py -> /home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node
+[10.351s] copying urdf/finmark.urdf -> /home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node
+[10.353s] copying urdf/gpgMin.urdf -> /home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node
+[10.355s] copying urdf/dave.urdf -> /home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node
+[10.616s] Invoked command in '/home/ubuntu/HumbleDave2/ros2ws/build/ros2_gopigo3_node' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/HumbleDave2/ros2ws/build/ros2_gopigo3_node/prefix_override:/home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/HumbleDave2/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave2/ros2ws/build/ros2_gopigo3_node/build --no-deps install_data

@@ -7,7 +7,7 @@
 #
 
 import sys
-sys.path.insert(1,"/home/ubuntu/HumbleDave/plib/")
+sys.path.insert(1,"/home/ubuntu/HumbleDave2/plib/")
 from noinit_easygopigo3 import EasyGoPiGo3
 
 CHARGING_ADJUST_V = 0.37    # When charging the GoPiGo3 reading is closer to the actual battery voltage

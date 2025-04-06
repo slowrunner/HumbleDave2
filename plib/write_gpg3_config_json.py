@@ -18,7 +18,7 @@ Default GoPiGo3 file contents
 """
 import json
 import sys
-sys.path.insert(1,"/home/ubuntu/HumbleDave/plib/")
+sys.path.insert(1,"/home/ubuntu/HumbleDave2/plib/")
 import easygopigo3
 import myconfig
 

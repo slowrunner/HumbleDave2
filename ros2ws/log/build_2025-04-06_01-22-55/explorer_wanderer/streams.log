@@ -1,0 +1,26 @@
+[8.120s] Invoking command in '/home/ubuntu/HumbleDave2/ros2ws/build/explorer_wanderer': PYTHONPATH=/home/ubuntu/HumbleDave2/ros2ws/build/explorer_wanderer/prefix_override:/home/ubuntu/HumbleDave2/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave2/ros2ws/build/explorer_wanderer/build --no-deps install_data
+[10.494s] running develop
+[11.863s] running egg_info
+[11.864s] creating explorer_wanderer.egg-info
+[11.866s] writing explorer_wanderer.egg-info/PKG-INFO
+[11.868s] writing dependency_links to explorer_wanderer.egg-info/dependency_links.txt
+[11.869s] writing entry points to explorer_wanderer.egg-info/entry_points.txt
+[11.870s] writing requirements to explorer_wanderer.egg-info/requires.txt
+[11.871s] writing top-level names to explorer_wanderer.egg-info/top_level.txt
+[11.872s] writing manifest file 'explorer_wanderer.egg-info/SOURCES.txt'
+[11.882s] reading manifest file 'explorer_wanderer.egg-info/SOURCES.txt'
+[11.888s] writing manifest file 'explorer_wanderer.egg-info/SOURCES.txt'
+[11.901s] running build_ext
+[11.902s] Creating /home/ubuntu/HumbleDave2/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer-wanderer.egg-link (link to .)
+[11.907s] Installing discoverer_server script to /home/ubuntu/HumbleDave2/ros2ws/install/explorer_wanderer/lib/explorer_wanderer
+[11.909s] Installing wanderer script to /home/ubuntu/HumbleDave2/ros2ws/install/explorer_wanderer/lib/explorer_wanderer
+[11.913s] Installing wanderer_server script to /home/ubuntu/HumbleDave2/ros2ws/install/explorer_wanderer/lib/explorer_wanderer
+[11.918s] 
+[11.921s] Installed /home/ubuntu/HumbleDave2/ros2ws/build/explorer_wanderer
+[11.930s] running install_data
+[11.934s] creating /home/ubuntu/HumbleDave2/ros2ws/install/explorer_wanderer/share/ament_index
+[11.937s] creating /home/ubuntu/HumbleDave2/ros2ws/install/explorer_wanderer/share/ament_index/resource_index
+[11.940s] creating /home/ubuntu/HumbleDave2/ros2ws/install/explorer_wanderer/share/ament_index/resource_index/packages
+[11.943s] copying resource/explorer_wanderer -> /home/ubuntu/HumbleDave2/ros2ws/install/explorer_wanderer/share/ament_index/resource_index/packages
+[11.946s] copying package.xml -> /home/ubuntu/HumbleDave2/ros2ws/install/explorer_wanderer/share/explorer_wanderer
+[13.065s] Invoked command in '/home/ubuntu/HumbleDave2/ros2ws/build/explorer_wanderer' returned '0': PYTHONPATH=/home/ubuntu/HumbleDave2/ros2ws/build/explorer_wanderer/prefix_override:/home/ubuntu/HumbleDave2/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave2/ros2ws/build/explorer_wanderer/build --no-deps install_data

@@ -1,5 +1,0 @@
-1701051833.1575325 [INFO] [launch]: All log files can be found below /home/ubuntu/HumbleDave/ros2ws/roslogs/2023-11-26-21-23-53-154601-HumbleD-517139
-1701051833.1581137 [INFO] [launch]: Default logging verbosity is set to INFO
-1701051833.7118628 [INFO] [async_slam_toolbox_node-1]: process started with pid [517140]
-1701051844.0663095 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
-1701051844.2453821 [INFO] [async_slam_toolbox_node-1]: process has finished cleanly [pid 517140]

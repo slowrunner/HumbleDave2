@@ -1,4 +1,0 @@
-1699548785.9522762 [INFO] [launch]: All log files can be found below /home/ubuntu/HumbleDave/ros2ws/roslogs/2023-11-09-11-53-05-947592-HumbleD-52666
-1699548785.9530079 [INFO] [launch]: Default logging verbosity is set to INFO
-1699548788.9504747 [INFO] [ydlidar_ros2_driver_node-1]: process started with pid [52729]
-1699549026.3030889 [INFO] [ydlidar_ros2_driver_node-1]: process has finished cleanly [pid 52729]

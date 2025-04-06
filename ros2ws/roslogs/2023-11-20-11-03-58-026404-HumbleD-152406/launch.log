@@ -1,4 +1,0 @@
-1700496238.0312393 [INFO] [launch]: All log files can be found below /home/ubuntu/HumbleDave/ros2ws/roslogs/2023-11-20-11-03-58-026404-HumbleD-152406
-1700496238.0327361 [INFO] [launch]: Default logging verbosity is set to INFO
-1700496238.9168665 [INFO] [async_slam_toolbox_node-1]: process started with pid [152433]
-1700497028.8417344 [INFO] [async_slam_toolbox_node-1]: process has finished cleanly [pid 152433]

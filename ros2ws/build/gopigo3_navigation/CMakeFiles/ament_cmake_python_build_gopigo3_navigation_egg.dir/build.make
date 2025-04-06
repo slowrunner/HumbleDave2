@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation
+CMAKE_SOURCE_DIR = /home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation
+CMAKE_BINARY_DIR = /home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation
 
 # Utility rule file for ament_cmake_python_build_gopigo3_navigation_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_gopigo3_navigation_egg.dir/compiler_
 include CMakeFiles/ament_cmake_python_build_gopigo3_navigation_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_gopigo3_navigation_egg:
-	cd /home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_python/gopigo3_navigation && /usr/bin/python3.10 setup.py egg_info
+	cd /home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_python/gopigo3_navigation && /usr/bin/python3.10 setup.py egg_info
 
 ament_cmake_python_build_gopigo3_navigation_egg: CMakeFiles/ament_cmake_python_build_gopigo3_navigation_egg
 ament_cmake_python_build_gopigo3_navigation_egg: CMakeFiles/ament_cmake_python_build_gopigo3_navigation_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_gopigo3_navigation_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_gopigo3_navigation_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_gopigo3_navigation_egg.dir/depend:
-	cd /home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation /home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation /home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation /home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation /home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/CMakeFiles/ament_cmake_python_build_gopigo3_navigation_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation /home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation /home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation /home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation /home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/CMakeFiles/ament_cmake_python_build_gopigo3_navigation_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_gopigo3_navigation_egg.dir/depend
 

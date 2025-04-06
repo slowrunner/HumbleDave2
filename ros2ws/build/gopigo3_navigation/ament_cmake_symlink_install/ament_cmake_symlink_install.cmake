@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ubuntu/HumbleDave2/ros2ws/install/gopigo3_navigation/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ubuntu/HumbleDave2/ros2ws/install/gopigo3_navigation/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ubuntu/HumbleDave2/ros2ws/install/gopigo3_navigation/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/${destination}")
+      set(destination "/home/ubuntu/HumbleDave2/ros2ws/install/gopigo3_navigation/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,61 +311,61 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "config" "launch" "maps" "DESTINATION" "share/gopigo3_navigation")
-ament_cmake_symlink_install_directory("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" DIRECTORY "config" "launch" "maps" "DESTINATION" "share/gopigo3_navigation")
+ament_cmake_symlink_install_directory("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" DIRECTORY "config" "launch" "maps" "DESTINATION" "share/gopigo3_navigation")
 
-# install(FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/gopigo3_navigation/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/gopigo3_navigation/environment")
+# install(FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/gopigo3_navigation/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/gopigo3_navigation/environment")
 
-# install(FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/gopigo3_navigation/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/gopigo3_navigation/environment")
+# install(FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/gopigo3_navigation/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/gopigo3_navigation/environment")
 
-# install(DIRECTORY "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_python/gopigo3_navigation/gopigo3_navigation.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/gopigo3_navigation-1.0.4-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" DIRECTORY "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_python/gopigo3_navigation/gopigo3_navigation.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/gopigo3_navigation-1.0.4-py3.10.egg-info")
+# install(DIRECTORY "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_python/gopigo3_navigation/gopigo3_navigation.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/gopigo3_navigation-1.0.4-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" DIRECTORY "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_python/gopigo3_navigation/gopigo3_navigation.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/gopigo3_navigation-1.0.4-py3.10.egg-info")
 
-# install(DIRECTORY "/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation/gopigo3_navigation/" "DESTINATION" "local/lib/python3.10/dist-packages/gopigo3_navigation" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" DIRECTORY "/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation/gopigo3_navigation/" "DESTINATION" "local/lib/python3.10/dist-packages/gopigo3_navigation" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation/gopigo3_navigation/" "DESTINATION" "local/lib/python3.10/dist-packages/gopigo3_navigation" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" DIRECTORY "/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation/gopigo3_navigation/" "DESTINATION" "local/lib/python3.10/dist-packages/gopigo3_navigation" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install(FILES "/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation/gopigo3_navigation/gopigo3_navigator.py" "DESTINATION" "local/lib/python3.10/dist-packages")
-ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation/gopigo3_navigation/gopigo3_navigator.py" "DESTINATION" "local/lib/python3.10/dist-packages")
+# install(FILES "/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation/gopigo3_navigation/gopigo3_navigator.py" "DESTINATION" "local/lib/python3.10/dist-packages")
+ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation/gopigo3_navigation/gopigo3_navigator.py" "DESTINATION" "local/lib/python3.10/dist-packages")
 
-# install(FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/gopigo3_navigation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/gopigo3_navigation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/gopigo3_navigation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/gopigo3_navigation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/gopigo3_navigation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/gopigo3_navigation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/gopigo3_navigation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/gopigo3_navigation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/gopigo3_navigation/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/gopigo3_navigation/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/gopigo3_navigation/environment")
 
-# install(FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/gopigo3_navigation/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/gopigo3_navigation/environment")
+# install(FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/gopigo3_navigation/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/gopigo3_navigation/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/gopigo3_navigation/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/gopigo3_navigation/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/gopigo3_navigation/environment")
 
-# install(FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/gopigo3_navigation/environment")
-ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/gopigo3_navigation/environment")
+# install(FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/gopigo3_navigation/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/gopigo3_navigation/environment")
 
-# install(FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/gopigo3_navigation")
-ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/gopigo3_navigation")
+# install(FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/gopigo3_navigation")
+ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/gopigo3_navigation")
 
-# install(FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/gopigo3_navigation")
-ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/gopigo3_navigation")
+# install(FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/gopigo3_navigation")
+ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/gopigo3_navigation")
 
-# install(FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/gopigo3_navigation")
-ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/gopigo3_navigation")
+# install(FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/gopigo3_navigation")
+ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/gopigo3_navigation")
 
-# install(FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/gopigo3_navigation")
-ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/gopigo3_navigation")
+# install(FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/gopigo3_navigation")
+ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/gopigo3_navigation")
 
-# install(FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/gopigo3_navigation")
-ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/gopigo3_navigation")
+# install(FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/gopigo3_navigation")
+ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/gopigo3_navigation")
 
-# install(FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_index/share/ament_index/resource_index/packages/gopigo3_navigation" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_index/share/ament_index/resource_index/packages/gopigo3_navigation" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_index/share/ament_index/resource_index/packages/gopigo3_navigation" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_index/share/ament_index/resource_index/packages/gopigo3_navigation" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_core/gopigo3_navigationConfig.cmake" "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_core/gopigo3_navigationConfig-version.cmake" "DESTINATION" "share/gopigo3_navigation/cmake")
-ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_core/gopigo3_navigationConfig.cmake" "/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation/ament_cmake_core/gopigo3_navigationConfig-version.cmake" "DESTINATION" "share/gopigo3_navigation/cmake")
+# install(FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_core/gopigo3_navigationConfig.cmake" "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_core/gopigo3_navigationConfig-version.cmake" "DESTINATION" "share/gopigo3_navigation/cmake")
+ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_core/gopigo3_navigationConfig.cmake" "/home/ubuntu/HumbleDave2/ros2ws/build/gopigo3_navigation/ament_cmake_core/gopigo3_navigationConfig-version.cmake" "DESTINATION" "share/gopigo3_navigation/cmake")
 
-# install(FILES "/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation/package.xml" "DESTINATION" "share/gopigo3_navigation")
-ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_navigation/package.xml" "DESTINATION" "share/gopigo3_navigation")
+# install(FILES "/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation/package.xml" "DESTINATION" "share/gopigo3_navigation")
+ament_cmake_symlink_install_files("/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation" FILES "/home/ubuntu/HumbleDave2/ros2ws/src/gopigo3_navigation/package.xml" "DESTINATION" "share/gopigo3_navigation")

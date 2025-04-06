@@ -25,7 +25,7 @@
 
 import easygopigo3
 import sys
-sys.path.insert(1,"/home/ubuntu/HumbleDave/plib")
+sys.path.insert(1,"/home/ubuntu/HumbleDave2/plib")
 import myconfig
 from time import sleep
 import argparse

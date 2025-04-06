@@ -1,9 +1,0 @@
-[INFO] [1700280933.326835226] [robot_state_publisher]: got segment base_link
-[INFO] [1700280933.328266026] [robot_state_publisher]: got segment dave_link
-[INFO] [1700280933.328390913] [robot_state_publisher]: got segment distance_sensor
-[INFO] [1700280933.328428617] [robot_state_publisher]: got segment imu_link
-[INFO] [1700280933.328457561] [robot_state_publisher]: got segment laser_frame
-[INFO] [1700280933.328483301] [robot_state_publisher]: got segment left_wheel
-[INFO] [1700280933.328509838] [robot_state_publisher]: got segment right_wheel
-[INFO] [1700280933.328694410] [robot_state_publisher]: got segment ultrasonic_ranger
-[INFO] [1700281567.937122949] [rclcpp]: signal_handler(signum=15)

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# runLog.py   Utils for the run log located in /home/ubuntu/HumbleDave/run.log
+# runLog.py   Utils for the run log located in /home/ubuntu/HumbleDave2/run.log
 #
 # decorator @runLog.logRun will log a start and end entry:
 #          "YYYY-MM-DD HH:MM|<file>.<func>: Started"
@@ -26,7 +26,7 @@ import logging
 # Set up the start-finished logger
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
-loghandler = logging.FileHandler('/home/ubuntu/HumbleDave/run.log')
+loghandler = logging.FileHandler('/home/ubuntu/HumbleDave2/run.log')
 logformatter = logging.Formatter('%(asctime)s|%(message)s',"%Y-%m-%d %H:%M")
 loghandler.setFormatter(logformatter)
 logger.addHandler(loghandler)

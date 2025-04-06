@@ -1,3 +1,3 @@
 import sys
 sys.real_prefix = sys.prefix
-sys.prefix = sys.exec_prefix = '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard'
+sys.prefix = sys.exec_prefix = '/home/ubuntu/HumbleDave2/ros2ws/install/teleop_gopigo3_keyboard'

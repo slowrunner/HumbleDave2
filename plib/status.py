@@ -28,7 +28,7 @@ Distance Sensor: nothing within 90 inches
 # IMPORTS
 import sys
 sys.path
-sys.path.insert(1,'/home/ubuntu/HumbleDave/plib')
+sys.path.insert(1,'/home/ubuntu/HumbleDave2/plib')
 import time
 import signal
 import os
