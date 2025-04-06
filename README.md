@@ -18,7 +18,7 @@ ROSbot Specs:
 - Processor: Raspberry Pi 4B
   * 1.8 GHz Max
   * Four Cores
-  * 2GB Memory
+  * 4GB Memory  (Configured with 1GB swap)
   * Onboard Dual Band WiFi
 
 - OS: Ubuntu 22.04 LTS 64-bit Server
