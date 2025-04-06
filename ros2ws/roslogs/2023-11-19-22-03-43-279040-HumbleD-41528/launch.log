@@ -1,0 +1,19 @@
+1700449423.2819996 [INFO] [launch]: All log files can be found below /home/ubuntu/HumbleDave/ros2ws/roslogs/2023-11-19-22-03-43-279040-HumbleD-41528
+1700449423.2826319 [INFO] [launch]: Default logging verbosity is set to INFO
+1700449424.9820428 [INFO] [controller_server-1]: process started with pid [41540]
+1700449424.9844420 [INFO] [smoother_server-2]: process started with pid [41542]
+1700449424.9869149 [INFO] [planner_server-3]: process started with pid [41544]
+1700449424.9892614 [INFO] [behavior_server-4]: process started with pid [41546]
+1700449424.9911854 [INFO] [bt_navigator-5]: process started with pid [41548]
+1700449424.9952257 [INFO] [waypoint_follower-6]: process started with pid [41550]
+1700449425.0018251 [INFO] [velocity_smoother-7]: process started with pid [41559]
+1700449425.0112312 [INFO] [lifecycle_manager-8]: process started with pid [41568]
+1700449447.4940929 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1700449447.8896506 [INFO] [velocity_smoother-7]: process has finished cleanly [pid 41559]
+1700449447.8979814 [INFO] [bt_navigator-5]: process has finished cleanly [pid 41548]
+1700449447.9169517 [INFO] [smoother_server-2]: process has finished cleanly [pid 41542]
+1700449447.9909267 [INFO] [waypoint_follower-6]: process has finished cleanly [pid 41550]
+1700449448.0420904 [INFO] [behavior_server-4]: process has finished cleanly [pid 41546]
+1700449448.0803025 [INFO] [planner_server-3]: process has finished cleanly [pid 41544]
+1700449449.2642434 [ERROR] [controller_server-1]: process has died [pid 41540, exit code -6, cmd '/opt/ros/humble/lib/nav2_controller/controller_server --ros-args --log-level info --ros-args --params-file /tmp/launch_params_5daah0iv -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].
+1700449449.6954038 [INFO] [lifecycle_manager-8]: process has finished cleanly [pid 41568]

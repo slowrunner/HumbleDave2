@@ -1,0 +1,100 @@
+[INFO] [1700280916.970177695] [planner_server]: 
+	planner_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1700280916.994861432] [planner_server]: Creating
+[INFO] [1700280917.084700954] [global_costmap.global_costmap]: 
+	global_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1700280917.095268674] [global_costmap.global_costmap]: Creating Costmap
+[INFO] [1700280917.580256811] [planner_server]: Configuring
+[INFO] [1700280917.580389791] [global_costmap.global_costmap]: Configuring
+[INFO] [1700280917.601060663] [global_costmap.global_costmap]: Using plugin "static_layer"
+[INFO] [1700280917.618525254] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[INFO] [1700280917.623954751] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[INFO] [1700280917.624164694] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[INFO] [1700280917.631532615] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[INFO] [1700280917.655326435] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[INFO] [1700280917.655464026] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[INFO] [1700280917.662709338] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1700280917.699383409] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[INFO] [1700280917.699526852] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[INFO] [1700280917.701027021] [planner_server]: Planner Server has GridBased  planners available.
+[INFO] [1700280936.120214909] [planner_server]: Activating
+[INFO] [1700280936.120400889] [global_costmap.global_costmap]: Activating
+[INFO] [1700280936.120481295] [global_costmap.global_costmap]: Checking transform
+[INFO] [1700280936.120586146] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280936.620662453] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280937.120681890] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280937.620693364] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280938.120699486] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280938.620675368] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280939.120694230] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280939.620727593] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280940.120713382] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280940.620705448] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280941.120685460] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280941.620668748] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280942.120703611] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280942.620609845] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280943.120641373] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280943.620643921] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280944.120607321] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280944.620711960] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280945.120648805] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280945.620647908] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280946.120650437] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280946.620643577] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280947.120644087] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700280947.621234110] [global_costmap.global_costmap]: start
+[INFO] [1700280947.683369983] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[INFO] [1700280947.688782758] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[WARN] [1700280948.656527438] [global_costmap.global_costmap]: Sensor origin at (-0.01, 0.00) is out of map bounds (0.00, 0.00) to (4.98, 4.98). The costmap cannot raytrace for it.
+[WARN] [1700280949.656479551] [global_costmap.global_costmap]: Sensor origin at (-0.01, 0.00) is out of map bounds (0.00, 0.00) to (4.98, 4.98). The costmap cannot raytrace for it.
+[WARN] [1700280950.656448498] [global_costmap.global_costmap]: Sensor origin at (-0.01, 0.00) is out of map bounds (0.00, 0.00) to (4.98, 4.98). The costmap cannot raytrace for it.
+[INFO] [1700280950.949343535] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 403 X 280 at 0.010000 m/pix
+[INFO] [1700280951.656362056] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 405 X 280 at 0.010000 m/pix
+[INFO] [1700281146.656380750] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 487 X 406 at 0.010000 m/pix
+[INFO] [1700281176.656442673] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 703 X 751 at 0.010000 m/pix
+[WARN] [1700281180.733026214] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 16.1118 Hz
+[INFO] [1700281181.656367106] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 738 X 773 at 0.010000 m/pix
+[INFO] [1700281186.656511425] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 755 X 773 at 0.010000 m/pix
+[WARN] [1700281187.112853207] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 19.6769 Hz
+[INFO] [1700281191.656326767] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 767 X 785 at 0.010000 m/pix
+[INFO] [1700281196.656410842] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 773 X 823 at 0.010000 m/pix
+[WARN] [1700281197.635037822] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 19.4571 Hz
+[WARN] [1700281198.731252650] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 14.0271 Hz
+[INFO] [1700281201.656312693] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 780 X 823 at 0.010000 m/pix
+[WARN] [1700281223.743873337] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 11.9747 Hz
+[WARN] [1700281310.756769623] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 11.4912 Hz
+[WARN] [1700281324.492077121] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 4.5157 Hz
+[WARN] [1700281330.752747185] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 18.0237 Hz
+[WARN] [1700281451.229554101] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 6.1720 Hz
+[INFO] [1700281456.656395039] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 780 X 833 at 0.010000 m/pix
+[WARN] [1700281485.567474841] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 2.2053 Hz
+[WARN] [1700281488.194960482] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 1.8411 Hz
+[WARN] [1700281489.841842318] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 1.6151 Hz
+[WARN] [1700281491.602706686] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 1.3710 Hz
+[INFO] [1700281491.656664515] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 780 X 848 at 0.010000 m/pix
+[WARN] [1700281493.313272818] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 1.4683 Hz
+[WARN] [1700281495.078626057] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 1.3390 Hz
+[INFO] [1700281496.656394117] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 939 X 851 at 0.010000 m/pix
+[WARN] [1700281497.231000625] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 19.5370 Hz
+[WARN] [1700281501.517972062] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 19.2826 Hz
+[WARN] [1700281504.753159427] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 17.6745 Hz
+[INFO] [1700281506.656392343] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 953 X 851 at 0.010000 m/pix
+[WARN] [1700281506.929331443] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 11.5878 Hz
+[INFO] [1700281529.644824850] [rclcpp]: signal_handler(signum=2)
+[INFO] [1700281529.645942317] [global_costmap.global_costmap]: Running Nav2 LifecycleNode rcl preshutdown (global_costmap)
+[INFO] [1700281529.646251647] [global_costmap.global_costmap]: Deactivating
+[INFO] [1700281529.658508135] [global_costmap.global_costmap]: Cleaning up
+[INFO] [1700281530.201975743] [global_costmap.global_costmap]: Destroying bond (global_costmap) to lifecycle manager.
+[INFO] [1700281530.202221703] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[INFO] [1700281530.202380071] [planner_server]: Deactivating
+[INFO] [1700281530.202469607] [planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[INFO] [1700281530.202522625] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[INFO] [1700281530.204138382] [planner_server]: Cleaning up
+[INFO] [1700281530.529401121] [planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[INFO] [1700281530.542939945] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[INFO] [1700281530.918620862] [planner_server]: Destroying bond (planner_server) to lifecycle manager.

@@ -1,0 +1,19 @@
+[7.690s] Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer': PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer/build --no-deps install_data
+[9.457s] running develop
+[10.632s] running egg_info
+[10.633s] writing explorer_wanderer.egg-info/PKG-INFO
+[10.636s] writing dependency_links to explorer_wanderer.egg-info/dependency_links.txt
+[10.637s] writing entry points to explorer_wanderer.egg-info/entry_points.txt
+[10.638s] writing requirements to explorer_wanderer.egg-info/requires.txt
+[10.639s] writing top-level names to explorer_wanderer.egg-info/top_level.txt
+[10.654s] reading manifest file 'explorer_wanderer.egg-info/SOURCES.txt'
+[10.661s] writing manifest file 'explorer_wanderer.egg-info/SOURCES.txt'
+[10.676s] running build_ext
+[10.677s] Creating /home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer-wanderer.egg-link (link to .)
+[10.684s] Installing discoverer_server script to /home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/explorer_wanderer
+[10.685s] Installing wanderer script to /home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/explorer_wanderer
+[10.687s] Installing wanderer_server script to /home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/explorer_wanderer
+[10.689s] 
+[10.690s] Installed /home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer
+[10.692s] running install_data
+[12.944s] Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer' returned '0': PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer/build --no-deps install_data

@@ -1,0 +1,154 @@
+[1.648s] Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/HoROS8:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg -- -j4 -l4
+[5.726s] [  2%] Built target ros2_gopigo3_msg__cpp
+[5.728s] [ 12%] Built target ros2_gopigo3_msg__rosidl_generator_c
+[5.731s] [ 12%] Built target ament_cmake_python_symlink_ros2_gopigo3_msg
+[5.733s] [ 23%] Built target ros2_gopigo3_msg__rosidl_typesupport_cpp
+[5.734s] [ 34%] Built target ros2_gopigo3_msg__rosidl_typesupport_fastrtps_cpp
+[5.734s] [ 44%] Built target ros2_gopigo3_msg__rosidl_typesupport_introspection_cpp
+[5.735s] [ 55%] Built target ros2_gopigo3_msg__rosidl_typesupport_fastrtps_c
+[5.736s] [ 76%] Built target ros2_gopigo3_msg__rosidl_typesupport_introspection_c
+[5.736s] [ 76%] Built target ros2_gopigo3_msg__rosidl_typesupport_c
+[5.738s] [ 76%] Built target ros2_gopigo3_msg
+[5.738s] [ 78%] Built target ros2_gopigo3_msg__py
+[5.739s] [ 87%] Built target ros2_gopigo3_msg__rosidl_generator_py
+[5.740s] [ 91%] Built target ros2_gopigo3_msg__rosidl_typesupport_introspection_c__pyext
+[5.740s] [ 95%] Built target ros2_gopigo3_msg__rosidl_typesupport_c__pyext
+[5.741s] [100%] Built target ros2_gopigo3_msg__rosidl_typesupport_fastrtps_c__pyext
+[5.742s] running egg_info
+[5.742s] writing ros2_gopigo3_msg.egg-info/PKG-INFO
+[5.750s] writing dependency_links to ros2_gopigo3_msg.egg-info/dependency_links.txt
+[5.751s] writing top-level names to ros2_gopigo3_msg.egg-info/top_level.txt
+[5.752s] reading manifest file 'ros2_gopigo3_msg.egg-info/SOURCES.txt'
+[5.757s] writing manifest file 'ros2_gopigo3_msg.egg-info/SOURCES.txt'
+[5.758s] [100%] Built target ament_cmake_python_build_ros2_gopigo3_msg_egg
+[5.763s] Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/HoROS8:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg -- -j4 -l4
+[6.808s] Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/HoROS8:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg
+[6.852s] -- Install configuration: ""
+[6.855s] -- Execute custom install script
+[6.858s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ament_index/resource_index/rosidl_interfaces/ros2_gopigo3_msg
+[6.863s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__functions.h
+[6.864s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__struct.h
+[6.866s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__type_support.h
+[6.867s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__functions.h
+[6.869s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__struct.h
+[6.870s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__type_support.h
+[6.872s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/motor_status.h
+[6.873s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/motor_status_lr.h
+[6.874s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/rosidl_generator_c__visibility_control.h
+[6.876s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__functions.h
+[6.877s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__struct.h
+[6.879s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__type_support.h
+[6.881s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/spi.h
+[6.883s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/environment/library_path.sh
+[6.884s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/environment/library_path.dsv
+[6.891s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h
+[6.892s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__rosidl_typesupport_fastrtps_c.h
+[6.894s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.896s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__rosidl_typesupport_fastrtps_c.h
+[6.900s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__rosidl_typesupport_introspection_c.h
+[6.901s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__rosidl_typesupport_introspection_c.h
+[6.903s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.904s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__rosidl_typesupport_introspection_c.h
+[6.909s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__builder.hpp
+[6.910s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__struct.hpp
+[6.911s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__traits.hpp
+[6.913s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__builder.hpp
+[6.915s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__struct.hpp
+[6.916s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__traits.hpp
+[6.918s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/motor_status.hpp
+[6.919s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/motor_status_lr.hpp
+[6.921s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__builder.hpp
+[6.922s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__struct.hpp
+[6.924s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__traits.hpp
+[6.925s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/spi.hpp
+[6.932s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp
+[6.933s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__rosidl_typesupport_fastrtps_cpp.hpp
+[6.935s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.936s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__rosidl_typesupport_fastrtps_cpp.hpp
+[6.940s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp
+[6.942s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__rosidl_typesupport_introspection_cpp.hpp
+[6.944s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__rosidl_typesupport_introspection_cpp.hpp
+[6.945s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/environment/pythonpath.sh
+[6.947s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/environment/pythonpath.dsv
+[6.951s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[6.962s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.962s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.963s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg-0.0.0-py3.10.egg-info/top_level.txt
+[6.963s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/__init__.py
+[6.965s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/_ros2_gopigo3_msg_s.ep.rosidl_typesupport_c.c
+[6.966s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/_ros2_gopigo3_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.968s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/_ros2_gopigo3_msg_s.ep.rosidl_typesupport_introspection_c.c
+[6.969s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/libros2_gopigo3_msg__rosidl_generator_py.so
+[6.971s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/msg/__init__.py
+[6.972s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/msg/_motor_status.py
+[6.974s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/msg/_motor_status_lr.py
+[6.975s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/msg/_motor_status_lr_s.c
+[6.977s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/msg/_motor_status_s.c
+[6.978s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/ros2_gopigo3_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.980s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/ros2_gopigo3_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.982s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/ros2_gopigo3_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.983s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/srv/__init__.py
+[6.985s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/srv/_spi.py
+[6.986s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/srv/_spi_s.c
+[6.990s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/ros2_gopigo3_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.991s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/ros2_gopigo3_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.994s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/ros2_gopigo3_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.997s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/msg/MotorStatus.idl
+[6.998s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/msg/MotorStatusLR.idl
+[6.999s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/srv/SPI.idl
+[7.000s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/msg/MotorStatus.msg
+[7.002s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/msg/MotorStatusLR.msg
+[7.004s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/srv/SPI.srv
+[7.005s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/srv/SPI_Request.msg
+[7.007s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/srv/SPI_Response.msg
+[7.008s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ament_index/resource_index/package_run_dependencies/ros2_gopigo3_msg
+[7.010s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ament_index/resource_index/parent_prefix_path/ros2_gopigo3_msg
+[7.011s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/environment/ament_prefix_path.sh
+[7.014s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/environment/ament_prefix_path.dsv
+[7.015s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/environment/path.sh
+[7.016s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/environment/path.dsv
+[7.018s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/local_setup.bash
+[7.019s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/local_setup.sh
+[7.021s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/local_setup.zsh
+[7.023s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/local_setup.dsv
+[7.037s] -- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/package.dsv
+[7.070s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ament_index/resource_index/packages/ros2_gopigo3_msg
+[7.071s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/rosidl_cmake-extras.cmake
+[7.072s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.074s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.075s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[7.077s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ament_cmake_export_targets-extras.cmake
+[7.079s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.081s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.082s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msgConfig.cmake
+[7.084s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msgConfig-version.cmake
+[7.086s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/package.xml
+[7.087s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_generator_c.so
+[7.091s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_typesupport_fastrtps_c.so
+[7.094s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_typesupport_introspection_c.so
+[7.097s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_typesupport_c.so
+[7.101s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_typesupport_fastrtps_cpp.so
+[7.104s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_typesupport_introspection_cpp.so
+[7.107s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_typesupport_cpp.so
+[7.453s] Listing '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg'...
+[7.454s] Listing '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/msg'...
+[7.455s] Listing '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/srv'...
+[7.501s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_generator_py.so
+[7.504s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/export_ros2_gopigo3_msg__rosidl_generator_cExport.cmake
+[7.505s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/export_ros2_gopigo3_msg__rosidl_generator_cExport-noconfig.cmake
+[7.507s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/export_ros2_gopigo3_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[7.508s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/export_ros2_gopigo3_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.510s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msg__rosidl_typesupport_introspection_cExport.cmake
+[7.511s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.512s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msg__rosidl_typesupport_cExport.cmake
+[7.513s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msg__rosidl_typesupport_cExport-noconfig.cmake
+[7.515s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/export_ros2_gopigo3_msg__rosidl_generator_cppExport.cmake
+[7.516s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/export_ros2_gopigo3_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.517s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/export_ros2_gopigo3_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.519s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msg__rosidl_typesupport_introspection_cppExport.cmake
+[7.520s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.521s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msg__rosidl_typesupport_cppExport.cmake
+[7.522s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[7.524s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/export_ros2_gopigo3_msg__rosidl_generator_pyExport.cmake
+[7.524s] -- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/export_ros2_gopigo3_msg__rosidl_generator_pyExport-noconfig.cmake
+[8.419s] Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/HoROS8:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg

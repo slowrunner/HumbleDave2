@@ -1,0 +1,100 @@
+[INFO] [1699994325.675969658] [subscriber]: readings: left 3.025  lft_fwd 3.051  fwd 0.848   rt_fwd 5.000   right 1.724  back 0.430
+[INFO] [1699994325.678991928] [subscriber]: No Obstacles
+[INFO] [1699994325.688061183] [subscriber]: readings: left 3.034  lft_fwd 3.053  fwd 0.848   rt_fwd 4.389   right 1.723  back 0.430
+[INFO] [1699994325.691534709] [subscriber]: No Obstacles
+[INFO] [1699994325.694531553] [publisher]: *** Command fwd at 0.1 m/s.
+[INFO] [1699994325.995570711] [subscriber]: readings: left 3.068  lft_fwd 3.053  fwd 0.843   rt_fwd 4.386   right 1.723  back 0.439
+[INFO] [1699994325.999997302] [subscriber]: No Obstacles
+[INFO] [1699994326.334229580] [subscriber]: readings: left 3.068  lft_fwd 3.075  fwd 0.811   rt_fwd 4.386   right 1.746  back 0.474
+[INFO] [1699994326.337192091] [subscriber]: No Obstacles
+[INFO] [1699994326.341844088] [publisher]: *** Command fwd at 0.1 m/s.
+[INFO] [1699994326.677092005] [subscriber]: readings: left 3.068  lft_fwd 3.075  fwd 0.776   rt_fwd 4.386   right 1.770  back 0.511
+[INFO] [1699994326.680732547] [subscriber]: No Obstacles
+[INFO] [1699994327.019994337] [subscriber]: readings: left 2.964  lft_fwd 2.593  fwd 0.740   rt_fwd 3.523   right 1.794  back 0.547
+[INFO] [1699994327.023920136] [subscriber]: No Obstacles
+[INFO] [1699994327.027062628] [publisher]: *** Command fwd at 0.1 m/s.
+[INFO] [1699994327.350468035] [subscriber]: readings: left 3.014  lft_fwd 1.600  fwd 0.704   rt_fwd 3.523   right 1.714  back 0.585
+[INFO] [1699994327.354585092] [subscriber]: No Obstacles
+[INFO] [1699994327.696072621] [subscriber]: readings: left 3.066  lft_fwd 1.567  fwd 0.671   rt_fwd 2.633   right 1.620  back 0.620
+[INFO] [1699994327.699408684] [subscriber]: No Obstacles
+[INFO] [1699994327.701906792] [publisher]: *** Command fwd at 0.1 m/s.
+[INFO] [1699994328.036324252] [subscriber]: readings: left 3.135  lft_fwd 1.545  fwd 0.638   rt_fwd 1.270   right 1.929  back 0.653
+[INFO] [1699994328.039302486] [subscriber]: No Obstacles
+[INFO] [1699994328.380122871] [subscriber]: readings: left 2.909  lft_fwd 1.331  fwd 0.602   rt_fwd 1.012   right 1.925  back 0.690
+[INFO] [1699994328.383047827] [subscriber]: No Obstacles
+[INFO] [1699994328.386447761] [publisher]: *** Command fwd at 0.09 m/s.
+[INFO] [1699994328.721315087] [subscriber]: readings: left 2.915  lft_fwd 0.883  fwd 0.569   rt_fwd 0.964   right 1.949  back 0.724
+[INFO] [1699994328.724667613] [subscriber]: No Obstacles
+[INFO] [1699994329.059518458] [subscriber]: readings: left 2.919  lft_fwd 0.843  fwd 0.539   rt_fwd 0.941   right 1.574  back 0.756
+[INFO] [1699994329.063234518] [subscriber]: No Obstacles
+[INFO] [1699994329.065819996] [publisher]: *** Command fwd at 0.08 m/s.
+[INFO] [1699994329.396874465] [subscriber]: readings: left 2.919  lft_fwd 0.797  fwd 0.509   rt_fwd 0.789   right 1.375  back 0.787
+[INFO] [1699994329.399325814] [subscriber]: No Obstacles
+[INFO] [1699994329.729777621] [subscriber]: readings: left 2.919  lft_fwd 0.769  fwd 0.482   rt_fwd 0.693   right 1.375  back 0.815
+[INFO] [1699994329.732568838] [subscriber]: No Obstacles
+[INFO] [1699994329.735252981] [publisher]: *** Command fwd at 0.07 m/s.
+[INFO] [1699994330.079926647] [subscriber]: readings: left 2.919  lft_fwd 0.736  fwd 0.458   rt_fwd 0.643   right 3.050  back 0.840
+[INFO] [1699994330.085654820] [subscriber]: No Obstacles
+[INFO] [1699994330.420925770] [subscriber]: readings: left 2.919  lft_fwd 0.707  fwd 0.435   rt_fwd 0.609   right 3.042  back 0.863
+[INFO] [1699994330.425602544] [subscriber]: No Obstacles
+[INFO] [1699994330.428842609] [publisher]: *** Command fwd at 0.06 m/s.
+[INFO] [1699994330.759386211] [subscriber]: readings: left 2.919  lft_fwd 0.670  fwd 0.411   rt_fwd 0.578   right 3.041  back 0.888
+[INFO] [1699994330.762660238] [subscriber]: No Obstacles
+[INFO] [1699994331.098056483] [subscriber]: readings: left 3.340  lft_fwd 0.639  fwd 0.389   rt_fwd 0.490   right 3.032  back 0.912
+[INFO] [1699994331.100862255] [subscriber]: No Obstacles
+[INFO] [1699994331.103798933] [publisher]: *** Command fwd at 0.06 m/s.
+[INFO] [1699994331.436485183] [subscriber]: readings: left 3.750  lft_fwd 0.616  fwd 0.374   rt_fwd 0.462   right 2.631  back 0.934
+[INFO] [1699994331.440102892] [subscriber]: No Obstacles
+[INFO] [1699994331.768944527] [subscriber]: readings: left 4.171  lft_fwd 0.594  fwd 0.347   rt_fwd 0.434   right 2.595  back 0.954
+[INFO] [1699994331.772756845] [subscriber]: Forward obstacle 0.347 meters
+[INFO] [1699994331.776474332] [publisher]: *** Command fwd at 0.05 m/s.
+[INFO] [1699994332.112460738] [subscriber]: readings: left 4.159  lft_fwd 0.565  fwd 0.329   rt_fwd 0.411   right 2.924  back 0.974
+[INFO] [1699994332.117502564] [subscriber]: Forward obstacle 0.329 meters
+[INFO] [1699994332.461183532] [publisher]: rotate: readings: left 4.134  lft_fwd 0.550  fwd 0.314   rt_fwd 0.398   right 2.946  back 0.988
+[INFO] [1699994332.572634586] [publisher]: Rotating left...
+[INFO] [1699994332.680658724] [publisher]: Rotating left...
+[INFO] [1699994332.795490785] [publisher]: Rotating left...
+[INFO] [1699994332.903514998] [publisher]: Rotating left...
+[INFO] [1699994333.020830297] [publisher]: Rotating left...
+[INFO] [1699994333.138102447] [publisher]: Rotating left...
+[INFO] [1699994333.253831093] [publisher]: Rotating left...
+[INFO] [1699994333.365609902] [publisher]: Rotating left...
+[INFO] [1699994333.472948065] [publisher]: Rotating left...
+[INFO] [1699994333.594265922] [publisher]: Rotating left...
+[INFO] [1699994333.704029082] [publisher]: Rotating left...
+[INFO] [1699994333.821966690] [publisher]: Rotating left...
+[INFO] [1699994333.924118398] [publisher]: Rotating left...
+[INFO] [1699994334.047118628] [publisher]: Rotating left...
+[INFO] [1699994334.153167487] [publisher]: Rotating left...
+[INFO] [1699994334.271708145] [publisher]: Rotating left...
+[INFO] [1699994334.389712400] [publisher]: Rotating left...
+[INFO] [1699994334.495465002] [publisher]: Rotating left...
+[INFO] [1699994334.614003345] [publisher]: Rotating left...
+[INFO] [1699994334.721491321] [publisher]: Rotating left...
+[INFO] [1699994334.838318605] [publisher]: Rotating left...
+[INFO] [1699994334.954241175] [publisher]: Rotating left...
+[INFO] [1699994335.064001075] [publisher]: Rotating left...
+[INFO] [1699994335.180039014] [publisher]: Rotating left...
+[INFO] [1699994335.293105904] [publisher]: Rotating left...
+[INFO] [1699994335.296220507] [publisher]: 
+*** Clear.
+[INFO] [1699994335.631591100] [subscriber]: readings: left 2.480  lft_fwd 0.966  fwd 2.526   rt_fwd 3.023   right 0.614  back 0.320
+[INFO] [1699994335.634365113] [subscriber]: No Obstacles
+[INFO] [1699994335.972919530] [subscriber]: readings: left 2.481  lft_fwd 0.965  fwd 2.526   rt_fwd 2.912   right 0.629  back 0.319
+[INFO] [1699994335.976223187] [subscriber]: No Obstacles
+[INFO] [1699994335.979138495] [publisher]: *** Command fwd at 0.1 m/s.
+[INFO] [1699994336.303992697] [subscriber]: readings: left 2.491  lft_fwd 0.957  fwd 2.526   rt_fwd 2.965   right 0.638  back 0.328
+[INFO] [1699994336.306404435] [subscriber]: No Obstacles
+[INFO] [1699994336.645817307] [subscriber]: readings: left 2.575  lft_fwd 0.933  fwd 2.526   rt_fwd 3.145   right 0.684  back 0.362
+[INFO] [1699994336.649481979] [subscriber]: No Obstacles
+[INFO] [1699994336.655891812] [publisher]: *** Command fwd at 0.1 m/s.
+[INFO] [1699994336.994591134] [subscriber]: readings: left 2.618  lft_fwd 0.908  fwd 2.526   rt_fwd 3.108   right 0.722  back 0.398
+[INFO] [1699994336.997397092] [subscriber]: No Obstacles
+[INFO] [1699994337.326308035] [subscriber]: readings: left 2.498  lft_fwd 0.884  fwd 2.526   rt_fwd 3.063   right 0.722  back 0.433
+[INFO] [1699994337.329217084] [subscriber]: No Obstacles
+[INFO] [1699994337.331815265] [publisher]: *** Command fwd at 0.1 m/s.
+[INFO] [1699994337.663860107] [subscriber]: readings: left 2.498  lft_fwd 0.860  fwd 2.526   rt_fwd 3.060   right 1.386  back 0.473
+[INFO] [1699994337.666719564] [subscriber]: No Obstacles
+[INFO] [1699994338.004541523] [subscriber]: readings: left 2.990  lft_fwd 0.835  fwd 2.526   rt_fwd 2.995   right 2.051  back 0.506
+[INFO] [1699994338.008116103] [subscriber]: No Obstacles
+[INFO] [1699994338.011062522] [publisher]: *** Command

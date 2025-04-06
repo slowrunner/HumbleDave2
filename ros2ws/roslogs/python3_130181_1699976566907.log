@@ -1,0 +1,442 @@
+[INFO] [1699976569.703412719] [subscriber]: readings: left 0.419  lft_fwd 0.317  fwd 0.402   rt_fwd 0.535   right 1.130  back 2.168
+[INFO] [1699976569.705966653] [subscriber]: Forward obstacle 0.402 meters
+[INFO] [1699976569.714000932] [publisher]: rotate: readings: left 0.419  lft_fwd 0.317  fwd 0.402   rt_fwd 0.534   right 1.130  back 2.171
+[INFO] [1699976569.809688881] [publisher]: Rotating right...
+[INFO] [1699976569.929826609] [publisher]: Rotating right...
+[INFO] [1699976570.046142176] [publisher]: Rotating right...
+[INFO] [1699976570.157469632] [publisher]: Rotating right...
+[INFO] [1699976570.267804286] [publisher]: Rotating right...
+[INFO] [1699976570.382303540] [publisher]: Rotating right...
+[INFO] [1699976570.496012359] [publisher]: Rotating right...
+[INFO] [1699976570.616821208] [publisher]: Rotating right...
+[INFO] [1699976570.724145692] [publisher]: Rotating right...
+[INFO] [1699976570.848034506] [publisher]: Rotating right...
+[INFO] [1699976570.959888346] [publisher]: Rotating right...
+[INFO] [1699976571.079127195] [publisher]: Rotating right...
+[INFO] [1699976571.191188606] [publisher]: Rotating right...
+[INFO] [1699976571.207000019] [publisher]: 
+*** Clear.
+[INFO] [1699976571.534231559] [subscriber]: readings: left 0.328  lft_fwd 0.398  fwd 0.987   rt_fwd 1.087   right 2.188  back 0.679
+[INFO] [1699976571.537740890] [subscriber]: Forward left 0.398 or right obstacle 1.087 meters
+[INFO] [1699976571.870914733] [publisher]: rotate: readings: left 0.328  lft_fwd 0.398  fwd 1.215   rt_fwd 1.094   right 2.176  back 0.667
+[INFO] [1699976571.876484984] [publisher]: 
+*** Clear.
+[INFO] [1699976572.220763794] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.093   right 2.173  back 0.666
+[INFO] [1699976572.223049990] [subscriber]: Forward left 0.398 or right obstacle 1.093 meters
+[INFO] [1699976572.561693956] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.094   right 2.170  back 0.662
+[INFO] [1699976572.564643256] [publisher]: 
+*** Clear.
+[INFO] [1699976572.908608068] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.214   rt_fwd 1.094   right 2.171  back 0.667
+[INFO] [1699976572.913283423] [subscriber]: Forward left 0.398 or right obstacle 1.094 meters
+[INFO] [1699976573.249538805] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.214   rt_fwd 1.093   right 2.174  back 0.667
+[INFO] [1699976573.252385328] [publisher]: 
+*** Clear.
+[INFO] [1699976573.593026530] [subscriber]: readings: left 0.328  lft_fwd 0.398  fwd 1.211   rt_fwd 1.093   right 2.171  back 0.666
+[INFO] [1699976573.596824746] [subscriber]: Forward left 0.398 or right obstacle 1.093 meters
+[INFO] [1699976573.937208952] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.093   right 2.171  back 0.661
+[INFO] [1699976573.941120129] [publisher]: 
+*** Clear.
+[INFO] [1699976574.281989199] [subscriber]: readings: left 0.328  lft_fwd 0.398  fwd 1.212   rt_fwd 1.093   right 2.172  back 0.662
+[INFO] [1699976574.285112090] [subscriber]: Forward left 0.398 or right obstacle 1.093 meters
+[INFO] [1699976574.623391004] [publisher]: rotate: readings: left 0.328  lft_fwd 0.398  fwd 1.213   rt_fwd 1.094   right 2.170  back 0.663
+[INFO] [1699976574.626280416] [publisher]: 
+*** Clear.
+[INFO] [1699976574.967540556] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.094   right 2.172  back 0.664
+[INFO] [1699976574.970973183] [subscriber]: Forward left 0.398 or right obstacle 1.094 meters
+[INFO] [1699976575.313904452] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.095   right 2.172  back 0.669
+[INFO] [1699976575.317123897] [publisher]: 
+*** Clear.
+[INFO] [1699976575.653649016] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.091   right 2.169  back 0.667
+[INFO] [1699976575.656592186] [subscriber]: Forward left 0.398 or right obstacle 1.091 meters
+[INFO] [1699976575.997399813] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.094   right 2.175  back 0.668
+[INFO] [1699976576.000623924] [publisher]: 
+*** Clear.
+[INFO] [1699976576.342045488] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.094   right 2.172  back 0.668
+[INFO] [1699976576.346813989] [subscriber]: Forward left 0.398 or right obstacle 1.094 meters
+[INFO] [1699976576.685789395] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.210   rt_fwd 1.094   right 2.170  back 0.672
+[INFO] [1699976576.688111832] [publisher]: 
+*** Clear.
+[INFO] [1699976577.026059824] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.094   right 2.174  back 0.672
+[INFO] [1699976577.031000712] [subscriber]: Forward left 0.398 or right obstacle 1.094 meters
+[INFO] [1699976577.372668162] [publisher]: rotate: readings: left 0.329  lft_fwd 0.399  fwd 1.212   rt_fwd 1.095   right 2.173  back 0.670
+[INFO] [1699976577.378390986] [publisher]: 
+*** Clear.
+[INFO] [1699976577.715970945] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.210   rt_fwd 1.093   right 2.168  back 0.660
+[INFO] [1699976577.719698069] [subscriber]: Forward left 0.398 or right obstacle 1.093 meters
+[INFO] [1699976578.052938226] [publisher]: rotate: readings: left 0.329  lft_fwd 0.400  fwd 1.211   rt_fwd 1.095   right 2.173  back 0.664
+[INFO] [1699976578.055696861] [publisher]: 
+*** Clear.
+[INFO] [1699976578.403844015] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.095   right 2.171  back 0.666
+[INFO] [1699976578.407357456] [subscriber]: Forward left 0.398 or right obstacle 1.095 meters
+[INFO] [1699976578.747564219] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.210   rt_fwd 1.092   right 2.169  back 0.664
+[INFO] [1699976578.750909625] [publisher]: 
+*** Clear.
+[INFO] [1699976579.087633612] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.213   rt_fwd 1.093   right 2.175  back 0.672
+[INFO] [1699976579.090465580] [subscriber]: Forward left 0.398 or right obstacle 1.093 meters
+[INFO] [1699976579.435797821] [publisher]: rotate: readings: left 0.329  lft_fwd 0.399  fwd 1.213   rt_fwd 1.094   right 2.169  back 0.668
+[INFO] [1699976579.438692696] [publisher]: 
+*** Clear.
+[INFO] [1699976579.779723615] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.094   right 2.172  back 0.668
+[INFO] [1699976579.783593127] [subscriber]: Forward left 0.398 or right obstacle 1.094 meters
+[INFO] [1699976580.120597315] [publisher]: rotate: readings: left 0.328  lft_fwd 0.398  fwd 1.211   rt_fwd 1.093   right 2.171  back 0.663
+[INFO] [1699976580.123183433] [publisher]: 
+*** Clear.
+[INFO] [1699976580.456085260] [subscriber]: readings: left 0.329  lft_fwd 0.399  fwd 1.212   rt_fwd 1.094   right 2.171  back 0.667
+[INFO] [1699976580.458942135] [subscriber]: Forward left 0.399 or right obstacle 1.094 meters
+[INFO] [1699976580.809415559] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.092   right 2.171  back 0.666
+[INFO] [1699976580.815271085] [publisher]: 
+*** Clear.
+[INFO] [1699976581.150739271] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.093   right 2.173  back 0.665
+[INFO] [1699976581.153416259] [subscriber]: Forward left 0.398 or right obstacle 1.093 meters
+[INFO] [1699976581.495499222] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.093   right 2.170  back 0.664
+[INFO] [1699976581.499039645] [publisher]: 
+*** Clear.
+[INFO] [1699976581.830735096] [subscriber]: readings: left 0.329  lft_fwd 0.397  fwd 1.212   rt_fwd 1.094   right 2.170  back 0.669
+[INFO] [1699976581.833907986] [subscriber]: Forward left 0.397 or right obstacle 1.094 meters
+[INFO] [1699976582.185593507] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.095   right 2.173  back 0.665
+[INFO] [1699976582.188075201] [publisher]: 
+*** Clear.
+[INFO] [1699976582.524918038] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.094   right 2.169  back 0.670
+[INFO] [1699976582.528166261] [subscriber]: Forward left 0.398 or right obstacle 1.094 meters
+[INFO] [1699976582.873427021] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.095   right 2.173  back 0.668
+[INFO] [1699976582.878422483] [publisher]: 
+*** Clear.
+[INFO] [1699976583.217637034] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.213   rt_fwd 1.093   right 2.169  back 0.662
+[INFO] [1699976583.220128635] [subscriber]: Forward left 0.398 or right obstacle 1.093 meters
+[INFO] [1699976583.556533681] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.216   rt_fwd 1.096   right 2.170  back 0.665
+[INFO] [1699976583.559188929] [publisher]: 
+*** Clear.
+[INFO] [1699976583.903673309] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.093   right 2.169  back 0.662
+[INFO] [1699976583.907074270] [subscriber]: Forward left 0.398 or right obstacle 1.093 meters
+[INFO] [1699976584.246949776] [publisher]: rotate: readings: left 0.329  lft_fwd 0.399  fwd 1.211   rt_fwd 1.094   right 2.170  back 0.660
+[INFO] [1699976584.249977983] [publisher]: 
+*** Clear.
+[INFO] [1699976584.588427765] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.210   rt_fwd 1.094   right 2.171  back 0.662
+[INFO] [1699976584.591557044] [subscriber]: Forward left 0.398 or right obstacle 1.094 meters
+[INFO] [1699976584.933620544] [publisher]: rotate: readings: left 0.329  lft_fwd 0.399  fwd 1.211   rt_fwd 1.094   right 2.173  back 0.666
+[INFO] [1699976584.938564988] [publisher]: 
+*** Clear.
+[INFO] [1699976585.281300351] [subscriber]: readings: left 0.329  lft_fwd 0.399  fwd 1.210   rt_fwd 1.092   right 2.168  back 0.663
+[INFO] [1699976585.285465803] [subscriber]: Forward left 0.399 or right obstacle 1.092 meters
+[INFO] [1699976585.613308058] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.095   right 2.168  back 0.661
+[INFO] [1699976585.616903017] [publisher]: 
+*** Clear.
+[INFO] [1699976585.965813717] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.094   right 2.173  back 0.665
+[INFO] [1699976585.969276862] [subscriber]: Forward left 0.398 or right obstacle 1.094 meters
+[INFO] [1699976586.312324092] [publisher]: rotate: readings: left 0.329  lft_fwd 0.397  fwd 1.212   rt_fwd 1.093   right 2.170  back 0.664
+[INFO] [1699976586.316167252] [publisher]: 
+*** Clear.
+[INFO] [1699976586.653442991] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.094   right 2.170  back 0.662
+[INFO] [1699976586.656299459] [subscriber]: Forward left 0.398 or right obstacle 1.094 meters
+[INFO] [1699976586.996286427] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.094   right 2.168  back 0.662
+[INFO] [1699976587.000042032] [publisher]: 
+*** Clear.
+[INFO] [1699976587.343397295] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.096   right 2.175  back 0.668
+[INFO] [1699976587.347871374] [subscriber]: Forward left 0.398 or right obstacle 1.096 meters
+[INFO] [1699976587.681984150] [publisher]: rotate: readings: left 0.329  lft_fwd 0.399  fwd 1.212   rt_fwd 1.095   right 2.172  back 0.667
+[INFO] [1699976587.684976782] [publisher]: 
+*** Clear.
+[INFO] [1699976588.020054399] [subscriber]: readings: left 0.328  lft_fwd 0.397  fwd 1.212   rt_fwd 1.094   right 2.171  back 0.666
+[INFO] [1699976588.023345491] [subscriber]: Forward left 0.397 or right obstacle 1.094 meters
+[INFO] [1699976588.375136750] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.095   right 2.170  back 0.663
+[INFO] [1699976588.378972281] [publisher]: 
+*** Clear.
+[INFO] [1699976588.718818546] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.210   rt_fwd 1.092   right 2.172  back 0.668
+[INFO] [1699976588.721100854] [subscriber]: Forward left 0.398 or right obstacle 1.092 meters
+[INFO] [1699976589.051264248] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.096   right 2.173  back 0.666
+[INFO] [1699976589.054371028] [publisher]: 
+*** Clear.
+[INFO] [1699976589.404437436] [subscriber]: readings: left 0.329  lft_fwd 0.399  fwd 1.212   rt_fwd 1.095   right 2.170  back 0.664
+[INFO] [1699976589.409169179] [subscriber]: Forward left 0.399 or right obstacle 1.095 meters
+[INFO] [1699976589.748155232] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.093   right 2.171  back 0.661
+[INFO] [1699976589.752109169] [publisher]: 
+*** Clear.
+[INFO] [1699976590.087312339] [subscriber]: readings: left 0.329  lft_fwd 0.397  fwd 1.212   rt_fwd 1.095   right 2.175  back 0.664
+[INFO] [1699976590.089833458] [subscriber]: Forward left 0.397 or right obstacle 1.095 meters
+[INFO] [1699976590.433245535] [publisher]: rotate: readings: left 0.329  lft_fwd 0.399  fwd 1.213   rt_fwd 1.095   right 2.168  back 0.662
+[INFO] [1699976590.437404414] [publisher]: 
+*** Clear.
+[INFO] [1699976590.778709107] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.094   right 2.167  back 0.667
+[INFO] [1699976590.782972133] [subscriber]: Forward left 0.398 or right obstacle 1.094 meters
+[INFO] [1699976591.117721734] [publisher]: rotate: readings: left 0.329  lft_fwd 0.399  fwd 1.211   rt_fwd 1.092   right 2.166  back 0.664
+[INFO] [1699976591.120343445] [publisher]: 
+*** Clear.
+[INFO] [1699976591.462514147] [subscriber]: readings: left 0.329  lft_fwd 0.397  fwd 1.211   rt_fwd 1.097   right 2.175  back 0.663
+[INFO] [1699976591.466696599] [subscriber]: Forward left 0.397 or right obstacle 1.097 meters
+[INFO] [1699976591.808003422] [publisher]: rotate: readings: left 0.329  lft_fwd 0.399  fwd 1.210   rt_fwd 1.093   right 2.171  back 0.662
+[INFO] [1699976591.812470705] [publisher]: 
+*** Clear.
+[INFO] [1699976592.151107799] [subscriber]: readings: left 0.329  lft_fwd 0.399  fwd 1.211   rt_fwd 1.094   right 2.170  back 0.662
+[INFO] [1699976592.153518383] [subscriber]: Forward left 0.399 or right obstacle 1.094 meters
+[INFO] [1699976592.492174939] [publisher]: rotate: readings: left 0.329  lft_fwd 0.399  fwd 1.211   rt_fwd 1.094   right 2.167  back 0.656
+[INFO] [1699976592.495749102] [publisher]: 
+*** Clear.
+[INFO] [1699976592.837995285] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.097   right 2.172  back 0.665
+[INFO] [1699976592.841108675] [subscriber]: Forward left 0.398 or right obstacle 1.097 meters
+[INFO] [1699976593.182717995] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.093   right 2.169  back 0.663
+[INFO] [1699976593.185297169] [publisher]: 
+*** Clear.
+[INFO] [1699976593.522332578] [subscriber]: readings: left 0.329  lft_fwd 0.399  fwd 1.212   rt_fwd 1.096   right 2.168  back 0.668
+[INFO] [1699976593.526179404] [subscriber]: Forward left 0.399 or right obstacle 1.096 meters
+[INFO] [1699976593.859132044] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.094   right 2.170  back 0.666
+[INFO] [1699976593.862363470] [publisher]: 
+*** Clear.
+[INFO] [1699976594.215621991] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.096   right 2.169  back 0.666
+[INFO] [1699976594.220024774] [subscriber]: Forward left 0.398 or right obstacle 1.096 meters
+[INFO] [1699976594.553672684] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.094   right 2.172  back 0.664
+[INFO] [1699976594.556154174] [publisher]: 
+*** Clear.
+[INFO] [1699976594.896076753] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.213   rt_fwd 1.094   right 2.170  back 0.667
+[INFO] [1699976594.899918376] [subscriber]: Forward left 0.398 or right obstacle 1.094 meters
+[INFO] [1699976595.243055326] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.094   right 2.170  back 0.665
+[INFO] [1699976595.247910641] [publisher]: 
+*** Clear.
+[INFO] [1699976595.585509265] [subscriber]: readings: left 0.329  lft_fwd 0.397  fwd 1.211   rt_fwd 1.094   right 2.166  back 0.664
+[INFO] [1699976595.587831961] [subscriber]: Forward left 0.397 or right obstacle 1.094 meters
+[INFO] [1699976595.920758453] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.095   right 2.171  back 0.662
+[INFO] [1699976595.923307424] [publisher]: 
+*** Clear.
+[INFO] [1699976596.262302236] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.213   rt_fwd 1.093   right 2.175  back 0.666
+[INFO] [1699976596.265345720] [subscriber]: Forward left 0.398 or right obstacle 1.093 meters
+[INFO] [1699976596.616312562] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.094   right 2.173  back 0.663
+[INFO] [1699976596.619469785] [publisher]: 
+*** Clear.
+[INFO] [1699976596.956878263] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.093   right 2.167  back 0.668
+[INFO] [1699976596.959315328] [subscriber]: Forward left 0.398 or right obstacle 1.093 meters
+[INFO] [1699976597.304302035] [publisher]: rotate: readings: left 0.329  lft_fwd 0.397  fwd 1.213   rt_fwd 1.098   right 2.171  back 0.660
+[INFO] [1699976597.307939882] [publisher]: 
+*** Clear.
+[INFO] [1699976597.647155321] [subscriber]: readings: left 0.329  lft_fwd 0.399  fwd 1.211   rt_fwd 1.093   right 2.172  back 0.668
+[INFO] [1699976597.651199034] [subscriber]: Forward left 0.399 or right obstacle 1.093 meters
+[INFO] [1699976597.986635349] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.092   right 2.171  back 0.666
+[INFO] [1699976597.990090829] [publisher]: 
+*** Clear.
+[INFO] [1699976598.331372688] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.095   right 2.170  back 0.667
+[INFO] [1699976598.334962148] [subscriber]: Forward left 0.398 or right obstacle 1.095 meters
+[INFO] [1699976598.667163796] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.095   right 2.171  back 0.667
+[INFO] [1699976598.672543272] [publisher]: 
+*** Clear.
+[INFO] [1699976599.019757879] [subscriber]: readings: left 0.329  lft_fwd 0.399  fwd 1.212   rt_fwd 1.094   right 2.172  back 0.658
+[INFO] [1699976599.022226832] [subscriber]: Forward left 0.399 or right obstacle 1.094 meters
+[INFO] [1699976599.363169529] [publisher]: rotate: readings: left 0.329  lft_fwd 0.399  fwd 1.211   rt_fwd 1.094   right 2.174  back 0.662
+[INFO] [1699976599.367348111] [publisher]: 
+*** Clear.
+[INFO] [1699976599.699608480] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.094   right 2.174  back 0.670
+[INFO] [1699976599.703742359] [subscriber]: Forward left 0.398 or right obstacle 1.094 meters
+[INFO] [1699976600.044943146] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.213   rt_fwd 1.095   right 2.174  back 0.666
+[INFO] [1699976600.048209516] [publisher]: 
+*** Clear.
+[INFO] [1699976600.393893455] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.093   right 2.168  back 0.670
+[INFO] [1699976600.397077752] [subscriber]: Forward left 0.398 or right obstacle 1.093 meters
+[INFO] [1699976600.730656033] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.095   right 2.175  back 0.664
+[INFO] [1699976600.733991310] [publisher]: 
+*** Clear.
+[INFO] [1699976601.077837492] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.094   right 2.173  back 0.659
+[INFO] [1699976601.082221368] [subscriber]: Forward left 0.398 or right obstacle 1.094 meters
+[INFO] [1699976601.424298811] [publisher]: rotate: readings: left 0.330  lft_fwd 0.399  fwd 1.211   rt_fwd 1.094   right 2.174  back 0.663
+[INFO] [1699976601.426795690] [publisher]: 
+*** Clear.
+[INFO] [1699976601.770877221] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.095   right 2.174  back 0.667
+[INFO] [1699976601.774541605] [subscriber]: Forward left 0.398 or right obstacle 1.095 meters
+[INFO] [1699976602.115929038] [publisher]: rotate: readings: left 0.329  lft_fwd 0.399  fwd 1.212   rt_fwd 1.092   right 2.173  back 0.667
+[INFO] [1699976602.118930615] [publisher]: 
+*** Clear.
+[INFO] [1699976602.455760136] [subscriber]: readings: left 0.329  lft_fwd 0.397  fwd 1.212   rt_fwd 1.093   right 2.170  back 0.664
+[INFO] [1699976602.459664758] [subscriber]: Forward left 0.397 or right obstacle 1.093 meters
+[INFO] [1699976602.800440531] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.210   rt_fwd 1.093   right 2.171  back 0.659
+[INFO] [1699976602.803847121] [publisher]: 
+*** Clear.
+[INFO] [1699976603.145725955] [subscriber]: readings: left 0.329  lft_fwd 0.399  fwd 1.211   rt_fwd 1.092   right 2.172  back 0.667
+[INFO] [1699976603.150694936] [subscriber]: Forward left 0.399 or right obstacle 1.092 meters
+[INFO] [1699976603.482742085] [publisher]: rotate: readings: left 0.329  lft_fwd 0.399  fwd 1.211   rt_fwd 1.092   right 2.168  back 0.661
+[INFO] [1699976603.486356767] [publisher]: 
+*** Clear.
+[INFO] [1699976603.831346954] [subscriber]: readings: left 0.329  lft_fwd 0.397  fwd 1.210   rt_fwd 1.092   right 2.169  back 0.659
+[INFO] [1699976603.835298779] [subscriber]: Forward left 0.397 or right obstacle 1.092 meters
+[INFO] [1699976604.169151168] [publisher]: rotate: readings: left 0.329  lft_fwd 0.399  fwd 1.211   rt_fwd 1.095   right 2.171  back 0.659
+[INFO] [1699976604.174663086] [publisher]: 
+*** Clear.
+[INFO] [1699976604.519597219] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.096   right 2.174  back 0.665
+[INFO] [1699976604.521813046] [subscriber]: Forward left 0.398 or right obstacle 1.096 meters
+[INFO] [1699976604.859875793] [publisher]: rotate: readings: left 0.329  lft_fwd 0.399  fwd 1.211   rt_fwd 1.093   right 2.172  back 0.664
+[INFO] [1699976604.863289977] [publisher]: 
+*** Clear.
+[INFO] [1699976605.204738352] [subscriber]: readings: left 0.330  lft_fwd 0.398  fwd 1.211   rt_fwd 1.093   right 2.169  back 0.672
+[INFO] [1699976605.210393973] [subscriber]: Forward left 0.398 or right obstacle 1.093 meters
+[INFO] [1699976605.547267845] [publisher]: rotate: readings: left 0.329  lft_fwd 0.399  fwd 1.211   rt_fwd 1.093   right 2.171  back 0.662
+[INFO] [1699976605.551185968] [publisher]: 
+*** Clear.
+[INFO] [1699976605.889339659] [subscriber]: readings: left 0.329  lft_fwd 0.399  fwd 1.211   rt_fwd 1.095   right 2.168  back 0.663
+[INFO] [1699976605.891841593] [subscriber]: Forward left 0.399 or right obstacle 1.095 meters
+[INFO] [1699976606.234533992] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.095   right 2.173  back 0.663
+[INFO] [1699976606.239455954] [publisher]: 
+*** Clear.
+[INFO] [1699976606.576140662] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.210   rt_fwd 1.095   right 2.174  back 0.662
+[INFO] [1699976606.580766220] [subscriber]: Forward left 0.398 or right obstacle 1.095 meters
+[INFO] [1699976606.913943820] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.096   right 2.170  back 0.661
+[INFO] [1699976606.917450557] [publisher]: 
+*** Clear.
+[INFO] [1699976607.263522640] [subscriber]: readings: left 0.329  lft_fwd 0.399  fwd 1.211   rt_fwd 1.093   right 2.169  back 0.661
+[INFO] [1699976607.267679370] [subscriber]: Forward left 0.399 or right obstacle 1.093 meters
+[INFO] [1699976607.608936674] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.095   right 2.173  back 0.662
+[INFO] [1699976607.614441537] [publisher]: 
+*** Clear.
+[INFO] [1699976607.949642132] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.092   right 2.166  back 0.670
+[INFO] [1699976607.952657801] [subscriber]: Forward left 0.398 or right obstacle 1.092 meters
+[INFO] [1699976608.284165142] [publisher]: rotate: readings: left 0.329  lft_fwd 0.399  fwd 1.212   rt_fwd 1.095   right 2.171  back 0.664
+[INFO] [1699976608.287449993] [publisher]: 
+*** Clear.
+[INFO] [1699976608.635606367] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.210   rt_fwd 1.094   right 2.171  back 0.668
+[INFO] [1699976608.639560451] [subscriber]: Forward left 0.398 or right obstacle 1.094 meters
+[INFO] [1699976608.981294509] [publisher]: rotate: readings: left 0.328  lft_fwd 0.398  fwd 1.210   rt_fwd 1.094   right 2.173  back 0.661
+[INFO] [1699976608.985196168] [publisher]: 
+*** Clear.
+[INFO] [1699976609.320711370] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.210   rt_fwd 1.093   right 2.172  back 0.668
+[INFO] [1699976609.322906271] [subscriber]: Forward left 0.398 or right obstacle 1.093 meters
+[INFO] [1699976609.662429650] [publisher]: rotate: readings: left 0.329  lft_fwd 0.397  fwd 1.210   rt_fwd 1.095   right 2.174  back 0.664
+[INFO] [1699976609.666734823] [publisher]: 
+*** Clear.
+[INFO] [1699976610.007984627] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.094   right 2.169  back 0.664
+[INFO] [1699976610.013814579] [subscriber]: Forward left 0.398 or right obstacle 1.094 meters
+[INFO] [1699976610.349105617] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.092   right 2.167  back 0.671
+[INFO] [1699976610.352225341] [publisher]: 
+*** Clear.
+[INFO] [1699976610.690870118] [subscriber]: readings: left 0.329  lft_fwd 0.397  fwd 1.211   rt_fwd 1.091   right 2.168  back 0.661
+[INFO] [1699976610.693681198] [subscriber]: Forward left 0.397 or right obstacle 1.091 meters
+[INFO] [1699976611.035844805] [publisher]: rotate: readings: left 0.329  lft_fwd 0.397  fwd 1.212   rt_fwd 1.095   right 2.167  back 0.669
+[INFO] [1699976611.040201071] [publisher]: 
+*** Clear.
+[INFO] [1699976611.381614743] [subscriber]: readings: left 0.329  lft_fwd 0.399  fwd 1.210   rt_fwd 1.095   right 2.170  back 0.664
+[INFO] [1699976611.385780380] [subscriber]: Forward left 0.399 or right obstacle 1.095 meters
+[INFO] [1699976611.719767433] [publisher]: rotate: readings: left 0.328  lft_fwd 0.398  fwd 1.211   rt_fwd 1.094   right 2.169  back 0.664
+[INFO] [1699976611.722059352] [publisher]: 
+*** Clear.
+[INFO] [1699976612.063685169] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.095   right 2.170  back 0.669
+[INFO] [1699976612.067837937] [subscriber]: Forward left 0.398 or right obstacle 1.095 meters
+[INFO] [1699976612.408225213] [publisher]: rotate: readings: left 0.329  lft_fwd 0.399  fwd 1.212   rt_fwd 1.094   right 2.168  back 0.665
+[INFO] [1699976612.411877264] [publisher]: 
+*** Clear.
+[INFO] [1699976612.749544904] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.213   rt_fwd 1.095   right 2.169  back 0.665
+[INFO] [1699976612.753376379] [subscriber]: Forward left 0.398 or right obstacle 1.095 meters
+[INFO] [1699976613.084117413] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.097   right 2.167  back 0.660
+[INFO] [1699976613.087402043] [publisher]: 
+*** Clear.
+[INFO] [1699976613.436471146] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.092   right 2.171  back 0.666
+[INFO] [1699976613.440577266] [subscriber]: Forward left 0.398 or right obstacle 1.092 meters
+[INFO] [1699976613.780585898] [publisher]: rotate: readings: left 0.330  lft_fwd 0.398  fwd 1.212   rt_fwd 1.092   right 2.170  back 0.660
+[INFO] [1699976613.783524939] [publisher]: 
+*** Clear.
+[INFO] [1699976614.119415599] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.095   right 2.168  back 0.664
+[INFO] [1699976614.122574600] [subscriber]: Forward left 0.398 or right obstacle 1.095 meters
+[INFO] [1699976614.461355487] [publisher]: rotate: readings: left 0.329  lft_fwd 0.397  fwd 1.212   rt_fwd 1.093   right 2.173  back 0.665
+[INFO] [1699976614.464501377] [publisher]: 
+*** Clear.
+[INFO] [1699976614.807070980] [subscriber]: readings: left 0.329  lft_fwd 0.399  fwd 1.212   rt_fwd 1.092   right 2.168  back 0.669
+[INFO] [1699976614.810816401] [subscriber]: Forward left 0.399 or right obstacle 1.092 meters
+[INFO] [1699976615.150044579] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.095   right 2.172  back 0.661
+[INFO] [1699976615.152496828] [publisher]: 
+*** Clear.
+[INFO] [1699976615.489458403] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.094   right 2.171  back 0.668
+[INFO] [1699976615.491775117] [subscriber]: Forward left 0.398 or right obstacle 1.094 meters
+[INFO] [1699976615.834943287] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.210   rt_fwd 1.094   right 2.173  back 0.666
+[INFO] [1699976615.838266305] [publisher]: 
+*** Clear.
+[INFO] [1699976616.181554400] [subscriber]: readings: left 0.330  lft_fwd 0.398  fwd 1.211   rt_fwd 1.097   right 2.172  back 0.669
+[INFO] [1699976616.185231395] [subscriber]: Forward left 0.398 or right obstacle 1.097 meters
+[INFO] [1699976616.521360367] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.092   right 2.169  back 0.667
+[INFO] [1699976616.523932542] [publisher]: 
+*** Clear.
+[INFO] [1699976616.864163134] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.096   right 2.168  back 0.663
+[INFO] [1699976616.867571558] [subscriber]: Forward left 0.398 or right obstacle 1.096 meters
+[INFO] [1699976617.207154603] [publisher]: rotate: readings: left 0.330  lft_fwd 0.398  fwd 1.211   rt_fwd 1.094   right 2.169  back 0.669
+[INFO] [1699976617.214298632] [publisher]: 
+*** Clear.
+[INFO] [1699976617.550546011] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.094   right 2.168  back 0.665
+[INFO] [1699976617.553675031] [subscriber]: Forward left 0.398 or right obstacle 1.094 meters
+[INFO] [1699976617.894740262] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.093   right 2.171  back 0.660
+[INFO] [1699976617.898732624] [publisher]: 
+*** Clear.
+[INFO] [1699976618.238434685] [subscriber]: readings: left 0.329  lft_fwd 0.399  fwd 1.210   rt_fwd 1.093   right 2.172  back 0.667
+[INFO] [1699976618.242738469] [subscriber]: Forward left 0.399 or right obstacle 1.093 meters
+[INFO] [1699976618.582143849] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.095   right 2.169  back 0.659
+[INFO] [1699976618.585438385] [publisher]: 
+*** Clear.
+[INFO] [1699976618.922872602] [subscriber]: readings: left 0.329  lft_fwd 0.397  fwd 1.211   rt_fwd 1.093   right 2.166  back 0.669
+[INFO] [1699976618.925503183] [subscriber]: Forward left 0.397 or right obstacle 1.093 meters
+[INFO] [1699976619.268960479] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.210   rt_fwd 1.092   right 2.167  back 0.669
+[INFO] [1699976619.273709388] [publisher]: 
+*** Clear.
+[INFO] [1699976619.614470771] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.093   right 2.172  back 0.669
+[INFO] [1699976619.618497355] [subscriber]: Forward left 0.398 or right obstacle 1.093 meters
+[INFO] [1699976619.952001171] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.210   rt_fwd 1.094   right 2.170  back 0.662
+[INFO] [1699976619.954435033] [publisher]: 
+*** Clear.
+[INFO] [1699976620.286425237] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.210   rt_fwd 1.093   right 2.170  back 0.665
+[INFO] [1699976620.288876505] [subscriber]: Forward left 0.398 or right obstacle 1.093 meters
+[INFO] [1699976620.639799624] [publisher]: rotate: readings: left 0.329  lft_fwd 0.399  fwd 1.211   rt_fwd 1.093   right 2.173  back 0.660
+[INFO] [1699976620.644740549] [publisher]: 
+*** Clear.
+[INFO] [1699976620.982663945] [subscriber]: readings: left 0.329  lft_fwd 0.399  fwd 1.210   rt_fwd 1.095   right 2.176  back 0.663
+[INFO] [1699976620.985809224] [subscriber]: Forward left 0.399 or right obstacle 1.095 meters
+[INFO] [1699976621.323692769] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.091   right 2.168  back 0.664
+[INFO] [1699976621.326520255] [publisher]: 
+*** Clear.
+[INFO] [1699976621.669245597] [subscriber]: readings: left 0.329  lft_fwd 0.397  fwd 1.210   rt_fwd 1.095   right 2.174  back 0.668
+[INFO] [1699976621.674939273] [subscriber]: Forward left 0.397 or right obstacle 1.095 meters
+[INFO] [1699976622.015804691] [publisher]: rotate: readings: left 0.330  lft_fwd 0.398  fwd 1.212   rt_fwd 1.092   right 2.166  back 0.667
+[INFO] [1699976622.018441568] [publisher]: 
+*** Clear.
+[INFO] [1699976622.353350980] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.093   right 2.165  back 0.666
+[INFO] [1699976622.356455982] [subscriber]: Forward left 0.398 or right obstacle 1.093 meters
+[INFO] [1699976622.688747497] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.093   right 2.166  back 0.668
+[INFO] [1699976622.692359327] [publisher]: 
+*** Clear.
+[INFO] [1699976623.042192495] [subscriber]: readings: left 0.330  lft_fwd 0.398  fwd 1.211   rt_fwd 1.092   right 2.166  back 0.666
+[INFO] [1699976623.046120154] [subscriber]: Forward left 0.398 or right obstacle 1.092 meters
+[INFO] [1699976623.384129197] [publisher]: rotate: readings: left 0.330  lft_fwd 0.398  fwd 1.210   rt_fwd 1.095   right 2.170  back 0.658
+[INFO] [1699976623.387062311] [publisher]: 
+*** Clear.
+[INFO] [1699976623.724364696] [subscriber]: readings: left 0.329  lft_fwd 0.399  fwd 1.209   rt_fwd 1.093   right 2.172  back 0.668
+[INFO] [1699976623.727613937] [subscriber]: Forward left 0.399 or right obstacle 1.093 meters
+[INFO] [1699976624.070205428] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.093   right 2.169  back 0.661
+[INFO] [1699976624.074792153] [publisher]: 
+*** Clear.
+[INFO] [1699976624.414542787] [subscriber]: readings: left 0.329  lft_fwd 0.399  fwd 1.211   rt_fwd 1.094   right 2.176  back 0.670
+[INFO] [1699976624.419234919] [subscriber]: Forward left 0.399 or right obstacle 1.094 meters
+[INFO] [1699976624.755656980] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.093   right 2.170  back 0.666
+[INFO] [1699976624.758633076] [publisher]: 
+*** Clear.
+[INFO] [1699976625.099360773] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.093   right 2.167  back 0.667
+[INFO] [1699976625.103532874] [subscriber]: Forward left 0.398 or right obstacle 1.093 meters
+[INFO] [1699976625.446635377] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.094   right 2.174  back 0.665
+[INFO] [1699976625.450972124] [publisher]: 
+*** Clear.
+[INFO] [1699976625.787485499] [subscriber]: readings: left 0.330  lft_fwd 0.399  fwd 1.212   rt_fwd 1.092   right 2.166  back 0.667
+[INFO] [1699976625.789975860] [subscriber]: Forward left 0.399 or right obstacle 1.092 meters
+[INFO] [1699976626.134294035] [publisher]: rotate: readings: left 0.329  lft_fwd 0.397  fwd 1.211   rt_fwd 1.094   right 2.168  back 0.665
+[INFO] [1699976626.137662978] [publisher]: 
+*** Clear.
+[INFO] [1699976626.480537799] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.095   right 2.168  back 0.666
+[INFO] [1699976626.483732484] [subscriber]: Forward left 0.398 or right obstacle 1.095 meters
+[INFO] [1699976626.821641065] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.092   right 2.169  back 0.666
+[INFO] [1699976626.823937743] [publisher]: 
+*** Clear.
+[INFO] [1699976627.167510908] [subscriber]: readings: left 0.329  lft_fwd 0.399  fwd 1.211   rt_fwd 1.091   right 2.165  back 0.664
+[INFO] [1699976627.172469407] [subscriber]: Forward left 0.399 or right obstacle 1.091 meters
+[INFO] [1699976627.513960373] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.094   right 2.170  back 0.666
+[INFO] [1699976627.517370704] [publisher]: 
+*** Clear.
+[INFO] [1699976627.848960672] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.211   rt_fwd 1.092   right 2.170  back 0.671
+[INFO] [1699976627.851876176] [subscriber]: Forward left 0.398 or right obstacle 1.092 meters
+[INFO] [1699976628.200581338] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.215   rt_fwd 1.093   right 2.173  back 0.666
+[INFO] [1699976628.202977403] [publisher]: 
+*** Clear.
+[INFO] [1699976628.546589382] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.215   rt_fwd 1.095   right 2.172  back 0.658
+[INFO] [1699976628.551589399] [subscriber]: Forward left 0.398 or right obstacle 1.095 meters
+[INFO] [1699976628.887615927] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.095   right 2.169  back 0.663
+[INFO] [1699976628.890562931] [publisher]: 
+*** Clear.
+[INFO] [1699976629.233876524] [subscriber]: readings: left 0.329  lft_fwd 0.398  fwd 1.212   rt_fwd 1.095   right 2.172  back 0.662
+[INFO] [1699976629.237094006] [subscriber]: Forward left 0.398 or right obstacle 1.095 meters
+[INFO] [1699976629.579693848] [publisher]: rotate: readings: left 0.329  lft_fwd 0.398  fwd 1.210   rt_fwd 1.095   right 2.169  back 0.664
+[INFO] [1699976629.5834143

@@ -1,0 +1,4 @@
+1699979033.8972175 [INFO] [launch]: All log files can be found below /home/ubuntu/HumbleDave/ros2ws/roslogs/2023-11-14-11-23-53-892306-HumbleD-137448
+1699979033.8983214 [INFO] [launch]: Default logging verbosity is set to INFO
+1699979034.7504303 [INFO] [async_slam_toolbox_node-1]: process started with pid [137453]
+1699980123.3967917 [ERROR] [async_slam_toolbox_node-1]: process has died [pid 137453, exit code -6, cmd '/opt/ros/humble/lib/slam_toolbox/async_slam_toolbox_node --ros-args -r __node:=slam_toolbox --params-file my_mapper_params_online_async.yaml --params-file /tmp/launch_params_umkxxs63'].

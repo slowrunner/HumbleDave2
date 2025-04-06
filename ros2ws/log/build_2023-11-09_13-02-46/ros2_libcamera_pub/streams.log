@@ -1,0 +1,17 @@
+[8.202s] Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub': PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub/build --no-deps install_data
+[9.808s] running develop
+[10.895s] running egg_info
+[10.895s] writing ros2_libcamera_pub.egg-info/PKG-INFO
+[10.897s] writing dependency_links to ros2_libcamera_pub.egg-info/dependency_links.txt
+[10.899s] writing entry points to ros2_libcamera_pub.egg-info/entry_points.txt
+[10.900s] writing requirements to ros2_libcamera_pub.egg-info/requires.txt
+[10.901s] writing top-level names to ros2_libcamera_pub.egg-info/top_level.txt
+[10.910s] reading manifest file 'ros2_libcamera_pub.egg-info/SOURCES.txt'
+[10.915s] writing manifest file 'ros2_libcamera_pub.egg-info/SOURCES.txt'
+[10.927s] running build_ext
+[10.930s] Creating /home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages/ros2-libcamera-pub.egg-link (link to .)
+[10.936s] Installing libcamera_jpg_pub script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/ros2_libcamera_pub
+[10.940s] 
+[10.941s] Installed /home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub
+[10.943s] running install_data
+[11.242s] Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub' returned '0': PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub/build --no-deps install_data

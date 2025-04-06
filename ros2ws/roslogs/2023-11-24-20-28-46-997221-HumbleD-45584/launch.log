@@ -1,0 +1,4 @@
+1700875727.0012486 [INFO] [launch]: All log files can be found below /home/ubuntu/HumbleDave/ros2ws/roslogs/2023-11-24-20-28-46-997221-HumbleD-45584
+1700875727.0019863 [INFO] [launch]: Default logging verbosity is set to INFO
+1700875727.5012903 [INFO] [mpu9250driver-1]: process started with pid [45601]
+1700875817.8923876 [INFO] [mpu9250driver-1]: process has finished cleanly [pid 45601]

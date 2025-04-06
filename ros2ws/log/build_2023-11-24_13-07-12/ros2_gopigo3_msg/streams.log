@@ -1,0 +1,102 @@
+[1.670s] Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg -- -j4 -l4
+[5.606s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.607s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.607s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.608s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.609s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.609s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.609s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[5.707s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.368s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.708s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.864s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.047s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.048s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.049s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[10.251s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.394s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.412s] -- Added test 'lint_cmake' to check CMake code style
+[10.422s] -- Added test 'xmllint' to check XML markup files
+[10.462s] -- Configuring done
+[11.036s] -- Generating done
+[11.061s] -- Build files have been written to: /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg
+[11.224s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.320s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.460s] [  4%] Built target ament_cmake_python_symlink_ros2_gopigo3_msg
+[14.008s] running egg_info
+[14.060s] writing ros2_gopigo3_msg.egg-info/PKG-INFO
+[14.061s] writing dependency_links to ros2_gopigo3_msg.egg-info/dependency_links.txt
+[14.062s] writing top-level names to ros2_gopigo3_msg.egg-info/top_level.txt
+[14.083s] reading manifest file 'ros2_gopigo3_msg.egg-info/SOURCES.txt'
+[14.092s] writing manifest file 'ros2_gopigo3_msg.egg-info/SOURCES.txt'
+[14.459s] [  4%] Built target ament_cmake_python_build_ros2_gopigo3_msg_egg
+[15.199s] [  4%] Built target ros2_gopigo3_msg__cpp
+[15.316s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.395s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[15.444s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.744s] [35m[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_generator_c[0m
+[15.917s] [ 12%] [32mBuilding C object CMakeFiles/ros2_gopigo3_msg__rosidl_generator_c.dir/rosidl_generator_c/ros2_gopigo3_msg/msg/detail/motor_status__functions.c.o[0m
+[16.630s] [ 14%] [32mBuilding C object CMakeFiles/ros2_gopigo3_msg__rosidl_generator_c.dir/rosidl_generator_c/ros2_gopigo3_msg/msg/detail/motor_status_lr__functions.c.o[0m
+[17.216s] [ 17%] [32mBuilding C object CMakeFiles/ros2_gopigo3_msg__rosidl_generator_c.dir/rosidl_generator_c/ros2_gopigo3_msg/srv/detail/spi__functions.c.o[0m
+[17.995s] [ 19%] [32m[1mLinking C shared library libros2_gopigo3_msg__rosidl_generator_c.so[0m
+[18.014s] [35m[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_typesupport_cpp[0m
+[18.301s] [ 21%] [32mBuilding CXX object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_gopigo3_msg/msg/motor_status__type_support.cpp.o[0m
+[18.460s] [ 21%] Built target ros2_gopigo3_msg__rosidl_generator_c
+[18.531s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[18.757s] [35m[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_typesupport_introspection_cpp[0m
+[18.823s] [35m[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_typesupport_fastrtps_cpp[0m
+[18.910s] [ 25%] [32mBuilding CXX object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_gopigo3_msg/msg/detail/motor_status__type_support.cpp.o[0m
+[19.011s] [ 27%] [32mBuilding CXX object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_gopigo3_msg/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o[0m
+[21.336s] [ 29%] [32mBuilding CXX object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_gopigo3_msg/msg/motor_status_lr__type_support.cpp.o[0m
+[21.894s] [35m[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_typesupport_fastrtps_c[0m
+[22.089s] [ 31%] [32mBuilding CXX object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_gopigo3_msg/msg/detail/motor_status__type_support_c.cpp.o[0m
+[22.412s] [ 34%] [32mBuilding CXX object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_gopigo3_msg/msg/detail/dds_fastrtps/motor_status_lr__type_support.cpp.o[0m
+[23.092s] [ 36%] [32mBuilding CXX object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_gopigo3_msg/msg/detail/motor_status_lr__type_support.cpp.o[0m
+[24.197s] [ 38%] [32mBuilding CXX object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_gopigo3_msg/srv/spi__type_support.cpp.o[0m
+[25.671s] [ 40%] [32mBuilding CXX object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_gopigo3_msg/msg/detail/motor_status_lr__type_support_c.cpp.o[0m
+[26.551s] [ 42%] [32mBuilding CXX object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_gopigo3_msg/srv/detail/dds_fastrtps/spi__type_support.cpp.o[0m
+[26.631s] [ 44%] [32mBuilding CXX object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_gopigo3_msg/srv/detail/spi__type_support.cpp.o[0m
+[27.153s] [ 46%] [32m[1mLinking CXX shared library libros2_gopigo3_msg__rosidl_typesupport_cpp.so[0m
+[27.565s] [ 46%] Built target ros2_gopigo3_msg__rosidl_typesupport_cpp
+[27.688s] [ 48%] [32mBuilding CXX object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_gopigo3_msg/srv/detail/spi__type_support_c.cpp.o[0m
+[29.257s] [ 51%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[31.768s] [ 53%] [32m[1mLinking CXX shared library libros2_gopigo3_msg__rosidl_typesupport_fastrtps_c.so[0m
+[31.977s] [ 55%] [32m[1mLinking CXX shared library libros2_gopigo3_msg__rosidl_typesupport_introspection_cpp.so[0m
+[32.715s] [ 55%] Built target ros2_gopigo3_msg__rosidl_typesupport_introspection_cpp
+[32.807s] [ 55%] Built target ros2_gopigo3_msg__rosidl_typesupport_fastrtps_c
+[32.864s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[32.880s] [ 59%] [32m[1mLinking CXX shared library libros2_gopigo3_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[33.563s] [35m[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_typesupport_introspection_c[0m
+[33.639s] [ 61%] [32mBuilding C object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_gopigo3_msg/msg/detail/motor_status__type_support.c.o[0m
+[33.700s] [ 63%] [32mBuilding C object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_gopigo3_msg/msg/detail/motor_status_lr__type_support.c.o[0m
+[33.720s] [ 63%] Built target ros2_gopigo3_msg__rosidl_typesupport_fastrtps_cpp
+[33.861s] [ 65%] [32mBuilding C object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_gopigo3_msg/srv/detail/spi__type_support.c.o[0m
+[34.333s] [ 68%] [32m[1mLinking C shared library libros2_gopigo3_msg__rosidl_typesupport_introspection_c.so[0m
+[34.766s] [ 68%] Built target ros2_gopigo3_msg__rosidl_typesupport_introspection_c
+[35.334s] [35m[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_typesupport_c[0m
+[35.439s] [ 70%] [32mBuilding CXX object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_gopigo3_msg/msg/motor_status_lr__type_support.cpp.o[0m
+[35.446s] [ 72%] [32mBuilding CXX object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_gopigo3_msg/msg/motor_status__type_support.cpp.o[0m
+[35.462s] [ 74%] [32mBuilding CXX object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_gopigo3_msg/srv/spi__type_support.cpp.o[0m
+[35.796s] [ 76%] [32m[1mLinking CXX shared library libros2_gopigo3_msg__rosidl_typesupport_c.so[0m
+[36.037s] [ 76%] Built target ros2_gopigo3_msg__rosidl_typesupport_c
+[36.157s] [ 76%] Built target ros2_gopigo3_msg
+[36.289s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[39.736s] [ 78%] Built target ros2_gopigo3_msg__py
+[39.790s] [35m[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_generator_py[0m
+[39.874s] [ 80%] [32mBuilding C object CMakeFiles/ros2_gopigo3_msg__rosidl_generator_py.dir/rosidl_generator_py/ros2_gopigo3_msg/msg/_motor_status_s.c.o[0m
+[39.885s] [ 82%] [32mBuilding C object CMakeFiles/ros2_gopigo3_msg__rosidl_generator_py.dir/rosidl_generator_py/ros2_gopigo3_msg/msg/_motor_status_lr_s.c.o[0m
+[39.893s] [ 85%] [32mBuilding C object CMakeFiles/ros2_gopigo3_msg__rosidl_generator_py.dir/rosidl_generator_py/ros2_gopigo3_msg/srv/_spi_s.c.o[0m
+[41.190s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/ros2_gopigo3_msg/libros2_gopigo3_msg__rosidl_generator_py.so[0m
+[41.407s] [ 87%] Built target ros2_gopigo3_msg__rosidl_generator_py
+[41.463s] [35m[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_typesupport_fastrtps_c__pyext[0m
+[41.464s] [35m[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_typesupport_introspection_c__pyext[0m
+[41.482s] [35m[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_typesupport_c__pyext[0m
+[41.533s] [ 89%] [32mBuilding C object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_gopigo3_msg/_ros2_gopigo3_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[41.536s] [ 91%] [32mBuilding C object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_gopigo3_msg/_ros2_gopigo3_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[41.556s] [ 93%] [32mBuilding C object CMakeFiles/ros2_gopigo3_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_gopigo3_msg/_ros2_gopigo3_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[42.289s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/ros2_gopigo3_msg/ros2_gopigo3_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[42.309s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros2_gopigo3_msg/ros2_gopigo3_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[42.481s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros2_gopigo3_msg/ros2_gopigo3_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[42.651s] [100%] Built target ros2_gopigo3_msg__rosidl_typesupport_introspection_c__pyext
+[42.732s] [100%] Built target ros2_gopigo3_msg__rosidl_typesupport_fastrtps_c__pyext
+[42.898s] [100%] Built target ros2_gopigo3_msg__rosidl_typesupport_c__pyext

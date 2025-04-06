@@ -1,0 +1,52 @@
+[1.455s] Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/HoROS8:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation -- -j4 -l4
+[1.787s] Built target ament_cmake_python_symlink_gopigo3_navigation
+[4.045s] running egg_info
+[4.049s] writing gopigo3_navigation.egg-info/PKG-INFO
+[4.052s] writing dependency_links to gopigo3_navigation.egg-info/dependency_links.txt
+[4.055s] writing top-level names to gopigo3_navigation.egg-info/top_level.txt
+[4.069s] reading manifest file 'gopigo3_navigation.egg-info/SOURCES.txt'
+[4.074s] writing manifest file 'gopigo3_navigation.egg-info/SOURCES.txt'
+[4.262s] Built target ament_cmake_python_build_gopigo3_navigation_egg
+[4.328s] Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/HoROS8:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation -- -j4 -l4
+[4.504s] Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/HoROS8:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation
+[4.554s] -- Install configuration: ""
+[4.558s] -- Execute custom install script
+[4.562s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/config/localization.yaml
+[4.565s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/config/nav2.yaml
+[4.568s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/config/slam.tb4.yaml
+[4.570s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/config/slam.yaml
+[4.573s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/launch/localization.launch.py
+[4.577s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/launch/nav2.launch.py
+[4.580s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/launch/slam.launch.py
+[4.583s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/maps/depot.pgm
+[4.586s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/maps/depot.yaml
+[4.588s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/maps/maze.pgm
+[4.591s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/maps/maze.yaml
+[4.593s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/maps/warehouse.pgm
+[4.595s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/maps/warehouse.yaml
+[4.598s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/environment/pythonpath.sh
+[4.601s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/environment/pythonpath.dsv
+[4.605s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/local/lib/python3.10/dist-packages/gopigo3_navigation-1.0.4-py3.10.egg-info/PKG-INFO
+[4.613s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/local/lib/python3.10/dist-packages/gopigo3_navigation-1.0.4-py3.10.egg-info/SOURCES.txt
+[4.616s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/local/lib/python3.10/dist-packages/gopigo3_navigation-1.0.4-py3.10.egg-info/dependency_links.txt
+[4.619s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/local/lib/python3.10/dist-packages/gopigo3_navigation-1.0.4-py3.10.egg-info/top_level.txt
+[4.630s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/local/lib/python3.10/dist-packages/gopigo3_navigation/__init__.py
+[4.632s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/local/lib/python3.10/dist-packages/gopigo3_navigation/gopigo3_navigator.py
+[4.640s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/local/lib/python3.10/dist-packages/gopigo3_navigator.py
+[4.656s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/ament_index/resource_index/package_run_dependencies/gopigo3_navigation
+[4.659s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/ament_index/resource_index/parent_prefix_path/gopigo3_navigation
+[4.661s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/environment/ament_prefix_path.sh
+[4.688s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/environment/ament_prefix_path.dsv
+[4.690s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/environment/path.sh
+[4.692s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/environment/path.dsv
+[4.696s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/local_setup.bash
+[4.700s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/local_setup.sh
+[4.703s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/local_setup.zsh
+[4.706s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/local_setup.dsv
+[4.713s] -- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/package.dsv
+[4.831s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/ament_index/resource_index/packages/gopigo3_navigation
+[4.839s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/cmake/gopigo3_navigationConfig.cmake
+[4.846s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/cmake/gopigo3_navigationConfig-version.cmake
+[4.853s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/share/gopigo3_navigation/package.xml
+[5.132s] Listing '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_navigation/local/lib/python3.10/dist-packages/gopigo3_navigation'...
+[6.312s] Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/HoROS8:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/HumbleDave/ros2ws/build/gopigo3_navigation

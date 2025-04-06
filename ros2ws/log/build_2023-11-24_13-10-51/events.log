@@ -1,0 +1,813 @@
+[0.000000] (-) TimerEvent: {}
+[0.001834] (HoROS8) JobQueued: {'identifier': 'HoROS8', 'dependencies': OrderedDict()}
+[0.002586] (explorer_wanderer) JobQueued: {'identifier': 'explorer_wanderer', 'dependencies': OrderedDict()}
+[0.002888] (gopigo3_ekf) JobQueued: {'identifier': 'gopigo3_ekf', 'dependencies': OrderedDict()}
+[0.003050] (mpu9250driver) JobQueued: {'identifier': 'mpu9250driver', 'dependencies': OrderedDict()}
+[0.003419] (ros2_gopigo3_msg) JobQueued: {'identifier': 'ros2_gopigo3_msg', 'dependencies': OrderedDict()}
+[0.003517] (ros2_libcamera_pub) JobQueued: {'identifier': 'ros2_libcamera_pub', 'dependencies': OrderedDict()}
+[0.003632] (scan_client) JobQueued: {'identifier': 'scan_client', 'dependencies': OrderedDict()}
+[0.003777] (teleop_gopigo3_keyboard) JobQueued: {'identifier': 'teleop_gopigo3_keyboard', 'dependencies': OrderedDict()}
+[0.003868] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.003995] (ros2_gopigo3_node) JobQueued: {'identifier': 'ros2_gopigo3_node', 'dependencies': OrderedDict([('ros2_gopigo3_msg', '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg')])}
+[0.004261] (ros2_gopigo3_msg) JobStarted: {'identifier': 'ros2_gopigo3_msg'}
+[0.098993] (-) TimerEvent: {}
+[0.199923] (-) TimerEvent: {}
+[0.300932] (-) TimerEvent: {}
+[0.367800] (HoROS8) JobStarted: {'identifier': 'HoROS8'}
+[0.401966] (-) TimerEvent: {}
+[0.502907] (-) TimerEvent: {}
+[0.603970] (-) TimerEvent: {}
+[0.705180] (-) TimerEvent: {}
+[0.796151] (explorer_wanderer) JobStarted: {'identifier': 'explorer_wanderer'}
+[0.805481] (-) TimerEvent: {}
+[0.906735] (-) TimerEvent: {}
+[1.008292] (-) TimerEvent: {}
+[1.109355] (-) TimerEvent: {}
+[1.210961] (-) TimerEvent: {}
+[1.222142] (gopigo3_ekf) JobStarted: {'identifier': 'gopigo3_ekf'}
+[1.311184] (-) TimerEvent: {}
+[1.444017] (-) TimerEvent: {}
+[1.545481] (-) TimerEvent: {}
+[1.622783] (ros2_gopigo3_msg) JobProgress: {'identifier': 'ros2_gopigo3_msg', 'progress': 'cmake'}
+[1.626146] (ros2_gopigo3_msg) JobProgress: {'identifier': 'ros2_gopigo3_msg', 'progress': 'build'}
+[1.629069] (ros2_gopigo3_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.0.0.129 58847 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/HumbleDave/ros2ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/ubuntu/HumbleDave/ros2ws/roslogs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/ubuntu/HumbleDave/ros2ws'), ('COLCON_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install:/home/ubuntu/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg'), ('SSH_CONNECTION', '10.0.0.129 58847 10.0.0.34 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble')]), 'shell': False}
+[1.647315] (-) TimerEvent: {}
+[1.748308] (-) TimerEvent: {}
+[1.849358] (-) TimerEvent: {}
+[1.950342] (-) TimerEvent: {}
+[2.051251] (-) TimerEvent: {}
+[2.152136] (-) TimerEvent: {}
+[2.253270] (-) TimerEvent: {}
+[2.354032] (-) TimerEvent: {}
+[2.454974] (-) TimerEvent: {}
+[2.556119] (-) TimerEvent: {}
+[2.657410] (-) TimerEvent: {}
+[2.758530] (-) TimerEvent: {}
+[2.859653] (-) TimerEvent: {}
+[2.960417] (-) TimerEvent: {}
+[3.061302] (-) TimerEvent: {}
+[3.162629] (-) TimerEvent: {}
+[3.263371] (-) TimerEvent: {}
+[3.364667] (-) TimerEvent: {}
+[3.466352] (-) TimerEvent: {}
+[3.567436] (-) TimerEvent: {}
+[3.669304] (-) TimerEvent: {}
+[3.771445] (-) TimerEvent: {}
+[3.874592] (-) TimerEvent: {}
+[3.975331] (-) TimerEvent: {}
+[4.076070] (-) TimerEvent: {}
+[4.176917] (-) TimerEvent: {}
+[4.277633] (-) TimerEvent: {}
+[4.378298] (-) TimerEvent: {}
+[4.478967] (-) TimerEvent: {}
+[4.579635] (-) TimerEvent: {}
+[4.680313] (-) TimerEvent: {}
+[4.780981] (-) TimerEvent: {}
+[4.881658] (-) TimerEvent: {}
+[4.982412] (-) TimerEvent: {}
+[5.083275] (-) TimerEvent: {}
+[5.184329] (-) TimerEvent: {}
+[5.285331] (-) TimerEvent: {}
+[5.386242] (-) TimerEvent: {}
+[5.488163] (-) TimerEvent: {}
+[5.501195] (ros2_gopigo3_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_generator_c\x1b[0m\n'}
+[5.502027] (ros2_gopigo3_msg) StdoutLine: {'line': b'[  2%] Built target ros2_gopigo3_msg__cpp\n'}
+[5.503485] (ros2_gopigo3_msg) StdoutLine: {'line': b'[ 12%] Built target ros2_gopigo3_msg__rosidl_generator_c\n'}
+[5.504547] (ros2_gopigo3_msg) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_ros2_gopigo3_msg\n'}
+[5.506837] (ros2_gopigo3_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.508674] (ros2_gopigo3_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.511069] (ros2_gopigo3_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.511643] (ros2_gopigo3_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.512396] (ros2_gopigo3_msg) StdoutLine: {'line': b'[ 23%] Built target ros2_gopigo3_msg__rosidl_typesupport_cpp\n'}
+[5.513187] (ros2_gopigo3_msg) StdoutLine: {'line': b'[ 34%] Built target ros2_gopigo3_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[5.514035] (ros2_gopigo3_msg) StdoutLine: {'line': b'[ 44%] Built target ros2_gopigo3_msg__rosidl_typesupport_introspection_cpp\n'}
+[5.514711] (ros2_gopigo3_msg) StdoutLine: {'line': b'[ 55%] Built target ros2_gopigo3_msg__rosidl_typesupport_fastrtps_c\n'}
+[5.515934] (ros2_gopigo3_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.516662] (ros2_gopigo3_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_typesupport_c\x1b[0m\n'}
+[5.517460] (ros2_gopigo3_msg) StdoutLine: {'line': b'[ 65%] Built target ros2_gopigo3_msg__rosidl_typesupport_introspection_c\n'}
+[5.518098] (ros2_gopigo3_msg) StdoutLine: {'line': b'[ 76%] Built target ros2_gopigo3_msg__rosidl_typesupport_c\n'}
+[5.518635] (ros2_gopigo3_msg) StdoutLine: {'line': b'[ 76%] Built target ros2_gopigo3_msg\n'}
+[5.519560] (ros2_gopigo3_msg) StdoutLine: {'line': b'[ 78%] Built target ros2_gopigo3_msg__py\n'}
+[5.520082] (ros2_gopigo3_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_generator_py\x1b[0m\n'}
+[5.526567] (ros2_gopigo3_msg) StdoutLine: {'line': b'[ 87%] Built target ros2_gopigo3_msg__rosidl_generator_py\n'}
+[5.528720] (ros2_gopigo3_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.533865] (ros2_gopigo3_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.538453] (ros2_gopigo3_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_gopigo3_msg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.538969] (ros2_gopigo3_msg) StdoutLine: {'line': b'[ 91%] Built target ros2_gopigo3_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.539397] (ros2_gopigo3_msg) StdoutLine: {'line': b'[ 95%] Built target ros2_gopigo3_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[5.539791] (ros2_gopigo3_msg) StdoutLine: {'line': b'[100%] Built target ros2_gopigo3_msg__rosidl_typesupport_c__pyext\n'}
+[5.541884] (ros2_gopigo3_msg) StdoutLine: {'line': b'running egg_info\n'}
+[5.542709] (ros2_gopigo3_msg) StdoutLine: {'line': b'writing ros2_gopigo3_msg.egg-info/PKG-INFO\n'}
+[5.543367] (ros2_gopigo3_msg) StdoutLine: {'line': b'writing dependency_links to ros2_gopigo3_msg.egg-info/dependency_links.txt\n'}
+[5.543896] (ros2_gopigo3_msg) StdoutLine: {'line': b'writing top-level names to ros2_gopigo3_msg.egg-info/top_level.txt\n'}
+[5.544608] (ros2_gopigo3_msg) StdoutLine: {'line': b"reading manifest file 'ros2_gopigo3_msg.egg-info/SOURCES.txt'\n"}
+[5.545629] (ros2_gopigo3_msg) StdoutLine: {'line': b"writing manifest file 'ros2_gopigo3_msg.egg-info/SOURCES.txt'\n"}
+[5.546215] (ros2_gopigo3_msg) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_ros2_gopigo3_msg_egg\n'}
+[5.546746] (gopigo3_ekf) JobProgress: {'identifier': 'gopigo3_ekf', 'progress': 'cmake'}
+[5.546999] (gopigo3_ekf) JobProgress: {'identifier': 'gopigo3_ekf', 'progress': 'build'}
+[5.547157] (gopigo3_ekf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.0.0.129 58847 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/HumbleDave/ros2ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/ubuntu/HumbleDave/ros2ws/roslogs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/ubuntu/HumbleDave/ros2ws'), ('COLCON_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install:/home/ubuntu/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf'), ('SSH_CONNECTION', '10.0.0.129 58847 10.0.0.34 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble')]), 'shell': False}
+[5.557922] (ros2_gopigo3_msg) CommandEnded: {'returncode': 0}
+[5.590533] (-) TimerEvent: {}
+[5.691685] (-) TimerEvent: {}
+[5.715404] (gopigo3_ekf) CommandEnded: {'returncode': 0}
+[5.791879] (-) TimerEvent: {}
+[5.858403] (gopigo3_ekf) JobProgress: {'identifier': 'gopigo3_ekf', 'progress': 'install'}
+[5.892070] (-) TimerEvent: {}
+[5.905817] (gopigo3_ekf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf'], 'cwd': '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.0.0.129 58847 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/HumbleDave/ros2ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/ubuntu/HumbleDave/ros2ws/roslogs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/ubuntu/HumbleDave/ros2ws'), ('COLCON_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install:/home/ubuntu/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf'), ('SSH_CONNECTION', '10.0.0.129 58847 10.0.0.34 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble')]), 'shell': False}
+[5.947925] (gopigo3_ekf) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.952637] (gopigo3_ekf) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.957168] (gopigo3_ekf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/config/ekf.yaml\n'}
+[5.960963] (gopigo3_ekf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/launch/ekf_v3.launch.py\n'}
+[5.963593] (gopigo3_ekf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/ament_index/resource_index/package_run_dependencies/gopigo3_ekf\n'}
+[5.966820] (gopigo3_ekf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/ament_index/resource_index/parent_prefix_path/gopigo3_ekf\n'}
+[5.969233] (gopigo3_ekf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/environment/ament_prefix_path.sh\n'}
+[5.972453] (gopigo3_ekf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/environment/ament_prefix_path.dsv\n'}
+[5.975260] (gopigo3_ekf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/environment/path.sh\n'}
+[5.978301] (gopigo3_ekf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/environment/path.dsv\n'}
+[5.980904] (gopigo3_ekf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/local_setup.bash\n'}
+[5.983444] (gopigo3_ekf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/local_setup.sh\n'}
+[5.985885] (gopigo3_ekf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/local_setup.zsh\n'}
+[5.988283] (gopigo3_ekf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/local_setup.dsv\n'}
+[5.990816] (gopigo3_ekf) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/package.dsv\n'}
+[5.992232] (-) TimerEvent: {}
+[6.042379] (gopigo3_ekf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/ament_index/resource_index/packages/gopigo3_ekf\n'}
+[6.045233] (gopigo3_ekf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/cmake/gopigo3_ekfConfig.cmake\n'}
+[6.047281] (gopigo3_ekf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/cmake/gopigo3_ekfConfig-version.cmake\n'}
+[6.049609] (gopigo3_ekf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/package.xml\n'}
+[6.064546] (gopigo3_ekf) CommandEnded: {'returncode': 0}
+[6.092765] (-) TimerEvent: {}
+[6.195895] (-) TimerEvent: {}
+[6.297524] (-) TimerEvent: {}
+[6.399719] (-) TimerEvent: {}
+[6.500889] (ros2_gopigo3_msg) JobProgress: {'identifier': 'ros2_gopigo3_msg', 'progress': 'install'}
+[6.501133] (-) TimerEvent: {}
+[6.503339] (ros2_gopigo3_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg'], 'cwd': '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.0.0.129 58847 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/HumbleDave/ros2ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/ubuntu/HumbleDave/ros2ws/roslogs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/ubuntu/HumbleDave/ros2ws'), ('COLCON_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install:/home/ubuntu/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg'), ('SSH_CONNECTION', '10.0.0.129 58847 10.0.0.34 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble')]), 'shell': False}
+[6.551436] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.555163] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.562526] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ament_index/resource_index/rosidl_interfaces/ros2_gopigo3_msg\n'}
+[6.571033] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__functions.h\n'}
+[6.574080] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__struct.h\n'}
+[6.577412] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__type_support.h\n'}
+[6.580362] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__functions.h\n'}
+[6.582577] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__struct.h\n'}
+[6.586637] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__type_support.h\n'}
+[6.589909] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/motor_status.h\n'}
+[6.593488] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/motor_status_lr.h\n'}
+[6.597326] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.601343] (-) TimerEvent: {}
+[6.603884] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__functions.h\n'}
+[6.607571] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__struct.h\n'}
+[6.611426] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__type_support.h\n'}
+[6.615287] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/spi.h\n'}
+[6.619061] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/environment/library_path.sh\n'}
+[6.622036] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/environment/library_path.dsv\n'}
+[6.637010] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h\n'}
+[6.639438] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__rosidl_typesupport_fastrtps_c.h\n'}
+[6.641648] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.643729] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__rosidl_typesupport_fastrtps_c.h\n'}
+[6.649338] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__rosidl_typesupport_introspection_c.h\n'}
+[6.651676] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__rosidl_typesupport_introspection_c.h\n'}
+[6.653663] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.656105] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__rosidl_typesupport_introspection_c.h\n'}
+[6.661636] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__builder.hpp\n'}
+[6.664221] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__struct.hpp\n'}
+[6.666891] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__traits.hpp\n'}
+[6.669628] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__builder.hpp\n'}
+[6.671951] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__struct.hpp\n'}
+[6.674166] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__traits.hpp\n'}
+[6.676631] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/motor_status.hpp\n'}
+[6.678467] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/motor_status_lr.hpp\n'}
+[6.680893] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__builder.hpp\n'}
+[6.683271] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__struct.hpp\n'}
+[6.685790] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__traits.hpp\n'}
+[6.687999] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/spi.hpp\n'}
+[6.697885] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.701277] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.701916] (-) TimerEvent: {}
+[6.702714] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.705567] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.710981] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.712518] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/msg/detail/motor_status_lr__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.715129] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/include/ros2_gopigo3_msg/ros2_gopigo3_msg/srv/detail/spi__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.717716] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/environment/pythonpath.sh\n'}
+[6.718721] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/environment/pythonpath.dsv\n'}
+[6.721897] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[6.724159] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.726761] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.729440] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[6.739828] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/__init__.py\n'}
+[6.742332] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/_ros2_gopigo3_msg_s.ep.rosidl_typesupport_c.c\n'}
+[6.744407] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/_ros2_gopigo3_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.746511] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/_ros2_gopigo3_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.748394] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/libros2_gopigo3_msg__rosidl_generator_py.so\n'}
+[6.751549] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/msg/__init__.py\n'}
+[6.753644] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/msg/_motor_status.py\n'}
+[6.755654] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/msg/_motor_status_lr.py\n'}
+[6.757936] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/msg/_motor_status_lr_s.c\n'}
+[6.760669] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/msg/_motor_status_s.c\n'}
+[6.762466] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/ros2_gopigo3_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.764676] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/ros2_gopigo3_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.767594] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/ros2_gopigo3_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.770218] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/srv/__init__.py\n'}
+[6.772522] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/srv/_spi.py\n'}
+[6.774504] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/srv/_spi_s.c\n'}
+[6.777238] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/ros2_gopigo3_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.779581] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/ros2_gopigo3_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.782220] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/ros2_gopigo3_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.787146] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/msg/MotorStatus.idl\n'}
+[6.790147] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/msg/MotorStatusLR.idl\n'}
+[6.793246] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/srv/SPI.idl\n'}
+[6.795345] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/msg/MotorStatus.msg\n'}
+[6.797507] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/msg/MotorStatusLR.msg\n'}
+[6.802020] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/srv/SPI.srv\n'}
+[6.802955] (-) TimerEvent: {}
+[6.804095] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/srv/SPI_Request.msg\n'}
+[6.806217] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/srv/SPI_Response.msg\n'}
+[6.807700] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ament_index/resource_index/package_run_dependencies/ros2_gopigo3_msg\n'}
+[6.810949] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ament_index/resource_index/parent_prefix_path/ros2_gopigo3_msg\n'}
+[6.813643] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/environment/ament_prefix_path.sh\n'}
+[6.814976] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/environment/ament_prefix_path.dsv\n'}
+[6.817781] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/environment/path.sh\n'}
+[6.819620] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/environment/path.dsv\n'}
+[6.822226] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/local_setup.bash\n'}
+[6.824592] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/local_setup.sh\n'}
+[6.826477] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/local_setup.zsh\n'}
+[6.828345] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/local_setup.dsv\n'}
+[6.829393] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/package.dsv\n'}
+[6.882937] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ament_index/resource_index/packages/ros2_gopigo3_msg\n'}
+[6.887651] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[6.890355] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.893208] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.895858] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.899258] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.900848] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.903362] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.903996] (-) TimerEvent: {}
+[6.907323] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msgConfig.cmake\n'}
+[6.908999] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msgConfig-version.cmake\n'}
+[6.912011] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/package.xml\n'}
+[6.918554] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_generator_c.so\n'}
+[6.922454] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_generator_c.so" to ""\n'}
+[6.927508] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[6.931781] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.935497] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_typesupport_introspection_c.so\n'}
+[6.940462] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.944636] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_typesupport_c.so\n'}
+[6.947818] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_typesupport_c.so" to ""\n'}
+[6.953146] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.958264] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.964602] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[6.969341] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.974719] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_typesupport_cpp.so\n'}
+[6.979131] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[7.004196] (-) TimerEvent: {}
+[7.105621] (-) TimerEvent: {}
+[7.207555] (-) TimerEvent: {}
+[7.294085] (gopigo3_ekf) JobEnded: {'identifier': 'gopigo3_ekf', 'rc': 0}
+[7.298059] (mpu9250driver) JobStarted: {'identifier': 'mpu9250driver'}
+[7.308327] (-) TimerEvent: {}
+[7.409789] (-) TimerEvent: {}
+[7.439303] (ros2_gopigo3_msg) StdoutLine: {'line': b"Listing '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg'...\n"}
+[7.440517] (ros2_gopigo3_msg) StdoutLine: {'line': b"Compiling '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/__init__.py'...\n"}
+[7.441939] (ros2_gopigo3_msg) StdoutLine: {'line': b"Listing '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/msg'...\n"}
+[7.443071] (ros2_gopigo3_msg) StdoutLine: {'line': b"Compiling '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/msg/__init__.py'...\n"}
+[7.444494] (ros2_gopigo3_msg) StdoutLine: {'line': b"Compiling '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/msg/_motor_status.py'...\n"}
+[7.445776] (ros2_gopigo3_msg) StdoutLine: {'line': b"Compiling '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/msg/_motor_status_lr.py'...\n"}
+[7.447149] (ros2_gopigo3_msg) StdoutLine: {'line': b"Listing '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/srv'...\n"}
+[7.448561] (ros2_gopigo3_msg) StdoutLine: {'line': b"Compiling '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/srv/__init__.py'...\n"}
+[7.450020] (ros2_gopigo3_msg) StdoutLine: {'line': b"Compiling '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages/ros2_gopigo3_msg/srv/_spi.py'...\n"}
+[7.495758] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_generator_py.so\n'}
+[7.499597] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/libros2_gopigo3_msg__rosidl_generator_py.so" to ""\n'}
+[7.504205] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/export_ros2_gopigo3_msg__rosidl_generator_cExport.cmake\n'}
+[7.505152] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/export_ros2_gopigo3_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.508348] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/export_ros2_gopigo3_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.509333] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/export_ros2_gopigo3_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.510043] (-) TimerEvent: {}
+[7.511991] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.513589] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.515210] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msg__rosidl_typesupport_cExport.cmake\n'}
+[7.516131] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.517838] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/export_ros2_gopigo3_msg__rosidl_generator_cppExport.cmake\n'}
+[7.520682] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/export_ros2_gopigo3_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.521930] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/export_ros2_gopigo3_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.523935] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.525128] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.527208] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msg__rosidl_typesupport_cppExport.cmake\n'}
+[7.528388] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/ros2_gopigo3_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.530157] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/export_ros2_gopigo3_msg__rosidl_generator_pyExport.cmake\n'}
+[7.531153] (ros2_gopigo3_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/cmake/export_ros2_gopigo3_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.610244] (-) TimerEvent: {}
+[7.712330] (-) TimerEvent: {}
+[7.815680] (-) TimerEvent: {}
+[7.923149] (-) TimerEvent: {}
+[8.028339] (-) TimerEvent: {}
+[8.131649] (-) TimerEvent: {}
+[8.150931] (ros2_gopigo3_msg) CommandEnded: {'returncode': 0}
+[8.231759] (-) TimerEvent: {}
+[8.332947] (-) TimerEvent: {}
+[8.434218] (-) TimerEvent: {}
+[8.482024] (HoROS8) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/HumbleDave/ros2ws/build/HoROS8/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/HumbleDave/ros2ws/build/HoROS8', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.0.0.129 58847 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/HumbleDave/ros2ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'ROS_LOG_DIR': '/home/ubuntu/HumbleDave/ros2ws/roslogs', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/home/ubuntu/HumbleDave/ros2ws', 'COLCON_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install:/home/ubuntu/ros2ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/HumbleDave/ros2ws/build/HoROS8', 'SSH_CONNECTION': '10.0.0.129 58847 10.0.0.34 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/HumbleDave/ros2ws/build/HoROS8/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/HoROS8/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf'}, 'shell': False}
+[8.498506] (explorer_wanderer) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.0.0.129 58847 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/HumbleDave/ros2ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'ROS_LOG_DIR': '/home/ubuntu/HumbleDave/ros2ws/roslogs', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/home/ubuntu/HumbleDave/ros2ws', 'COLCON_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install:/home/ubuntu/ros2ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer', 'SSH_CONNECTION': '10.0.0.129 58847 10.0.0.34 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf'}, 'shell': False}
+[8.514803] (mpu9250driver) JobProgress: {'identifier': 'mpu9250driver', 'progress': 'cmake'}
+[8.516271] (mpu9250driver) JobProgress: {'identifier': 'mpu9250driver', 'progress': 'build'}
+[8.518176] (mpu9250driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/HumbleDave/ros2ws/build/mpu9250driver', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/HumbleDave/ros2ws/build/mpu9250driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.0.0.129 58847 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/HumbleDave/ros2ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/ubuntu/HumbleDave/ros2ws/roslogs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/ubuntu/HumbleDave/ros2ws'), ('COLCON_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install:/home/ubuntu/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/HumbleDave/ros2ws/build/mpu9250driver'), ('SSH_CONNECTION', '10.0.0.129 58847 10.0.0.34 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble')]), 'shell': False}
+[8.534404] (-) TimerEvent: {}
+[8.635698] (-) TimerEvent: {}
+[8.736832] (-) TimerEvent: {}
+[8.739606] (mpu9250driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mpu9250sensor\x1b[0m\n'}
+[8.823062] (mpu9250driver) StdoutLine: {'line': b'[ 33%] Built target mpu9250sensor\n'}
+[8.837039] (-) TimerEvent: {}
+[8.853985] (mpu9250driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object lib/i2c/CMakeFiles/linux_i2c_communicator.dir/src/LinuxI2cCommunicator.cpp.o\x1b[0m\n'}
+[8.937231] (-) TimerEvent: {}
+[9.038799] (-) TimerEvent: {}
+[9.140428] (-) TimerEvent: {}
+[9.241912] (-) TimerEvent: {}
+[9.343500] (-) TimerEvent: {}
+[9.446184] (-) TimerEvent: {}
+[9.547562] (-) TimerEvent: {}
+[9.648473] (-) TimerEvent: {}
+[9.749438] (-) TimerEvent: {}
+[9.850765] (-) TimerEvent: {}
+[9.951829] (-) TimerEvent: {}
+[10.053401] (-) TimerEvent: {}
+[10.102983] (ros2_gopigo3_msg) JobEnded: {'identifier': 'ros2_gopigo3_msg', 'rc': 0}
+[10.109244] (ros2_libcamera_pub) JobStarted: {'identifier': 'ros2_libcamera_pub'}
+[10.153978] (-) TimerEvent: {}
+[10.255768] (-) TimerEvent: {}
+[10.356780] (-) TimerEvent: {}
+[10.457788] (-) TimerEvent: {}
+[10.474811] (HoROS8) StdoutLine: {'line': b'running develop\n'}
+[10.514799] (mpu9250driver) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX static library liblinux_i2c_communicator.a\x1b[0m\n'}
+[10.558253] (-) TimerEvent: {}
+[10.660380] (-) TimerEvent: {}
+[10.696213] (mpu9250driver) StdoutLine: {'line': b'[ 66%] Built target linux_i2c_communicator\n'}
+[10.761180] (-) TimerEvent: {}
+[10.814123] (mpu9250driver) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/mpu9250driver.dir/src/mpu9250driver.cpp.o\x1b[0m\n'}
+[10.861386] (-) TimerEvent: {}
+[10.878453] (explorer_wanderer) StdoutLine: {'line': b'running develop\n'}
+[10.961732] (-) TimerEvent: {}
+[11.062920] (-) TimerEvent: {}
+[11.163874] (-) TimerEvent: {}
+[11.264939] (-) TimerEvent: {}
+[11.365780] (-) TimerEvent: {}
+[11.466666] (-) TimerEvent: {}
+[11.567674] (-) TimerEvent: {}
+[11.668849] (-) TimerEvent: {}
+[11.769937] (-) TimerEvent: {}
+[11.774739] (HoROS8) StdoutLine: {'line': b'running egg_info\n'}
+[11.775613] (HoROS8) StdoutLine: {'line': b'writing HoROS8.egg-info/PKG-INFO\n'}
+[11.777369] (HoROS8) StdoutLine: {'line': b'writing dependency_links to HoROS8.egg-info/dependency_links.txt\n'}
+[11.778681] (HoROS8) StdoutLine: {'line': b'writing entry points to HoROS8.egg-info/entry_points.txt\n'}
+[11.779928] (HoROS8) StdoutLine: {'line': b'writing requirements to HoROS8.egg-info/requires.txt\n'}
+[11.781019] (HoROS8) StdoutLine: {'line': b'writing top-level names to HoROS8.egg-info/top_level.txt\n'}
+[11.791925] (HoROS8) StdoutLine: {'line': b"reading manifest file 'HoROS8.egg-info/SOURCES.txt'\n"}
+[11.796319] (HoROS8) StdoutLine: {'line': b"writing manifest file 'HoROS8.egg-info/SOURCES.txt'\n"}
+[11.807235] (HoROS8) StdoutLine: {'line': b'running build_ext\n'}
+[11.808461] (HoROS8) StdoutLine: {'line': b'Creating /home/ubuntu/HumbleDave/ros2ws/install/HoROS8/lib/python3.10/site-packages/HoROS8.egg-link (link to .)\n'}
+[11.812835] (HoROS8) StdoutLine: {'line': b'Installing wanderAround script to /home/ubuntu/HumbleDave/ros2ws/install/HoROS8/lib/HoROS8\n'}
+[11.814798] (HoROS8) StdoutLine: {'line': b'\n'}
+[11.815710] (HoROS8) StdoutLine: {'line': b'Installed /home/ubuntu/HumbleDave/ros2ws/build/HoROS8\n'}
+[11.816334] (HoROS8) StdoutLine: {'line': b'running install_data\n'}
+[11.870274] (-) TimerEvent: {}
+[11.971701] (-) TimerEvent: {}
+[12.066269] (explorer_wanderer) StdoutLine: {'line': b'running egg_info\n'}
+[12.067050] (explorer_wanderer) StdoutLine: {'line': b'writing explorer_wanderer.egg-info/PKG-INFO\n'}
+[12.068133] (explorer_wanderer) StdoutLine: {'line': b'writing dependency_links to explorer_wanderer.egg-info/dependency_links.txt\n'}
+[12.069234] (explorer_wanderer) StdoutLine: {'line': b'writing entry points to explorer_wanderer.egg-info/entry_points.txt\n'}
+[12.070179] (explorer_wanderer) StdoutLine: {'line': b'writing requirements to explorer_wanderer.egg-info/requires.txt\n'}
+[12.071164] (explorer_wanderer) StdoutLine: {'line': b'writing top-level names to explorer_wanderer.egg-info/top_level.txt\n'}
+[12.071711] (-) TimerEvent: {}
+[12.079430] (explorer_wanderer) StdoutLine: {'line': b"reading manifest file 'explorer_wanderer.egg-info/SOURCES.txt'\n"}
+[12.083114] (explorer_wanderer) StdoutLine: {'line': b"writing manifest file 'explorer_wanderer.egg-info/SOURCES.txt'\n"}
+[12.091784] (explorer_wanderer) StdoutLine: {'line': b'running build_ext\n'}
+[12.093362] (explorer_wanderer) StdoutLine: {'line': b'Creating /home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer-wanderer.egg-link (link to .)\n'}
+[12.097025] (explorer_wanderer) StdoutLine: {'line': b'Installing discoverer_server script to /home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/explorer_wanderer\n'}
+[12.097992] (explorer_wanderer) StdoutLine: {'line': b'Installing wanderer script to /home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/explorer_wanderer\n'}
+[12.098935] (explorer_wanderer) StdoutLine: {'line': b'Installing wanderer_server script to /home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/explorer_wanderer\n'}
+[12.100439] (explorer_wanderer) StdoutLine: {'line': b'\n'}
+[12.101214] (explorer_wanderer) StdoutLine: {'line': b'Installed /home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer\n'}
+[12.101922] (explorer_wanderer) StdoutLine: {'line': b'running install_data\n'}
+[12.171980] (-) TimerEvent: {}
+[12.274642] (-) TimerEvent: {}
+[12.390989] (-) TimerEvent: {}
+[12.491753] (-) TimerEvent: {}
+[12.592643] (-) TimerEvent: {}
+[12.693652] (-) TimerEvent: {}
+[12.796160] (-) TimerEvent: {}
+[12.897683] (-) TimerEvent: {}
+[12.999392] (-) TimerEvent: {}
+[13.100288] (-) TimerEvent: {}
+[13.202419] (-) TimerEvent: {}
+[13.303780] (-) TimerEvent: {}
+[13.350170] (HoROS8) CommandEnded: {'returncode': 0}
+[13.404010] (-) TimerEvent: {}
+[13.504930] (-) TimerEvent: {}
+[13.606290] (-) TimerEvent: {}
+[13.707874] (-) TimerEvent: {}
+[13.809651] (-) TimerEvent: {}
+[13.823688] (HoROS8) JobEnded: {'identifier': 'HoROS8', 'rc': 0}
+[13.828131] (explorer_wanderer) CommandEnded: {'returncode': 0}
+[13.910268] (-) TimerEvent: {}
+[14.012032] (-) TimerEvent: {}
+[14.114522] (-) TimerEvent: {}
+[14.217747] (-) TimerEvent: {}
+[14.302243] (explorer_wanderer) JobEnded: {'identifier': 'explorer_wanderer', 'rc': 0}
+[14.308233] (scan_client) JobStarted: {'identifier': 'scan_client'}
+[14.317975] (-) TimerEvent: {}
+[14.419161] (-) TimerEvent: {}
+[14.521755] (-) TimerEvent: {}
+[14.623304] (-) TimerEvent: {}
+[14.725528] (-) TimerEvent: {}
+[14.827518] (-) TimerEvent: {}
+[14.929286] (-) TimerEvent: {}
+[14.998224] (teleop_gopigo3_keyboard) JobStarted: {'identifier': 'teleop_gopigo3_keyboard'}
+[15.029561] (-) TimerEvent: {}
+[15.132425] (-) TimerEvent: {}
+[15.235953] (-) TimerEvent: {}
+[15.337978] (-) TimerEvent: {}
+[15.441978] (-) TimerEvent: {}
+[15.546561] (-) TimerEvent: {}
+[15.647791] (-) TimerEvent: {}
+[15.749263] (-) TimerEvent: {}
+[15.850402] (-) TimerEvent: {}
+[15.951340] (-) TimerEvent: {}
+[16.053463] (-) TimerEvent: {}
+[16.155653] (-) TimerEvent: {}
+[16.258403] (-) TimerEvent: {}
+[16.360360] (-) TimerEvent: {}
+[16.462607] (-) TimerEvent: {}
+[16.564561] (-) TimerEvent: {}
+[16.665509] (-) TimerEvent: {}
+[16.767544] (-) TimerEvent: {}
+[16.869610] (-) TimerEvent: {}
+[16.970556] (-) TimerEvent: {}
+[17.072663] (-) TimerEvent: {}
+[17.173629] (-) TimerEvent: {}
+[17.275778] (-) TimerEvent: {}
+[17.378559] (-) TimerEvent: {}
+[17.480914] (-) TimerEvent: {}
+[17.583974] (-) TimerEvent: {}
+[17.686929] (-) TimerEvent: {}
+[17.791312] (-) TimerEvent: {}
+[17.893714] (-) TimerEvent: {}
+[17.994600] (-) TimerEvent: {}
+[18.098992] (-) TimerEvent: {}
+[18.204140] (-) TimerEvent: {}
+[18.305049] (-) TimerEvent: {}
+[18.406013] (-) TimerEvent: {}
+[18.507503] (-) TimerEvent: {}
+[18.609004] (-) TimerEvent: {}
+[18.710555] (-) TimerEvent: {}
+[18.812964] (-) TimerEvent: {}
+[18.914412] (-) TimerEvent: {}
+[19.015842] (-) TimerEvent: {}
+[19.117312] (-) TimerEvent: {}
+[19.218769] (-) TimerEvent: {}
+[19.320165] (-) TimerEvent: {}
+[19.421628] (-) TimerEvent: {}
+[19.523227] (-) TimerEvent: {}
+[19.624661] (-) TimerEvent: {}
+[19.726234] (-) TimerEvent: {}
+[19.827624] (-) TimerEvent: {}
+[19.929311] (-) TimerEvent: {}
+[20.031676] (-) TimerEvent: {}
+[20.132865] (-) TimerEvent: {}
+[20.234302] (-) TimerEvent: {}
+[20.335840] (-) TimerEvent: {}
+[20.436994] (-) TimerEvent: {}
+[20.498544] (ros2_libcamera_pub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.0.0.129 58847 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/HumbleDave/ros2ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'ROS_LOG_DIR': '/home/ubuntu/HumbleDave/ros2ws/roslogs', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/home/ubuntu/HumbleDave/ros2ws', 'COLCON_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install:/home/ubuntu/ros2ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub', 'SSH_CONNECTION': '10.0.0.129 58847 10.0.0.34 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf'}, 'shell': False}
+[20.537262] (-) TimerEvent: {}
+[20.638373] (-) TimerEvent: {}
+[20.739437] (-) TimerEvent: {}
+[20.840389] (-) TimerEvent: {}
+[20.941332] (-) TimerEvent: {}
+[21.042457] (-) TimerEvent: {}
+[21.143383] (-) TimerEvent: {}
+[21.244332] (-) TimerEvent: {}
+[21.345544] (-) TimerEvent: {}
+[21.446669] (-) TimerEvent: {}
+[21.547592] (-) TimerEvent: {}
+[21.648441] (-) TimerEvent: {}
+[21.749377] (-) TimerEvent: {}
+[21.850234] (-) TimerEvent: {}
+[21.951340] (-) TimerEvent: {}
+[22.052320] (-) TimerEvent: {}
+[22.153333] (-) TimerEvent: {}
+[22.254280] (-) TimerEvent: {}
+[22.355270] (-) TimerEvent: {}
+[22.456363] (-) TimerEvent: {}
+[22.555322] (ros2_libcamera_pub) StdoutLine: {'line': b'running develop\n'}
+[22.556524] (-) TimerEvent: {}
+[22.658207] (-) TimerEvent: {}
+[22.760100] (-) TimerEvent: {}
+[22.861907] (-) TimerEvent: {}
+[22.963853] (-) TimerEvent: {}
+[23.065824] (-) TimerEvent: {}
+[23.168447] (-) TimerEvent: {}
+[23.271448] (-) TimerEvent: {}
+[23.292002] (teleop_gopigo3_keyboard) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.0.0.129 58847 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/HumbleDave/ros2ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'ROS_LOG_DIR': '/home/ubuntu/HumbleDave/ros2ws/roslogs', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/home/ubuntu/HumbleDave/ros2ws', 'COLCON_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install:/home/ubuntu/ros2ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard', 'SSH_CONNECTION': '10.0.0.129 58847 10.0.0.34 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf'}, 'shell': False}
+[23.371842] (-) TimerEvent: {}
+[23.473571] (-) TimerEvent: {}
+[23.565562] (scan_client) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/HumbleDave/ros2ws/build/scan_client/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/HumbleDave/ros2ws/build/scan_client', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.0.0.129 58847 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/HumbleDave/ros2ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'ROS_LOG_DIR': '/home/ubuntu/HumbleDave/ros2ws/roslogs', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/home/ubuntu/HumbleDave/ros2ws', 'COLCON_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install:/home/ubuntu/ros2ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/HumbleDave/ros2ws/build/scan_client', 'SSH_CONNECTION': '10.0.0.129 58847 10.0.0.34 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/HumbleDave/ros2ws/build/scan_client/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf'}, 'shell': False}
+[23.573784] (-) TimerEvent: {}
+[23.674891] (-) TimerEvent: {}
+[23.776451] (-) TimerEvent: {}
+[23.877369] (-) TimerEvent: {}
+[23.978377] (-) TimerEvent: {}
+[24.079405] (-) TimerEvent: {}
+[24.180355] (-) TimerEvent: {}
+[24.231674] (ros2_libcamera_pub) StdoutLine: {'line': b'running egg_info\n'}
+[24.232749] (ros2_libcamera_pub) StdoutLine: {'line': b'writing ros2_libcamera_pub.egg-info/PKG-INFO\n'}
+[24.234443] (ros2_libcamera_pub) StdoutLine: {'line': b'writing dependency_links to ros2_libcamera_pub.egg-info/dependency_links.txt\n'}
+[24.235928] (ros2_libcamera_pub) StdoutLine: {'line': b'writing entry points to ros2_libcamera_pub.egg-info/entry_points.txt\n'}
+[24.237493] (ros2_libcamera_pub) StdoutLine: {'line': b'writing requirements to ros2_libcamera_pub.egg-info/requires.txt\n'}
+[24.241280] (ros2_libcamera_pub) StdoutLine: {'line': b'writing top-level names to ros2_libcamera_pub.egg-info/top_level.txt\n'}
+[24.250534] (ros2_libcamera_pub) StdoutLine: {'line': b"reading manifest file 'ros2_libcamera_pub.egg-info/SOURCES.txt'\n"}
+[24.254949] (ros2_libcamera_pub) StdoutLine: {'line': b"writing manifest file 'ros2_libcamera_pub.egg-info/SOURCES.txt'\n"}
+[24.265254] (ros2_libcamera_pub) StdoutLine: {'line': b'running build_ext\n'}
+[24.266501] (ros2_libcamera_pub) StdoutLine: {'line': b'Creating /home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages/ros2-libcamera-pub.egg-link (link to .)\n'}
+[24.271019] (ros2_libcamera_pub) StdoutLine: {'line': b'Installing libcamera_jpg_pub script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/ros2_libcamera_pub\n'}
+[24.272883] (ros2_libcamera_pub) StdoutLine: {'line': b'\n'}
+[24.273757] (ros2_libcamera_pub) StdoutLine: {'line': b'Installed /home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub\n'}
+[24.274749] (ros2_libcamera_pub) StdoutLine: {'line': b'running install_data\n'}
+[24.280684] (-) TimerEvent: {}
+[24.384022] (-) TimerEvent: {}
+[24.487467] (-) TimerEvent: {}
+[24.496630] (ros2_libcamera_pub) CommandEnded: {'returncode': 0}
+[24.587827] (-) TimerEvent: {}
+[24.689764] (-) TimerEvent: {}
+[24.791540] (-) TimerEvent: {}
+[24.893227] (-) TimerEvent: {}
+[24.995453] (-) TimerEvent: {}
+[25.097629] (-) TimerEvent: {}
+[25.101755] (ros2_libcamera_pub) JobEnded: {'identifier': 'ros2_libcamera_pub', 'rc': 0}
+[25.105414] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[25.198175] (-) TimerEvent: {}
+[25.299306] (-) TimerEvent: {}
+[25.400618] (-) TimerEvent: {}
+[25.458428] (teleop_gopigo3_keyboard) StdoutLine: {'line': b'running develop\n'}
+[25.500936] (-) TimerEvent: {}
+[25.602976] (-) TimerEvent: {}
+[25.647212] (scan_client) StdoutLine: {'line': b'running develop\n'}
+[25.703187] (-) TimerEvent: {}
+[25.804075] (-) TimerEvent: {}
+[25.895143] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[25.899172] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[25.900822] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/HumbleDave/ros2ws/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/HumbleDave/ros2ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.0.0.129 58847 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/HumbleDave/ros2ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/ubuntu/HumbleDave/ros2ws/roslogs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/ubuntu/HumbleDave/ros2ws'), ('COLCON_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install:/home/ubuntu/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/HumbleDave/ros2ws/build/ydlidar_ros2_driver'), ('SSH_CONNECTION', '10.0.0.129 58847 10.0.0.34 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble')]), 'shell': False}
+[25.910695] (-) TimerEvent: {}
+[26.011674] (-) TimerEvent: {}
+[26.113187] (-) TimerEvent: {}
+[26.202924] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node\x1b[0m\n'}
+[26.213419] (-) TimerEvent: {}
+[26.244753] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_client\x1b[0m\n'}
+[26.313642] (-) TimerEvent: {}
+[26.415154] (-) TimerEvent: {}
+[26.416954] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] Built target ydlidar_ros2_driver_node\n'}
+[26.442069] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_client\n'}
+[26.495714] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[26.515383] (-) TimerEvent: {}
+[26.617464] (-) TimerEvent: {}
+[26.700416] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[26.700706] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/HumbleDave/ros2ws/build/ydlidar_ros2_driver'], 'cwd': '/home/ubuntu/HumbleDave/ros2ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.0.0.129 58847 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/HumbleDave/ros2ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/ubuntu/HumbleDave/ros2ws/roslogs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/ubuntu/HumbleDave/ros2ws'), ('COLCON_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install:/home/ubuntu/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/HumbleDave/ros2ws/build/ydlidar_ros2_driver'), ('SSH_CONNECTION', '10.0.0.129 58847 10.0.0.34 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble')]), 'shell': False}
+[26.717676] (-) TimerEvent: {}
+[26.747131] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.750679] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[26.758059] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[26.761323] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[26.766764] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[26.770025] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[26.773264] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py.bak\n'}
+[26.776573] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py.lghrainbow\n'}
+[26.779814] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py.mine\n'}
+[26.782984] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[26.786290] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py.bak\n'}
+[26.791130] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[26.794466] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml.lghrainbow\n'}
+[26.797681] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml.mine\n'}
+[26.800898] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml.mystery\n'}
+[26.804058] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml.v4\n'}
+[26.808411] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[26.812871] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[26.815890] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[26.817894] (-) TimerEvent: {}
+[26.823919] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[26.827468] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[26.830254] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[26.833834] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[26.836474] (teleop_gopigo3_keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[26.837502] (teleop_gopigo3_keyboard) StdoutLine: {'line': b'writing teleop_gopigo3_keyboard.egg-info/PKG-INFO\n'}
+[26.838847] (teleop_gopigo3_keyboard) StdoutLine: {'line': b'writing dependency_links to teleop_gopigo3_keyboard.egg-info/dependency_links.txt\n'}
+[26.840155] (teleop_gopigo3_keyboard) StdoutLine: {'line': b'writing entry points to teleop_gopigo3_keyboard.egg-info/entry_points.txt\n'}
+[26.841317] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[26.842379] (teleop_gopigo3_keyboard) StdoutLine: {'line': b'writing requirements to teleop_gopigo3_keyboard.egg-info/requires.txt\n'}
+[26.843741] (teleop_gopigo3_keyboard) StdoutLine: {'line': b'writing top-level names to teleop_gopigo3_keyboard.egg-info/top_level.txt\n'}
+[26.845706] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[26.847933] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[26.850027] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[26.851380] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[26.853122] (teleop_gopigo3_keyboard) StdoutLine: {'line': b"reading manifest file 'teleop_gopigo3_keyboard.egg-info/SOURCES.txt'\n"}
+[26.854059] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[26.861254] (teleop_gopigo3_keyboard) StdoutLine: {'line': b"writing manifest file 'teleop_gopigo3_keyboard.egg-info/SOURCES.txt'\n"}
+[26.875144] (teleop_gopigo3_keyboard) StdoutLine: {'line': b'running build_ext\n'}
+[26.878114] (teleop_gopigo3_keyboard) StdoutLine: {'line': b'Creating /home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages/teleop-gopigo3-keyboard.egg-link (link to .)\n'}
+[26.886981] (teleop_gopigo3_keyboard) StdoutLine: {'line': b'Installing teleop_gopigo3_keyboard script to /home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/teleop_gopigo3_keyboard\n'}
+[26.891105] (teleop_gopigo3_keyboard) StdoutLine: {'line': b'\n'}
+[26.892566] (teleop_gopigo3_keyboard) StdoutLine: {'line': b'Installed /home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard\n'}
+[26.895015] (teleop_gopigo3_keyboard) StdoutLine: {'line': b'running install_data\n'}
+[26.897379] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[26.903777] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[26.906135] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[26.909784] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[26.918237] (-) TimerEvent: {}
+[26.931686] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[27.019140] (-) TimerEvent: {}
+[27.123723] (-) TimerEvent: {}
+[27.167353] (scan_client) StdoutLine: {'line': b'running egg_info\n'}
+[27.168567] (scan_client) StdoutLine: {'line': b'writing scan_client.egg-info/PKG-INFO\n'}
+[27.169473] (scan_client) StdoutLine: {'line': b'writing dependency_links to scan_client.egg-info/dependency_links.txt\n'}
+[27.171765] (scan_client) StdoutLine: {'line': b'writing entry points to scan_client.egg-info/entry_points.txt\n'}
+[27.173692] (scan_client) StdoutLine: {'line': b'writing requirements to scan_client.egg-info/requires.txt\n'}
+[27.174818] (scan_client) StdoutLine: {'line': b'writing top-level names to scan_client.egg-info/top_level.txt\n'}
+[27.182099] (scan_client) StdoutLine: {'line': b"reading manifest file 'scan_client.egg-info/SOURCES.txt'\n"}
+[27.185230] (scan_client) StdoutLine: {'line': b"writing manifest file 'scan_client.egg-info/SOURCES.txt'\n"}
+[27.195761] (scan_client) StdoutLine: {'line': b'running build_ext\n'}
+[27.197712] (scan_client) StdoutLine: {'line': b'Creating /home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages/scan-client.egg-link (link to .)\n'}
+[27.206644] (scan_client) StdoutLine: {'line': b'Installing scan_client script to /home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/scan_client\n'}
+[27.209720] (scan_client) StdoutLine: {'line': b'\n'}
+[27.212231] (scan_client) StdoutLine: {'line': b'Installed /home/ubuntu/HumbleDave/ros2ws/build/scan_client\n'}
+[27.214892] (scan_client) StdoutLine: {'line': b'running install_data\n'}
+[27.224124] (-) TimerEvent: {}
+[27.326996] (-) TimerEvent: {}
+[27.432179] (-) TimerEvent: {}
+[27.534323] (-) TimerEvent: {}
+[27.580302] (teleop_gopigo3_keyboard) CommandEnded: {'returncode': 0}
+[27.634880] (-) TimerEvent: {}
+[27.740628] (-) TimerEvent: {}
+[27.843199] (-) TimerEvent: {}
+[27.944933] (-) TimerEvent: {}
+[28.046707] (-) TimerEvent: {}
+[28.073778] (teleop_gopigo3_keyboard) JobEnded: {'identifier': 'teleop_gopigo3_keyboard', 'rc': 0}
+[28.077066] (scan_client) CommandEnded: {'returncode': 0}
+[28.146826] (-) TimerEvent: {}
+[28.248644] (-) TimerEvent: {}
+[28.351665] (-) TimerEvent: {}
+[28.452649] (-) TimerEvent: {}
+[28.539396] (scan_client) JobEnded: {'identifier': 'scan_client', 'rc': 0}
+[28.544043] (ros2_gopigo3_node) JobStarted: {'identifier': 'ros2_gopigo3_node'}
+[28.552865] (-) TimerEvent: {}
+[28.653960] (-) TimerEvent: {}
+[28.754881] (-) TimerEvent: {}
+[28.856620] (-) TimerEvent: {}
+[28.957565] (-) TimerEvent: {}
+[29.058464] (-) TimerEvent: {}
+[29.159605] (-) TimerEvent: {}
+[29.261375] (-) TimerEvent: {}
+[29.363578] (-) TimerEvent: {}
+[29.465516] (-) TimerEvent: {}
+[29.567012] (-) TimerEvent: {}
+[29.653712] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[29.667252] (-) TimerEvent: {}
+[29.768517] (-) TimerEvent: {}
+[29.870124] (-) TimerEvent: {}
+[29.971209] (-) TimerEvent: {}
+[30.072438] (-) TimerEvent: {}
+[30.173632] (-) TimerEvent: {}
+[30.274895] (-) TimerEvent: {}
+[30.376035] (-) TimerEvent: {}
+[30.477319] (-) TimerEvent: {}
+[30.578488] (-) TimerEvent: {}
+[30.679921] (-) TimerEvent: {}
+[30.780737] (-) TimerEvent: {}
+[30.881485] (-) TimerEvent: {}
+[30.982283] (-) TimerEvent: {}
+[31.083120] (-) TimerEvent: {}
+[31.183895] (-) TimerEvent: {}
+[31.284836] (-) TimerEvent: {}
+[31.387453] (-) TimerEvent: {}
+[31.489135] (-) TimerEvent: {}
+[31.590560] (-) TimerEvent: {}
+[31.691987] (-) TimerEvent: {}
+[31.796349] (-) TimerEvent: {}
+[31.899727] (-) TimerEvent: {}
+[32.000622] (-) TimerEvent: {}
+[32.101431] (-) TimerEvent: {}
+[32.203012] (-) TimerEvent: {}
+[32.305784] (-) TimerEvent: {}
+[32.406762] (-) TimerEvent: {}
+[32.507908] (-) TimerEvent: {}
+[32.609064] (-) TimerEvent: {}
+[32.710229] (-) TimerEvent: {}
+[32.811357] (-) TimerEvent: {}
+[32.912563] (-) TimerEvent: {}
+[33.013728] (-) TimerEvent: {}
+[33.114862] (-) TimerEvent: {}
+[33.216062] (-) TimerEvent: {}
+[33.317327] (-) TimerEvent: {}
+[33.418478] (-) TimerEvent: {}
+[33.519611] (-) TimerEvent: {}
+[33.620855] (-) TimerEvent: {}
+[33.721645] (-) TimerEvent: {}
+[33.822384] (-) TimerEvent: {}
+[33.923158] (-) TimerEvent: {}
+[34.024129] (-) TimerEvent: {}
+[34.125516] (-) TimerEvent: {}
+[34.156416] (ros2_gopigo3_node) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.0.0.129 58847 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/HumbleDave/ros2ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'ROS_LOG_DIR': '/home/ubuntu/HumbleDave/ros2ws/roslogs', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/home/ubuntu/HumbleDave/ros2ws', 'COLCON_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install:/home/ubuntu/ros2ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node', 'SSH_CONNECTION': '10.0.0.129 58847 10.0.0.34 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf'}, 'shell': False}
+[34.225673] (-) TimerEvent: {}
+[34.326516] (-) TimerEvent: {}
+[34.427360] (-) TimerEvent: {}
+[34.528332] (-) TimerEvent: {}
+[34.629274] (-) TimerEvent: {}
+[34.730118] (-) TimerEvent: {}
+[34.830851] (-) TimerEvent: {}
+[34.931613] (-) TimerEvent: {}
+[35.032419] (-) TimerEvent: {}
+[35.133214] (-) TimerEvent: {}
+[35.233951] (-) TimerEvent: {}
+[35.334632] (-) TimerEvent: {}
+[35.435438] (-) TimerEvent: {}
+[35.536220] (-) TimerEvent: {}
+[35.637365] (-) TimerEvent: {}
+[35.720085] (ros2_gopigo3_node) StdoutLine: {'line': b'running develop\n'}
+[35.737546] (-) TimerEvent: {}
+[35.838331] (-) TimerEvent: {}
+[35.939099] (-) TimerEvent: {}
+[36.040211] (-) TimerEvent: {}
+[36.142169] (-) TimerEvent: {}
+[36.243075] (-) TimerEvent: {}
+[36.300721] (mpu9250driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mpu9250driver\x1b[0m\n'}
+[36.343254] (-) TimerEvent: {}
+[36.444105] (-) TimerEvent: {}
+[36.545627] (-) TimerEvent: {}
+[36.647029] (-) TimerEvent: {}
+[36.747920] (-) TimerEvent: {}
+[36.848858] (-) TimerEvent: {}
+[36.909476] (ros2_gopigo3_node) StdoutLine: {'line': b'running egg_info\n'}
+[36.910435] (ros2_gopigo3_node) StdoutLine: {'line': b'writing ros2_gopigo3_node.egg-info/PKG-INFO\n'}
+[36.911968] (ros2_gopigo3_node) StdoutLine: {'line': b'writing dependency_links to ros2_gopigo3_node.egg-info/dependency_links.txt\n'}
+[36.913461] (ros2_gopigo3_node) StdoutLine: {'line': b'writing entry points to ros2_gopigo3_node.egg-info/entry_points.txt\n'}
+[36.914645] (ros2_gopigo3_node) StdoutLine: {'line': b'writing requirements to ros2_gopigo3_node.egg-info/requires.txt\n'}
+[36.915675] (ros2_gopigo3_node) StdoutLine: {'line': b'writing top-level names to ros2_gopigo3_node.egg-info/top_level.txt\n'}
+[36.927007] (ros2_gopigo3_node) StdoutLine: {'line': b"reading manifest file 'ros2_gopigo3_node.egg-info/SOURCES.txt'\n"}
+[36.933265] (ros2_gopigo3_node) StdoutLine: {'line': b"writing manifest file 'ros2_gopigo3_node.egg-info/SOURCES.txt'\n"}
+[36.943087] (ros2_gopigo3_node) StdoutLine: {'line': b'running build_ext\n'}
+[36.944231] (ros2_gopigo3_node) StdoutLine: {'line': b'Creating /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages/ros2-gopigo3-node.egg-link (link to .)\n'}
+[36.949000] (ros2_gopigo3_node) StdoutLine: {'line': b'Installing distance_sensor script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node\n'}
+[36.949638] (-) TimerEvent: {}
+[36.950533] (ros2_gopigo3_node) StdoutLine: {'line': b'Installing distance_sensor_subscriber script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node\n'}
+[36.951446] (ros2_gopigo3_node) StdoutLine: {'line': b'Installing gopigo3_node script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node\n'}
+[36.952584] (ros2_gopigo3_node) StdoutLine: {'line': b'Installing imu_sensor script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node\n'}
+[36.953557] (ros2_gopigo3_node) StdoutLine: {'line': b'Installing odometer script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node\n'}
+[36.954570] (ros2_gopigo3_node) StdoutLine: {'line': b'Installing ultrasonic_ranger script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node\n'}
+[36.956720] (ros2_gopigo3_node) StdoutLine: {'line': b'\n'}
+[36.957863] (ros2_gopigo3_node) StdoutLine: {'line': b'Installed /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node\n'}
+[36.958424] (ros2_gopigo3_node) StdoutLine: {'line': b'running install_data\n'}
+[37.050037] (-) TimerEvent: {}
+[37.141244] (ros2_gopigo3_node) CommandEnded: {'returncode': 0}
+[37.150494] (-) TimerEvent: {}
+[37.251767] (-) TimerEvent: {}
+[37.353902] (-) TimerEvent: {}
+[37.455112] (-) TimerEvent: {}
+[37.457855] (mpu9250driver) StdoutLine: {'line': b'[100%] Built target mpu9250driver\n'}
+[37.555426] (-) TimerEvent: {}
+[37.578810] (ros2_gopigo3_node) JobEnded: {'identifier': 'ros2_gopigo3_node', 'rc': 0}
+[37.583004] (mpu9250driver) CommandEnded: {'returncode': 0}
+[37.655595] (-) TimerEvent: {}
+[37.744439] (mpu9250driver) JobProgress: {'identifier': 'mpu9250driver', 'progress': 'install'}
+[37.748454] (mpu9250driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/HumbleDave/ros2ws/build/mpu9250driver'], 'cwd': '/home/ubuntu/HumbleDave/ros2ws/build/mpu9250driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.0.0.129 58847 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/HumbleDave/ros2ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/home/ubuntu/HumbleDave/ros2ws/roslogs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/ubuntu/HumbleDave/ros2ws'), ('COLCON_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install:/home/ubuntu/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/HumbleDave/ros2ws/build/mpu9250driver'), ('SSH_CONNECTION', '10.0.0.129 58847 10.0.0.34 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/home/ubuntu/HumbleDave/ros2ws/build/explorer_wanderer:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:/home/ubuntu/ros2ws/build/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/HumbleDave/ros2ws/install/explorer_wanderer:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg:/opt/ros/humble')]), 'shell': False}
+[37.755611] (-) TimerEvent: {}
+[37.782281] (mpu9250driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.783872] (mpu9250driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[37.785817] (mpu9250driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver/lib/mpu9250driver/mpu9250driver\n'}
+[37.819746] (mpu9250driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver/share/mpu9250driver//launch/mpu9250driver_launch.py\n'}
+[37.854589] (mpu9250driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver/share/mpu9250driver//params/mpu9250.yaml\n'}
+[37.855734] (-) TimerEvent: {}
+[37.889576] (mpu9250driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver/share/ament_index/resource_index/package_run_dependencies/mpu9250driver\n'}
+[37.923578] (mpu9250driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver/share/ament_index/resource_index/parent_prefix_path/mpu9250driver\n'}
+[37.956012] (-) TimerEvent: {}
+[37.958352] (mpu9250driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver/share/mpu9250driver/environment/ament_prefix_path.sh\n'}
+[37.994151] (mpu9250driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver/share/mpu9250driver/environment/ament_prefix_path.dsv\n'}
+[38.027634] (mpu9250driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver/share/mpu9250driver/environment/path.sh\n'}
+[38.056186] (-) TimerEvent: {}
+[38.060198] (mpu9250driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver/share/mpu9250driver/environment/path.dsv\n'}
+[38.094975] (mpu9250driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver/share/mpu9250driver/local_setup.bash\n'}
+[38.128225] (mpu9250driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver/share/mpu9250driver/local_setup.sh\n'}
+[38.156404] (-) TimerEvent: {}
+[38.161636] (mpu9250driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver/share/mpu9250driver/local_setup.zsh\n'}
+[38.194990] (mpu9250driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver/share/mpu9250driver/local_setup.dsv\n'}
+[38.228501] (mpu9250driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver/share/mpu9250driver/package.dsv\n'}
+[38.256583] (-) TimerEvent: {}
+[38.264381] (mpu9250driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver/share/ament_index/resource_index/packages/mpu9250driver\n'}
+[38.298663] (mpu9250driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver/share/mpu9250driver/cmake/mpu9250driverConfig.cmake\n'}
+[38.332667] (mpu9250driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver/share/mpu9250driver/cmake/mpu9250driverConfig-version.cmake\n'}
+[38.356763] (-) TimerEvent: {}
+[38.367399] (mpu9250driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver/share/mpu9250driver/package.xml\n'}
+[38.407342] (mpu9250driver) CommandEnded: {'returncode': 0}
+[38.456906] (-) TimerEvent: {}
+[38.558240] (-) TimerEvent: {}
+[38.659938] (-) TimerEvent: {}
+[38.760752] (-) TimerEvent: {}
+[38.861475] (-) TimerEvent: {}
+[38.962685] (-) TimerEvent: {}
+[39.064203] (-) TimerEvent: {}
+[39.100038] (mpu9250driver) JobEnded: {'identifier': 'mpu9250driver', 'rc': 0}
+[39.103121] (-) EventReactorShutdown: {}

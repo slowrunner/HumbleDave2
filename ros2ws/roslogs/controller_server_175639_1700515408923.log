@@ -1,0 +1,717 @@
+[INFO] [1700515410.213621597] [controller_server]: 
+	controller_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1700515410.444013691] [controller_server]: Creating controller server
+[INFO] [1700515412.146400604] [local_costmap.local_costmap]: 
+	local_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1700515412.164783910] [local_costmap.local_costmap]: Creating Costmap
+[INFO] [1700515413.343505715] [controller_server]: Configuring controller interface
+[INFO] [1700515413.347224672] [controller_server]: getting goal checker plugins..
+[INFO] [1700515413.347954442] [controller_server]: Controller frequency set to 10.0000Hz
+[INFO] [1700515413.348206198] [local_costmap.local_costmap]: Configuring
+[INFO] [1700515413.555883406] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[INFO] [1700515413.607688547] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[INFO] [1700515413.679330681] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[INFO] [1700515413.679481050] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[INFO] [1700515413.693841754] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1700515413.786946399] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[INFO] [1700515413.794407665] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[INFO] [1700515413.799924860] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[INFO] [1700515413.815642789] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[INFO] [1700515413.835965998] [controller_server]: Setting transform_tolerance to 0.200000
+[INFO] [1700515413.994424869] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[INFO] [1700515414.003276137] [controller_server]: Critic plugin initialized
+[INFO] [1700515414.005170541] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[INFO] [1700515414.016463169] [controller_server]: Critic plugin initialized
+[INFO] [1700515414.019714817] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[INFO] [1700515414.028531992] [controller_server]: Critic plugin initialized
+[INFO] [1700515414.030866910] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[INFO] [1700515414.038184621] [controller_server]: Critic plugin initialized
+[INFO] [1700515414.041672970] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[INFO] [1700515414.051832519] [controller_server]: Critic plugin initialized
+[INFO] [1700515414.057818191] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[INFO] [1700515414.062123993] [controller_server]: Critic plugin initialized
+[INFO] [1700515414.064589612] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[INFO] [1700515414.069322076] [controller_server]: Critic plugin initialized
+[INFO] [1700515414.070094715] [controller_server]: Controller Server has FollowPath  controllers available.
+[INFO] [1700515416.056065494] [controller_server]: Activating
+[INFO] [1700515416.056208807] [local_costmap.local_costmap]: Activating
+[INFO] [1700515416.056263955] [local_costmap.local_costmap]: Checking transform
+[INFO] [1700515416.056625006] [local_costmap.local_costmap]: start
+[INFO] [1700515416.263743035] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[INFO] [1700515436.735185886] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[INFO] [1700515437.662300987] [controller_server]: Received a goal, begin computing control effort.
+[WARN] [1700515437.662550873] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[INFO] [1700515438.763375723] [controller_server]: Passing new path to controller.
+[INFO] [1700515439.763370481] [controller_server]: Passing new path to controller.
+[INFO] [1700515440.763386071] [controller_server]: Passing new path to controller.
+[INFO] [1700515441.863363782] [controller_server]: Passing new path to controller.
+[INFO] [1700515442.863372409] [controller_server]: Passing new path to controller.
+[INFO] [1700515443.863372925] [controller_server]: Passing new path to controller.
+[INFO] [1700515444.963369672] [controller_server]: Passing new path to controller.
+[INFO] [1700515445.963377040] [controller_server]: Passing new path to controller.
+[INFO] [1700515446.963380777] [controller_server]: Passing new path to controller.
+[INFO] [1700515448.063371931] [controller_server]: Passing new path to controller.
+[INFO] [1700515448.587283236] [controller_server]: Reached the goal!
+[INFO] [1700515449.624498857] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515449.659377657] [controller_server]: Reached the goal!
+[INFO] [1700515450.648124247] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515450.667970906] [controller_server]: Reached the goal!
+[INFO] [1700515451.643001098] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515451.667862644] [controller_server]: Reached the goal!
+[INFO] [1700515452.624922711] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515452.645278142] [controller_server]: Reached the goal!
+[INFO] [1700515453.627141237] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515453.649764271] [controller_server]: Reached the goal!
+[INFO] [1700515454.639273259] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515454.664899610] [controller_server]: Reached the goal!
+[INFO] [1700515455.652801505] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515455.673640449] [controller_server]: Reached the goal!
+[INFO] [1700515456.654432074] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515456.673848182] [controller_server]: Reached the goal!
+[INFO] [1700515457.631401595] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515457.668035541] [controller_server]: Reached the goal!
+[INFO] [1700515458.649934357] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515458.669052709] [controller_server]: Reached the goal!
+[INFO] [1700515459.642324440] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515459.665903037] [controller_server]: Reached the goal!
+[INFO] [1700515460.634720948] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515460.654309388] [controller_server]: Reached the goal!
+[INFO] [1700515461.632950611] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515461.660852788] [controller_server]: Reached the goal!
+[INFO] [1700515462.648358872] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515462.671557362] [controller_server]: Reached the goal!
+[INFO] [1700515463.649670462] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515463.670487239] [controller_server]: Reached the goal!
+[INFO] [1700515464.642626926] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515464.662595380] [controller_server]: Reached the goal!
+[INFO] [1700515465.642664753] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515465.663371883] [controller_server]: Reached the goal!
+[INFO] [1700515466.632093498] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515466.655100213] [controller_server]: Reached the goal!
+[INFO] [1700515467.648301285] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515467.674984476] [controller_server]: Reached the goal!
+[INFO] [1700515468.638675557] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515468.663870228] [controller_server]: Reached the goal!
+[INFO] [1700515469.642652041] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515469.668050802] [controller_server]: Reached the goal!
+[INFO] [1700515470.649464621] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515470.669665813] [controller_server]: Reached the goal!
+[INFO] [1700515471.644515820] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515471.665752481] [controller_server]: Reached the goal!
+[INFO] [1700515472.645045473] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515472.664751022] [controller_server]: Reached the goal!
+[INFO] [1700515473.650641363] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515473.669953751] [controller_server]: Reached the goal!
+[INFO] [1700515474.652042173] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515474.673102669] [controller_server]: Reached the goal!
+[INFO] [1700515475.646554858] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515475.665093365] [controller_server]: Reached the goal!
+[INFO] [1700515476.630213447] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515476.652433874] [controller_server]: Reached the goal!
+[INFO] [1700515477.643008864] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515477.670842653] [controller_server]: Reached the goal!
+[INFO] [1700515478.636613967] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515478.658739618] [controller_server]: Reached the goal!
+[INFO] [1700515479.650488390] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515479.667971447] [controller_server]: Reached the goal!
+[INFO] [1700515480.650859247] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515480.672124668] [controller_server]: Reached the goal!
+[INFO] [1700515481.632199936] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515481.656423174] [controller_server]: Reached the goal!
+[INFO] [1700515482.631645378] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515482.666921988] [controller_server]: Reached the goal!
+[INFO] [1700515483.633696512] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515483.660945789] [controller_server]: Reached the goal!
+[INFO] [1700515484.639816487] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515484.661199498] [controller_server]: Reached the goal!
+[INFO] [1700515485.633513791] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515485.654138460] [controller_server]: Reached the goal!
+[INFO] [1700515486.644596801] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515486.668510061] [controller_server]: Reached the goal!
+[INFO] [1700515487.642894644] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515487.672673744] [controller_server]: Reached the goal!
+[INFO] [1700515488.643224149] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515488.666000867] [controller_server]: Reached the goal!
+[INFO] [1700515489.632174100] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515489.653845386] [controller_server]: Reached the goal!
+[INFO] [1700515490.639558782] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515490.667833788] [controller_server]: Reached the goal!
+[INFO] [1700515491.646846206] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515491.667191562] [controller_server]: Reached the goal!
+[INFO] [1700515492.649393258] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515492.668634202] [controller_server]: Reached the goal!
+[INFO] [1700515493.644516341] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515493.669701660] [controller_server]: Reached the goal!
+[INFO] [1700515494.645265136] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515494.666204171] [controller_server]: Reached the goal!
+[INFO] [1700515495.642094939] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515495.666913448] [controller_server]: Reached the goal!
+[INFO] [1700515496.646530802] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515496.669826366] [controller_server]: Reached the goal!
+[INFO] [1700515497.631716814] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515497.656017477] [controller_server]: Reached the goal!
+[INFO] [1700515498.646994052] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515498.667336001] [controller_server]: Reached the goal!
+[INFO] [1700515582.934992421] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515584.035532749] [controller_server]: Passing new path to controller.
+[INFO] [1700515585.035576446] [controller_server]: Passing new path to controller.
+[INFO] [1700515586.135519781] [controller_server]: Passing new path to controller.
+[INFO] [1700515586.547115248] [controller_server]: Reached the goal!
+[INFO] [1700515658.065911297] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[INFO] [1700515658.890877388] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515659.992169345] [controller_server]: Passing new path to controller.
+[INFO] [1700515660.992169756] [controller_server]: Passing new path to controller.
+[INFO] [1700515662.092289467] [controller_server]: Passing new path to controller.
+[INFO] [1700515663.092162713] [controller_server]: Passing new path to controller.
+[INFO] [1700515664.092183271] [controller_server]: Passing new path to controller.
+[INFO] [1700515665.192217742] [controller_server]: Passing new path to controller.
+[INFO] [1700515666.192165468] [controller_server]: Passing new path to controller.
+[INFO] [1700515667.192164045] [controller_server]: Passing new path to controller.
+[INFO] [1700515668.292174090] [controller_server]: Passing new path to controller.
+[INFO] [1700515668.941039872] [controller_server]: Reached the goal!
+[INFO] [1700515669.882897716] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515669.903679975] [controller_server]: Reached the goal!
+[INFO] [1700515670.888063455] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515670.906059228] [controller_server]: Reached the goal!
+[INFO] [1700515671.890409671] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515671.917367024] [controller_server]: Reached the goal!
+[INFO] [1700515672.885102605] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515672.909737374] [controller_server]: Reached the goal!
+[INFO] [1700515673.885336456] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515673.903760538] [controller_server]: Reached the goal!
+[INFO] [1700515674.880911120] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515674.899207759] [controller_server]: Reached the goal!
+[INFO] [1700515675.883887772] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515675.907511961] [controller_server]: Reached the goal!
+[INFO] [1700515676.886759259] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515676.904667644] [controller_server]: Reached the goal!
+[INFO] [1700515677.886812427] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515677.908933503] [controller_server]: Reached the goal!
+[INFO] [1700515678.887936397] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515678.916961282] [controller_server]: Reached the goal!
+[INFO] [1700515679.888713352] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515679.909104893] [controller_server]: Reached the goal!
+[INFO] [1700515680.884706529] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515680.904721575] [controller_server]: Reached the goal!
+[INFO] [1700515681.883246843] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515681.904168526] [controller_server]: Reached the goal!
+[INFO] [1700515682.884973158] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515682.905674658] [controller_server]: Reached the goal!
+[INFO] [1700515683.873267054] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515683.897451051] [controller_server]: Reached the goal!
+[INFO] [1700515684.886542956] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515684.908333462] [controller_server]: Reached the goal!
+[INFO] [1700515685.886712454] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515685.905565291] [controller_server]: Reached the goal!
+[INFO] [1700515686.883753582] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515686.909566801] [controller_server]: Reached the goal!
+[INFO] [1700515687.864666267] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515687.889791308] [controller_server]: Reached the goal!
+[INFO] [1700515688.883969154] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515688.904228141] [controller_server]: Reached the goal!
+[INFO] [1700515689.881359499] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515689.925792761] [controller_server]: Reached the goal!
+[INFO] [1700515690.862957509] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515690.883709472] [controller_server]: Reached the goal!
+[INFO] [1700515691.875852508] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515691.902089184] [controller_server]: Reached the goal!
+[INFO] [1700515692.862579828] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515692.879429818] [controller_server]: Reached the goal!
+[INFO] [1700515693.876211429] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515693.914432059] [controller_server]: Reached the goal!
+[INFO] [1700515694.882928221] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515694.905212703] [controller_server]: Reached the goal!
+[INFO] [1700515695.875162440] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515695.902981950] [controller_server]: Reached the goal!
+[INFO] [1700515696.862975025] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515696.880589562] [controller_server]: Reached the goal!
+[INFO] [1700515697.873465921] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515697.902686971] [controller_server]: Reached the goal!
+[INFO] [1700515698.884872436] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515698.912501782] [controller_server]: Reached the goal!
+[INFO] [1700515699.873568456] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515699.899592653] [controller_server]: Reached the goal!
+[INFO] [1700515700.875074270] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515700.900973747] [controller_server]: Reached the goal!
+[INFO] [1700515701.872763629] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515701.901070115] [controller_server]: Reached the goal!
+[INFO] [1700515702.882270203] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515702.902916315] [controller_server]: Reached the goal!
+[INFO] [1700515703.879610955] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515703.917729067] [controller_server]: Reached the goal!
+[INFO] [1700515704.876215900] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515704.900840392] [controller_server]: Reached the goal!
+[INFO] [1700515705.880489164] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515705.903597303] [controller_server]: Reached the goal!
+[INFO] [1700515706.876176138] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515706.902941327] [controller_server]: Reached the goal!
+[INFO] [1700515707.863715781] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515707.883531755] [controller_server]: Reached the goal!
+[INFO] [1700515708.884232245] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515708.904710803] [controller_server]: Reached the goal!
+[INFO] [1700515709.871888423] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515709.896250325] [controller_server]: Reached the goal!
+[INFO] [1700515710.873025204] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515710.899736542] [controller_server]: Reached the goal!
+[INFO] [1700515711.886893374] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515711.903568477] [controller_server]: Reached the goal!
+[INFO] [1700515712.886328582] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515712.904834423] [controller_server]: Reached the goal!
+[INFO] [1700515713.876509471] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515713.919966208] [controller_server]: Reached the goal!
+[INFO] [1700515714.884273323] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515714.902267781] [controller_server]: Reached the goal!
+[INFO] [1700515715.884156618] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515715.902600904] [controller_server]: Reached the goal!
+[INFO] [1700515716.882292804] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515716.902485866] [controller_server]: Reached the goal!
+[INFO] [1700515717.863943070] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515717.888701838] [controller_server]: Reached the goal!
+[INFO] [1700515718.875721023] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515718.907682763] [controller_server]: Reached the goal!
+[INFO] [1700515719.883423152] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515719.902275285] [controller_server]: Reached the goal!
+[INFO] [1700515720.883361298] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515720.901492791] [controller_server]: Reached the goal!
+[INFO] [1700515721.863132974] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515721.881431003] [controller_server]: Reached the goal!
+[INFO] [1700515722.876616407] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515722.899507049] [controller_server]: Reached the goal!
+[INFO] [1700515723.875037163] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515723.904149047] [controller_server]: Reached the goal!
+[INFO] [1700515724.875355137] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515724.894283806] [controller_server]: Reached the goal!
+[INFO] [1700515725.883251579] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515725.901101594] [controller_server]: Reached the goal!
+[INFO] [1700515726.875938956] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515726.905201783] [controller_server]: Reached the goal!
+[INFO] [1700515727.873270409] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515727.896474695] [controller_server]: Reached the goal!
+[INFO] [1700515728.889145684] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515728.936025436] [controller_server]: Reached the goal!
+[INFO] [1700515729.881396177] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515729.903629993] [controller_server]: Reached the goal!
+[INFO] [1700515730.872910531] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515730.898637269] [controller_server]: Reached the goal!
+[INFO] [1700515731.883087557] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515731.913339687] [controller_server]: Reached the goal!
+[INFO] [1700515732.873026521] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515732.897075723] [controller_server]: Reached the goal!
+[INFO] [1700515733.883422118] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515733.905616138] [controller_server]: Reached the goal!
+[INFO] [1700515734.875998292] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515734.898396828] [controller_server]: Reached the goal!
+[INFO] [1700515735.876602521] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515735.898852189] [controller_server]: Reached the goal!
+[INFO] [1700515736.863615630] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515736.885410359] [controller_server]: Reached the goal!
+[INFO] [1700515737.885563852] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515737.905318326] [controller_server]: Reached the goal!
+[INFO] [1700515738.887023034] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515738.919655896] [controller_server]: Reached the goal!
+[INFO] [1700515739.876690093] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515739.904805063] [controller_server]: Reached the goal!
+[INFO] [1700515740.876633108] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515740.905351478] [controller_server]: Reached the goal!
+[INFO] [1700515741.878269731] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515741.902094807] [controller_server]: Reached the goal!
+[INFO] [1700515742.883612071] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515742.902700850] [controller_server]: Reached the goal!
+[INFO] [1700515743.873612756] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515743.903408392] [controller_server]: Reached the goal!
+[INFO] [1700515744.882884421] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515744.900881656] [controller_server]: Reached the goal!
+[INFO] [1700515745.881971648] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515745.903545046] [controller_server]: Reached the goal!
+[INFO] [1700515746.883547920] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515746.903782574] [controller_server]: Reached the goal!
+[INFO] [1700515747.875626414] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515747.899050734] [controller_server]: Reached the goal!
+[INFO] [1700515748.897854613] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515748.938451067] [controller_server]: Reached the goal!
+[INFO] [1700515749.872497790] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515749.899428274] [controller_server]: Reached the goal!
+[INFO] [1700515750.876863844] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515750.898657573] [controller_server]: Reached the goal!
+[INFO] [1700515751.884960466] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515751.904702070] [controller_server]: Reached the goal!
+[INFO] [1700515752.882817318] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515752.900327133] [controller_server]: Reached the goal!
+[INFO] [1700515753.883415157] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515753.904575652] [controller_server]: Reached the goal!
+[INFO] [1700515754.876357492] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515754.898654844] [controller_server]: Reached the goal!
+[INFO] [1700515755.883088592] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515755.901129512] [controller_server]: Reached the goal!
+[INFO] [1700515756.880793723] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515756.902478008] [controller_server]: Reached the goal!
+[INFO] [1700515757.875609499] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515757.899326094] [controller_server]: Reached the goal!
+[INFO] [1700515758.876107542] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515758.899285495] [controller_server]: Reached the goal!
+[INFO] [1700515759.874704625] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515759.900207718] [controller_server]: Reached the goal!
+[INFO] [1700515760.873131877] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515760.896482680] [controller_server]: Reached the goal!
+[INFO] [1700515761.873270535] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515761.900673161] [controller_server]: Reached the goal!
+[INFO] [1700515762.882873861] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515762.904572590] [controller_server]: Reached the goal!
+[INFO] [1700515763.888353790] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515763.917573487] [controller_server]: Reached the goal!
+[INFO] [1700515764.874360278] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515764.897857931] [controller_server]: Reached the goal!
+[INFO] [1700515765.873466910] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515765.900853796] [controller_server]: Reached the goal!
+[INFO] [1700515766.882543520] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515766.907038920] [controller_server]: Reached the goal!
+[INFO] [1700515767.872478407] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515767.897114880] [controller_server]: Reached the goal!
+[INFO] [1700515768.890888759] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515768.906408153] [controller_server]: Reached the goal!
+[INFO] [1700515769.872549631] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515769.895391291] [controller_server]: Reached the goal!
+[INFO] [1700515770.882705097] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515770.901812524] [controller_server]: Reached the goal!
+[INFO] [1700515771.874937809] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515771.901292021] [controller_server]: Reached the goal!
+[INFO] [1700515772.884381488] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515772.903239565] [controller_server]: Reached the goal!
+[INFO] [1700515773.886364419] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515773.917687944] [controller_server]: Reached the goal!
+[INFO] [1700515774.872422536] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515774.897941721] [controller_server]: Reached the goal!
+[INFO] [1700515775.872891763] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515775.901606318] [controller_server]: Reached the goal!
+[INFO] [1700515776.873056345] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515776.891930977] [controller_server]: Reached the goal!
+[INFO] [1700515777.874331229] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515777.897755142] [controller_server]: Reached the goal!
+[INFO] [1700515778.881500951] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515778.927685378] [controller_server]: Reached the goal!
+[INFO] [1700515779.875226812] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515779.901644320] [controller_server]: Reached the goal!
+[INFO] [1700515780.882245351] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515780.902221063] [controller_server]: Reached the goal!
+[INFO] [1700515781.882584801] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515781.902932120] [controller_server]: Reached the goal!
+[INFO] [1700515782.872787424] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515782.895585863] [controller_server]: Reached the goal!
+[INFO] [1700515783.889969771] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515783.911685778] [controller_server]: Reached the goal!
+[INFO] [1700515784.873348621] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515784.895649825] [controller_server]: Reached the goal!
+[INFO] [1700515785.871543892] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515785.898196342] [controller_server]: Reached the goal!
+[INFO] [1700515786.873481879] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515786.894891000] [controller_server]: Reached the goal!
+[INFO] [1700515787.863043194] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515787.884229911] [controller_server]: Reached the goal!
+[INFO] [1700515788.885874549] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515788.915993699] [controller_server]: Reached the goal!
+[INFO] [1700515789.883523418] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515789.901553116] [controller_server]: Reached the goal!
+[INFO] [1700515790.878928369] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515790.902028360] [controller_server]: Reached the goal!
+[INFO] [1700515791.874929387] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515791.902847693] [controller_server]: Reached the goal!
+[INFO] [1700515792.873055899] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515792.901327700] [controller_server]: Reached the goal!
+[INFO] [1700515793.873673975] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515793.901665927] [controller_server]: Reached the goal!
+[INFO] [1700515794.872852344] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515794.897690296] [controller_server]: Reached the goal!
+[INFO] [1700515795.873378513] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515795.899590486] [controller_server]: Reached the goal!
+[INFO] [1700515796.872762714] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515796.894922771] [controller_server]: Reached the goal!
+[INFO] [1700515797.884493159] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515797.902719522] [controller_server]: Reached the goal!
+[INFO] [1700515798.872821062] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515798.901691856] [controller_server]: Reached the goal!
+[INFO] [1700515799.875316097] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515799.900539785] [controller_server]: Reached the goal!
+[INFO] [1700515800.874416078] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515800.895563555] [controller_server]: Reached the goal!
+[INFO] [1700515801.874656564] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515801.898003256] [controller_server]: Reached the goal!
+[INFO] [1700515802.872632188] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515802.892493235] [controller_server]: Reached the goal!
+[INFO] [1700515803.886480442] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515803.909904614] [controller_server]: Reached the goal!
+[INFO] [1700515804.872909311] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515804.897744578] [controller_server]: Reached the goal!
+[INFO] [1700515805.872310177] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515805.894716824] [controller_server]: Reached the goal!
+[INFO] [1700515806.862609668] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515806.881848759] [controller_server]: Reached the goal!
+[INFO] [1700515807.883344452] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515807.905247346] [controller_server]: Reached the goal!
+[INFO] [1700515808.874616431] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515808.897542054] [controller_server]: Reached the goal!
+[INFO] [1700515809.876734062] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515809.901888510] [controller_server]: Reached the goal!
+[INFO] [1700515810.862082073] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515810.881093259] [controller_server]: Reached the goal!
+[INFO] [1700515811.885506548] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515811.901816118] [controller_server]: Reached the goal!
+[INFO] [1700515812.872349541] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515812.899578317] [controller_server]: Reached the goal!
+[INFO] [1700515813.882648965] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515813.902944248] [controller_server]: Reached the goal!
+[INFO] [1700515814.882475770] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515814.903241547] [controller_server]: Reached the goal!
+[INFO] [1700515815.885413613] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515815.906839715] [controller_server]: Reached the goal!
+[INFO] [1700515816.875559919] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515816.902447958] [controller_server]: Reached the goal!
+[INFO] [1700515817.875472148] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515817.896177315] [controller_server]: Reached the goal!
+[INFO] [1700515818.886224530] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515818.932997949] [controller_server]: Reached the goal!
+[INFO] [1700515819.873096337] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515819.895947164] [controller_server]: Reached the goal!
+[INFO] [1700515820.873301081] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515820.898974227] [controller_server]: Reached the goal!
+[INFO] [1700515821.882910123] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515821.899929574] [controller_server]: Reached the goal!
+[INFO] [1700515822.872890209] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515822.896704265] [controller_server]: Reached the goal!
+[INFO] [1700515823.884298304] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515823.904811973] [controller_server]: Reached the goal!
+[INFO] [1700515824.882968251] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515824.900474789] [controller_server]: Reached the goal!
+[INFO] [1700515825.875222773] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515825.903054153] [controller_server]: Reached the goal!
+[INFO] [1700515826.884496523] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515826.903805909] [controller_server]: Reached the goal!
+[INFO] [1700515827.878771150] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515827.897263528] [controller_server]: Reached the goal!
+[INFO] [1700515828.876154964] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515828.897063036] [controller_server]: Reached the goal!
+[INFO] [1700515829.872669380] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515829.900063358] [controller_server]: Reached the goal!
+[INFO] [1700515830.872819865] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515830.893727196] [controller_server]: Reached the goal!
+[INFO] [1700515831.873126459] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515831.894435952] [controller_server]: Reached the goal!
+[INFO] [1700515832.878156462] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515832.896092049] [controller_server]: Reached the goal!
+[INFO] [1700515833.882484638] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515833.907794363] [controller_server]: Reached the goal!
+[INFO] [1700515834.872282188] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515834.894895573] [controller_server]: Reached the goal!
+[INFO] [1700515835.885323634] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515835.905107496] [controller_server]: Reached the goal!
+[INFO] [1700515836.874200712] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515836.895875386] [controller_server]: Reached the goal!
+[INFO] [1700515837.862564426] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515837.881156784] [controller_server]: Reached the goal!
+[INFO] [1700515838.890776344] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515838.911708360] [controller_server]: Reached the goal!
+[INFO] [1700515839.874528241] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515839.895602033] [controller_server]: Reached the goal!
+[INFO] [1700515840.872534528] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515840.900605720] [controller_server]: Reached the goal!
+[INFO] [1700515841.884767501] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515841.901332031] [controller_server]: Reached the goal!
+[INFO] [1700515842.884943040] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515842.905941759] [controller_server]: Reached the goal!
+[INFO] [1700515843.885245059] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515843.923620687] [controller_server]: Reached the goal!
+[INFO] [1700515844.872859596] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515844.896255213] [controller_server]: Reached the goal!
+[INFO] [1700515845.878190205] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515845.899553031] [controller_server]: Reached the goal!
+[INFO] [1700515846.874492956] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515846.896466237] [controller_server]: Reached the goal!
+[INFO] [1700515847.884337604] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515847.903828748] [controller_server]: Reached the goal!
+[INFO] [1700515848.864194713] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515848.894483250] [controller_server]: Reached the goal!
+[INFO] [1700515849.882878222] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515849.901451357] [controller_server]: Reached the goal!
+[INFO] [1700515850.889182448] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515850.904054275] [controller_server]: Reached the goal!
+[INFO] [1700515851.873932185] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515851.901109443] [controller_server]: Reached the goal!
+[INFO] [1700515852.885558127] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515852.904360445] [controller_server]: Reached the goal!
+[INFO] [1700515853.864390321] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515853.893332114] [controller_server]: Reached the goal!
+[INFO] [1700515854.862493494] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515854.885447302] [controller_server]: Reached the goal!
+[INFO] [1700515855.885156271] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515855.903029545] [controller_server]: Reached the goal!
+[INFO] [1700515856.863764023] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515856.885736231] [controller_server]: Reached the goal!
+[INFO] [1700515857.871617527] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515857.896859845] [controller_server]: Reached the goal!
+[INFO] [1700515858.880243986] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515858.901304648] [controller_server]: Reached the goal!
+[INFO] [1700515859.862876691] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515859.883094289] [controller_server]: Reached the goal!
+[INFO] [1700515860.863298244] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515860.881230536] [controller_server]: Reached the goal!
+[INFO] [1700515861.872072793] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515861.893311305] [controller_server]: Reached the goal!
+[INFO] [1700515862.872019778] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515862.896747379] [controller_server]: Reached the goal!
+[INFO] [1700515863.862829461] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515863.885372773] [controller_server]: Reached the goal!
+[INFO] [1700515864.871392790] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515864.898007796] [controller_server]: Reached the goal!
+[INFO] [1700515865.872540131] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515865.895080499] [controller_server]: Reached the goal!
+[INFO] [1700515866.872696298] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515866.892181090] [controller_server]: Reached the goal!
+[INFO] [1700515867.874933867] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515867.895526646] [controller_server]: Reached the goal!
+[INFO] [1700515868.883548140] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515868.915500935] [controller_server]: Reached the goal!
+[INFO] [1700515869.874911168] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515869.899688825] [controller_server]: Reached the goal!
+[INFO] [1700515870.885473677] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515870.902138817] [controller_server]: Reached the goal!
+[INFO] [1700515871.863136513] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515871.883842235] [controller_server]: Reached the goal!
+[INFO] [1700515872.883052524] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515872.904278666] [controller_server]: Reached the goal!
+[INFO] [1700515873.887113831] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515873.929947962] [controller_server]: Reached the goal!
+[INFO] [1700515874.873179124] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515874.899116748] [controller_server]: Reached the goal!
+[INFO] [1700515875.884344588] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515875.902369175] [controller_server]: Reached the goal!
+[INFO] [1700515876.873071388] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515876.898436556] [controller_server]: Reached the goal!
+[INFO] [1700515877.884263611] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515877.903054893] [controller_server]: Reached the goal!
+[INFO] [1700515878.872447028] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515878.918333976] [controller_server]: Reached the goal!
+[INFO] [1700515879.872614305] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515879.898645928] [controller_server]: Reached the goal!
+[INFO] [1700515880.884879238] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515880.910230369] [controller_server]: Reached the goal!
+[INFO] [1700515881.863299194] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515881.885400566] [controller_server]: Reached the goal!
+[INFO] [1700515882.872385219] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515882.892420356] [controller_server]: Reached the goal!
+[INFO] [1700515883.886820922] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515883.917924153] [controller_server]: Reached the goal!
+[INFO] [1700515884.873711168] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515884.897980386] [controller_server]: Reached the goal!
+[INFO] [1700515885.879066811] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515885.903688599] [controller_server]: Reached the goal!
+[INFO] [1700515886.873234805] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515886.898737768] [controller_server]: Reached the goal!
+[INFO] [1700515887.875425873] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515887.898204609] [controller_server]: Reached the goal!
+[INFO] [1700515888.883620631] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515888.913822576] [controller_server]: Reached the goal!
+[INFO] [1700515889.885817828] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515889.904967328] [controller_server]: Reached the goal!
+[INFO] [1700515890.881839467] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515890.902272767] [controller_server]: Reached the goal!
+[INFO] [1700515891.886490395] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515891.906334831] [controller_server]: Reached the goal!
+[INFO] [1700515892.862720098] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515892.879629587] [controller_server]: Reached the goal!
+[INFO] [1700515893.886229140] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515893.928953976] [controller_server]: Reached the goal!
+[INFO] [1700515894.863345166] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515894.886553673] [controller_server]: Reached the goal!
+[INFO] [1700515895.886968336] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515895.905959244] [controller_server]: Reached the goal!
+[INFO] [1700515896.884508698] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515896.903809455] [controller_server]: Reached the goal!
+[INFO] [1700515897.883390914] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515897.907004455] [controller_server]: Reached the goal!
+[INFO] [1700515898.873305643] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515898.912988274] [controller_server]: Reached the goal!
+[INFO] [1700515899.885082321] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515899.907157193] [controller_server]: Reached the goal!
+[INFO] [1700515900.884532679] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515900.905649970] [controller_server]: Reached the goal!
+[INFO] [1700515901.862293159] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515901.886052235] [controller_server]: Reached the goal!
+[INFO] [1700515902.871976528] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515902.892269051] [controller_server]: Reached the goal!
+[INFO] [1700515903.889181531] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515903.913064661] [controller_server]: Reached the goal!
+[INFO] [1700515904.886805799] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515904.902852001] [controller_server]: Reached the goal!
+[INFO] [1700515905.885879661] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515905.903859026] [controller_server]: Reached the goal!
+[INFO] [1700515906.873070032] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515906.900166013] [controller_server]: Reached the goal!
+[INFO] [1700515907.872707517] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515907.897300509] [controller_server]: Reached the goal!
+[INFO] [1700515908.862754558] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515908.888150448] [controller_server]: Reached the goal!
+[INFO] [1700515909.883502723] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515909.905191397] [controller_server]: Reached the goal!
+[INFO] [1700515910.863044571] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515910.882811527] [controller_server]: Reached the goal!
+[INFO] [1700515911.872579145] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515911.900300507] [controller_server]: Reached the goal!
+[INFO] [1700515912.885834360] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515912.903023438] [controller_server]: Reached the goal!
+[INFO] [1700515913.893973172] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515913.927866722] [controller_server]: Reached the goal!
+[INFO] [1700515914.882684709] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515914.901494379] [controller_server]: Reached the goal!
+[INFO] [1700515915.878964270] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515915.900256189] [controller_server]: Reached the goal!
+[INFO] [1700515916.882997166] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515916.905915455] [controller_server]: Reached the goal!
+[INFO] [1700515917.863709463] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515917.885276083] [controller_server]: Reached the goal!
+[INFO] [1700515918.872693728] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515918.896226472] [controller_server]: Reached the goal!
+[INFO] [1700515919.872764540] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515919.900811695] [controller_server]: Reached the goal!
+[INFO] [1700515920.872766372] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515920.897086237] [controller_server]: Reached the goal!
+[INFO] [1700515921.880491206] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515921.900898376] [controller_server]: Reached the goal!
+[INFO] [1700515922.884195550] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515922.902391524] [controller_server]: Reached the goal!
+[INFO] [1700515923.883813923] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515923.908912150] [controller_server]: Reached the goal!
+[INFO] [1700515924.862774648] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515924.888757938] [controller_server]: Reached the goal!
+[INFO] [1700515925.882989874] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515925.904776454] [controller_server]: Reached the goal!
+[INFO] [1700515926.882585154] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515926.900817349] [controller_server]: Reached the goal!
+[INFO] [1700515927.862491997] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515927.883730713] [controller_server]: Reached the goal!
+[INFO] [1700515928.893517412] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515928.922471593] [controller_server]: Reached the goal!
+[INFO] [1700515929.883123549] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515929.902686877] [controller_server]: Reached the goal!
+[INFO] [1700515930.861826609] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515930.880002416] [controller_server]: Reached the goal!
+[INFO] [1700515931.884053145] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515931.901521219] [controller_server]: Reached the goal!
+[INFO] [1700515932.885432311] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515932.900577043] [controller_server]: Reached the goal!
+[INFO] [1700515933.885171368] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515933.913603629] [controller_server]: Reached the goal!
+[INFO] [1700515934.862490462] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700515934.886068614] [controller_server]: Reached the goal!
+[INFO] [1700515934.957114713] [rclcpp]: signal_handler(signum=2)
+[INFO] [1700515934.957681966] [local_costmap.local_costmap]: Running Nav2 LifecycleNode rcl preshutdown (local_costmap)
+[INFO] [1700515934.958165460] [local_costmap.local_costmap]: Deactivating
+[INFO] [1700515935.057147217] [local_costmap.local_costmap]: Cleaning up
+[INFO] [1700515935.203625661] [local_costmap.local_costmap]: Destroying bond (local_costmap) to lifecycle manager.
+[INFO] [1700515935.204003990] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[INFO] [1700515935.204127025] [controller_server]: Deactivating
+[INFO] [1700515935.204419226] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[INFO] [1700515935.311109577] [controller_server]: Cleaning up
+[INFO] [1700515936.301607407] [controller_server]: Destroying bond (controller_server) to lifecycle manager.

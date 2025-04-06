@@ -1,0 +1,5 @@
+1699808579.9210849 [INFO] [launch]: All log files can be found below /home/ubuntu/HumbleDave/ros2ws/roslogs/2023-11-12-12-02-59-918174-HumbleD-75826
+1699808579.9216902 [INFO] [launch]: Default logging verbosity is set to INFO
+1699808580.5254312 [INFO] [ydlidar_ros2_driver_node-1]: process started with pid [75837]
+1699808980.6380675 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1699808982.0169835 [INFO] [ydlidar_ros2_driver_node-1]: process has finished cleanly [pid 75837]

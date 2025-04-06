@@ -1,0 +1,47 @@
+[INFO] [1700280916.908449688] [bt_navigator]: 
+	bt_navigator lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1700280916.919807974] [bt_navigator]: Creating
+[INFO] [1700280917.927126403] [bt_navigator]: Configuring
+[INFO] [1700280947.958510192] [bt_navigator]: Activating
+[INFO] [1700280948.647904438] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[INFO] [1700281140.412947557] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (0.85, -0.01)
+[INFO] [1700281143.195622859] [bt_navigator]: Goal succeeded
+[INFO] [1700281173.378176926] [bt_navigator]: Begin navigating from current location (0.62, -0.07) to (2.00, -0.10)
+[INFO] [1700281201.798709659] [bt_navigator]: Goal succeeded
+[INFO] [1700281223.655925660] [bt_navigator]: Begin navigating from current location (1.85, -0.31) to (1.39, -0.18)
+[INFO] [1700281228.676488543] [bt_navigator]: Goal succeeded
+[INFO] [1700281278.231837683] [bt_navigator]: Begin navigating from current location (1.59, -0.29) to (1.36, -0.25)
+[INFO] [1700281278.332223213] [bt_navigator]: Goal succeeded
+[INFO] [1700281293.532134361] [bt_navigator]: Begin navigating from current location (1.59, -0.29) to (1.38, -0.28)
+[INFO] [1700281293.632498530] [bt_navigator]: Goal succeeded
+[INFO] [1700281309.613260018] [bt_navigator]: Begin navigating from current location (1.59, -0.29) to (0.60, -0.14)
+[INFO] [1700281312.478315550] [bt_navigator]: Goal succeeded
+[INFO] [1700281324.266642353] [bt_navigator]: Begin navigating from current location (0.98, -0.14) to (0.78, -0.15)
+[INFO] [1700281324.567035454] [bt_navigator]: Goal succeeded
+[INFO] [1700281330.695502087] [bt_navigator]: Begin navigating from current location (0.98, -0.14) to (0.77, -0.14)
+[INFO] [1700281330.826098227] [bt_navigator]: Goal succeeded
+[INFO] [1700281348.609405608] [bt_navigator]: Begin navigating from current location (0.99, -0.13) to (0.62, -0.12)
+[INFO] [1700281349.450795230] [bt_navigator]: Goal succeeded
+[INFO] [1700281355.496104137] [bt_navigator]: Begin navigating from current location (0.85, -0.16) to (0.68, -0.14)
+[INFO] [1700281355.606484015] [bt_navigator]: Goal succeeded
+[INFO] [1700281362.944065411] [bt_navigator]: Begin navigating from current location (0.86, -0.15) to (0.65, -0.12)
+[INFO] [1700281363.044522539] [bt_navigator]: Goal succeeded
+[INFO] [1700281413.865638384] [bt_navigator]: Begin navigating from current location (0.86, -0.14) to (0.74, -0.14)
+[INFO] [1700281413.976146011] [bt_navigator]: Goal succeeded
+[INFO] [1700281432.078133251] [bt_navigator]: Begin navigating from current location (0.86, -0.15) to (0.40, -0.10)
+[INFO] [1700281433.388470332] [bt_navigator]: Goal succeeded
+[INFO] [1700281442.352461405] [bt_navigator]: Begin navigating from current location (0.61, -0.16) to (0.38, -0.12)
+[INFO] [1700281442.542792612] [bt_navigator]: Goal succeeded
+[INFO] [1700281451.062485245] [bt_navigator]: Begin navigating from current location (0.62, -0.14) to (0.08, -0.09)
+[INFO] [1700281454.606422811] [bt_navigator]: Goal succeeded
+[INFO] [1700281485.109500639] [bt_navigator]: Begin navigating from current location (0.33, -0.39) to (0.03, -0.29)
+[INFO] [1700281511.081459769] [bt_navigator]: Goal succeeded
+[INFO] [1700281529.654118211] [rclcpp]: signal_handler(signum=2)
+[INFO] [1700281529.656708251] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[INFO] [1700281529.657126487] [bt_navigator]: Deactivating
+[INFO] [1700281529.657312540] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[INFO] [1700281529.758298469] [bt_navigator]: Cleaning up
+[INFO] [1700281531.647103571] [bt_navigator]: Completed Cleaning up
+[INFO] [1700281531.647530399] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.

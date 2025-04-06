@@ -1,0 +1,11 @@
+[INFO] [1701101405.835918041] [map_saver]: 
+	map_saver lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1701101405.836516664] [map_saver]: Creating
+[INFO] [1701101405.838134203] [map_saver]: Configuring
+[INFO] [1701101405.845876416] [map_saver]: Saving map from 'map' topic to 'xyzzy.map' file
+[WARN] [1701101405.846049637] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[WARN] [1701101405.846152951] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[ERROR] [1701101407.854088102] [map_saver]: Failed to spin map subscription
+[INFO] [1701101407.869127552] [map_saver]: Destroying

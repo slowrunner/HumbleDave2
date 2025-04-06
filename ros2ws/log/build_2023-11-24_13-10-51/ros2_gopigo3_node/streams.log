@@ -1,0 +1,22 @@
+[5.622s] Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node': CMAKE_PREFIX_PATH=/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node/build --no-deps install_data
+[7.176s] running develop
+[8.366s] running egg_info
+[8.367s] writing ros2_gopigo3_node.egg-info/PKG-INFO
+[8.368s] writing dependency_links to ros2_gopigo3_node.egg-info/dependency_links.txt
+[8.370s] writing entry points to ros2_gopigo3_node.egg-info/entry_points.txt
+[8.371s] writing requirements to ros2_gopigo3_node.egg-info/requires.txt
+[8.372s] writing top-level names to ros2_gopigo3_node.egg-info/top_level.txt
+[8.383s] reading manifest file 'ros2_gopigo3_node.egg-info/SOURCES.txt'
+[8.389s] writing manifest file 'ros2_gopigo3_node.egg-info/SOURCES.txt'
+[8.399s] running build_ext
+[8.400s] Creating /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages/ros2-gopigo3-node.egg-link (link to .)
+[8.405s] Installing distance_sensor script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node
+[8.407s] Installing distance_sensor_subscriber script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node
+[8.408s] Installing gopigo3_node script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node
+[8.409s] Installing imu_sensor script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node
+[8.410s] Installing odometer script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node
+[8.411s] Installing ultrasonic_ranger script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node
+[8.413s] 
+[8.414s] Installed /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node
+[8.414s] running install_data
+[8.598s] Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node/build --no-deps install_data

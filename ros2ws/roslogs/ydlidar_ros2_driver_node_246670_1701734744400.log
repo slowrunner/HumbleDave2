@@ -1,0 +1,3 @@
+[INFO] [1701734744.600113416] [ydlidar_ros2_driver_node]: [YDLIDAR INFO] Current ROS Driver Version: 1.0.2
+
+[INFO] [1701735977.736706303] [rclcpp]: signal_handler(signum=15)

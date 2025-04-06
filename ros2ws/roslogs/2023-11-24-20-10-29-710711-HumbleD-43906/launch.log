@@ -1,0 +1,5 @@
+1700874629.7136333 [INFO] [launch]: All log files can be found below /home/ubuntu/HumbleDave/ros2ws/roslogs/2023-11-24-20-10-29-710711-HumbleD-43906
+1700874629.7143056 [INFO] [launch]: Default logging verbosity is set to INFO
+1700874630.1284635 [INFO] [mpu9250driver-1]: process started with pid [43918]
+1700875586.4709885 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1700875586.6035111 [INFO] [mpu9250driver-1]: process has finished cleanly [pid 43918]

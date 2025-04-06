@@ -1,0 +1,7 @@
+setup.py
+gopigo3_navigation/__init__.py
+gopigo3_navigation/gopigo3_navigator.py
+gopigo3_navigation.egg-info/PKG-INFO
+gopigo3_navigation.egg-info/SOURCES.txt
+gopigo3_navigation.egg-info/dependency_links.txt
+gopigo3_navigation.egg-info/top_level.txt

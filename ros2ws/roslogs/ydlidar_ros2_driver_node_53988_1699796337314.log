@@ -1,0 +1,4 @@
+[INFO] [1699796337.399314434] [ydlidar_ros2_driver_node]: [YDLIDAR INFO] Current ROS Driver Version: 1.0.2
+
+[WARN] [1699796509.816274164] [ydlidar_ros2_driver_node]: New subscription discovered on topic '/scan', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[INFO] [1699799635.371746979] [rclcpp]: signal_handler(signum=15)

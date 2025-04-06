@@ -1,0 +1,66 @@
+[INFO] [1700515997.562059633] [bt_navigator]: 
+	bt_navigator lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1700515997.602237054] [bt_navigator]: Creating
+[INFO] [1700516001.481963297] [bt_navigator]: Configuring
+[INFO] [1700516004.170041406] [bt_navigator]: Activating
+[INFO] [1700516004.866513061] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[INFO] [1700516073.219650070] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (1.00, 0.00)
+[INFO] [1700516076.800301594] [bt_navigator]: Goal succeeded
+[INFO] [1700516140.650568021] [bt_navigator]: Begin navigating from current location (0.78, 0.05) to (0.10, 0.00)
+[WARN] [1700516140.719444534] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for follow_path
+[WARN] [1700516140.765508146] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for follow_path
+[WARN] [1700516140.789702216] [bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to local_costmap/clear_entirely_local_costmap.
+[WARN] [1700516140.818463326] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for spin
+[WARN] [1700516140.855816576] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for wait
+[INFO] [1700516141.628815298] [bt_navigator]: Received goal preemption request
+[INFO] [1700516141.630887384] [bt_navigator]: Begin navigating from current location (0.77, 0.05) to (0.10, 0.00)
+[INFO] [1700516142.571827447] [bt_navigator]: Received goal preemption request
+[INFO] [1700516142.572380385] [bt_navigator]: Begin navigating from current location (0.76, 0.05) to (0.10, 0.00)
+[INFO] [1700516143.571825192] [bt_navigator]: Received goal preemption request
+[INFO] [1700516143.572374890] [bt_navigator]: Begin navigating from current location (0.75, 0.03) to (0.10, 0.00)
+[INFO] [1700516144.571821067] [bt_navigator]: Received goal preemption request
+[INFO] [1700516144.572401394] [bt_navigator]: Begin navigating from current location (0.75, -0.00) to (0.10, 0.00)
+[INFO] [1700516145.568502184] [bt_navigator]: Received goal preemption request
+[INFO] [1700516145.569253620] [bt_navigator]: Begin navigating from current location (0.73, -0.04) to (0.10, 0.00)
+[INFO] [1700516146.569264661] [bt_navigator]: Received goal preemption request
+[INFO] [1700516146.569798692] [bt_navigator]: Begin navigating from current location (0.66, -0.09) to (0.10, 0.00)
+[INFO] [1700516147.569255591] [bt_navigator]: Received goal preemption request
+[INFO] [1700516147.569765289] [bt_navigator]: Begin navigating from current location (0.58, -0.10) to (0.10, 0.00)
+[INFO] [1700516148.569251133] [bt_navigator]: Received goal preemption request
+[INFO] [1700516148.569748905] [bt_navigator]: Begin navigating from current location (0.49, -0.09) to (0.10, 0.00)
+[INFO] [1700516149.569248970] [bt_navigator]: Received goal preemption request
+[INFO] [1700516149.569936814] [bt_navigator]: Begin navigating from current location (0.36, -0.07) to (0.10, 0.00)
+[INFO] [1700516150.570056965] [bt_navigator]: Received goal preemption request
+[INFO] [1700516150.571843574] [bt_navigator]: Begin navigating from current location (0.30, 0.01) to (0.10, 0.00)
+[INFO] [1700516151.569987414] [bt_navigator]: Received goal preemption request
+[INFO] [1700516151.570527945] [bt_navigator]: Begin navigating from current location (0.31, 0.01) to (0.10, 0.00)
+[INFO] [1700516152.570044955] [bt_navigator]: Received goal preemption request
+[INFO] [1700516152.570633281] [bt_navigator]: Begin navigating from current location (0.31, -0.00) to (0.10, 0.00)
+[INFO] [1700516153.572028195] [bt_navigator]: Received goal preemption request
+[INFO] [1700516153.572650558] [bt_navigator]: Begin navigating from current location (0.31, 0.01) to (0.10, 0.00)
+[INFO] [1700516154.471936975] [bt_navigator]: Goal succeeded
+[INFO] [1700516154.562760585] [bt_navigator]: Begin navigating from current location (0.31, 0.01) to (0.10, 0.00)
+[INFO] [1700516154.633959700] [bt_navigator]: Goal succeeded
+[INFO] [1700516155.562867013] [bt_navigator]: Begin navigating from current location (0.31, 0.01) to (0.10, 0.00)
+[INFO] [1700516155.643735905] [bt_navigator]: Goal succeeded
+[INFO] [1700516156.562735685] [bt_navigator]: Begin navigating from current location (0.31, 0.01) to (0.10, 0.00)
+[INFO] [1700516156.633144162] [bt_navigator]: Goal succeeded
+[INFO] [1700516157.562750856] [bt_navigator]: Begin navigating from current location (0.31, 0.01) to (0.10, 0.00)
+[INFO] [1700516157.633351663] [bt_navigator]: Goal succeeded
+[INFO] [1700516158.562668045] [bt_navigator]: Begin navigating from current location (0.31, 0.01) to (0.10, 0.00)
+[INFO] [1700516158.643212626] [bt_navigator]: Goal succeeded
+[INFO] [1700516159.562724789] [bt_navigator]: Begin navigating from current location (0.31, 0.01) to (0.10, 0.00)
+[INFO] [1700516159.643186723] [bt_navigator]: Goal succeeded
+[INFO] [1700516160.562685627] [bt_navigator]: Begin navigating from current location (0.31, 0.01) to (0.10, 0.00)
+[INFO] [1700516160.633158769] [bt_navigator]: Goal succeeded
+[INFO] [1700516161.562682482] [bt_navigator]: Begin navigating from current location (0.31, 0.01) to (0.10, 0.00)
+[INFO] [1700516161.644884581] [bt_navigator]: Goal succeeded
+[INFO] [1700516162.325184770] [rclcpp]: signal_handler(signum=2)
+[INFO] [1700516162.325386138] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[INFO] [1700516162.325615561] [bt_navigator]: Deactivating
+[INFO] [1700516162.325689412] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[INFO] [1700516162.427100676] [bt_navigator]: Cleaning up
+[INFO] [1700516164.686873899] [bt_navigator]: Completed Cleaning up
+[INFO] [1700516164.687207765] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.

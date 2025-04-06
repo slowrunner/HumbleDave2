@@ -1,0 +1,22 @@
+[6.467s] Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard': PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard/build --no-deps install_data
+[7.917s] running develop
+[8.918s] running egg_info
+[8.919s] writing teleop_gopigo3_keyboard.egg-info/PKG-INFO
+[8.920s] writing dependency_links to teleop_gopigo3_keyboard.egg-info/dependency_links.txt
+[8.921s] writing entry points to teleop_gopigo3_keyboard.egg-info/entry_points.txt
+[8.922s] writing requirements to teleop_gopigo3_keyboard.egg-info/requires.txt
+[8.923s] writing top-level names to teleop_gopigo3_keyboard.egg-info/top_level.txt
+[8.931s] reading manifest file 'teleop_gopigo3_keyboard.egg-info/SOURCES.txt'
+[8.936s] writing manifest file 'teleop_gopigo3_keyboard.egg-info/SOURCES.txt'
+[8.945s] running build_ext
+[8.946s] Creating /home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages/teleop-gopigo3-keyboard.egg-link (link to .)
+[8.950s] Installing teleop_gopigo3_keyboard script to /home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/teleop_gopigo3_keyboard
+[8.953s] 
+[8.955s] Installed /home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard
+[8.956s] running install_data
+[8.958s] creating /home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/share/ament_index
+[8.959s] creating /home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/share/ament_index/resource_index
+[8.960s] creating /home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/share/ament_index/resource_index/packages
+[8.962s] copying resource/teleop_gopigo3_keyboard -> /home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/share/ament_index/resource_index/packages
+[8.964s] copying package.xml -> /home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/share/teleop_gopigo3_keyboard
+[9.155s] Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard' returned '0': PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard/build --no-deps install_data

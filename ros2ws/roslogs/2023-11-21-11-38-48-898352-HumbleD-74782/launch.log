@@ -1,0 +1,15 @@
+1700584728.9014530 [INFO] [launch]: All log files can be found below /home/ubuntu/HumbleDave/ros2ws/roslogs/2023-11-21-11-38-48-898352-HumbleD-74782
+1700584728.9021130 [INFO] [launch]: Default logging verbosity is set to INFO
+1700584729.4116085 [WARNING] [launch_ros.actions.node]: Parameter file path is not a file: /opt/ros/humble/share/teleop_twist_joy/config/snes_slow.config.yaml
+1700584729.4235427 [INFO] [joy_node-1]: process started with pid [74794]
+1700584729.4243712 [INFO] [teleop_node-2]: process started with pid [74796]
+1700584729.9486794 [teleop_node-2] [INFO] [1700584729.947623986] [TeleopTwistJoy]: Teleop enable button 5.
+1700584729.9507785 [teleop_node-2] [INFO] [1700584729.947894872] [TeleopTwistJoy]: Linear axis x on 5 at scale 0.500000.
+1700584729.9525006 [teleop_node-2] [INFO] [1700584729.947952668] [TeleopTwistJoy]: Angular axis yaw on 2 at scale 0.500000.
+1700584730.5025947 [joy_node-1] [INFO] [1700584730.501691029] [joy_node]: No haptic (rumble) available, skipping initialization
+1700584730.5041611 [joy_node-1] [INFO] [1700584730.502048896] [joy_node]: Opened joystick: Controller.  deadzone: 0.300000
+1700584746.1173685 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1700584746.1297395 [teleop_node-2] [INFO] [1700584746.116203047] [rclcpp]: signal_handler(signum=2)
+1700584746.1320157 [joy_node-1] [INFO] [1700584746.116195232] [rclcpp]: signal_handler(signum=2)
+1700584746.2746263 [INFO] [teleop_node-2]: process has finished cleanly [pid 74796]
+1700584746.3198895 [INFO] [joy_node-1]: process has finished cleanly [pid 74794]

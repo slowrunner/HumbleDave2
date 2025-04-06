@@ -1,0 +1,14 @@
+1699548714.9266014 [INFO] [launch]: All log files can be found below /home/ubuntu/HumbleDave/ros2ws/roslogs/2023-11-09-11-51-54-921171-HumbleD-52365
+1699548714.9298661 [INFO] [launch]: Default logging verbosity is set to INFO
+1699548715.8840041 [WARNING] [launch_ros.actions.node]: Parameter file path is not a file: /opt/ros/humble/share/teleop_twist_joy/config/snes_slow.config.yaml
+1699548715.9449100 [INFO] [joy_node-1]: process started with pid [52373]
+1699548715.9459720 [INFO] [teleop_node-2]: process started with pid [52382]
+1699548716.2603300 [teleop_node-2] [INFO] [1699548716.259321479] [TeleopTwistJoy]: Teleop enable button 5.
+1699548716.2628191 [teleop_node-2] [INFO] [1699548716.262060168] [TeleopTwistJoy]: Linear axis x on 5 at scale 0.500000.
+1699548716.2654810 [teleop_node-2] [INFO] [1699548716.264754191] [TeleopTwistJoy]: Angular axis yaw on 2 at scale 0.500000.
+1699548716.6246703 [joy_node-1] [INFO] [1699548716.623629545] [rclcpp]: signal_handler(signum=2)
+1699548716.6264894 [teleop_node-2] [INFO] [1699548716.624282482] [rclcpp]: signal_handler(signum=2)
+1699548716.6408334 [joy_node-1] terminate called after throwing an instance of 'rclcpp::exceptions::RCLError'
+1699548716.6418669 [joy_node-1]   what():  could not create service: rcl node's context is invalid, at ./src/rcl/node.c:428
+1699548716.9407823 [INFO] [teleop_node-2]: process has finished cleanly [pid 52382]
+1699548719.9891875 [ERROR] [joy_node-1]: process has died [pid 52373, exit code -6, cmd '/opt/ros/humble/lib/joy/joy_node --ros-args -r __node:=joy_node --params-file /tmp/launch_params_0ed4lnis'].

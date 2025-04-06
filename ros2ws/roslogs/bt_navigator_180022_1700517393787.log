@@ -1,0 +1,25 @@
+[INFO] [1700517395.012145028] [bt_navigator]: 
+	bt_navigator lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1700517395.024668234] [bt_navigator]: Creating
+[INFO] [1700517400.663314276] [bt_navigator]: Configuring
+[INFO] [1700517402.294422842] [bt_navigator]: Activating
+[INFO] [1700517403.112159229] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[INFO] [1700517495.553313715] [bt_navigator]: Begin navigating from current location (-0.01, 0.00) to (0.10, 0.00)
+[INFO] [1700517500.213847849] [bt_navigator]: Goal succeeded
+[INFO] [1700517550.583428710] [bt_navigator]: Begin navigating from current location (-0.02, -0.01) to (1.00, 0.00)
+[WARN] [1700517550.612457260] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for compute_path_to_pose
+[WARN] [1700517550.639668498] [bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to global_costmap/clear_entirely_global_costmap.
+[WARN] [1700517550.676214090] [bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to global_costmap/clear_entirely_global_costmap.
+[WARN] [1700517550.719176478] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for spin
+[WARN] [1700517550.749072629] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for wait
+[ERROR] [1700517555.603039285] [bt_navigator]: Goal failed
+[WARN] [1700517555.603232171] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[INFO] [1700517599.132551003] [rclcpp]: signal_handler(signum=2)
+[INFO] [1700517599.134672848] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[INFO] [1700517599.136572733] [bt_navigator]: Deactivating
+[INFO] [1700517599.136706584] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[INFO] [1700517599.251609743] [bt_navigator]: Cleaning up
+[INFO] [1700517601.217732567] [bt_navigator]: Completed Cleaning up
+[INFO] [1700517601.217953194] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.

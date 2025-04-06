@@ -1,0 +1,6 @@
+[INFO] [1699903916.236687699] [slam_toolbox]: Node using stack size 40000000
+[INFO] [1699903917.606850357] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[INFO] [1699903917.607911622] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[INFO] [1699903970.014474492] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1699903969.787 for reason 'discarding message because the queue is full'
+[INFO] [1699903970.128206616] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1699903969.900 for reason 'discarding message because the queue is full'
+[INFO] [1699904026.280918565] [rclcpp]: signal_handler(signum=15)

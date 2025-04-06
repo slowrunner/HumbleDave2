@@ -1,0 +1,5 @@
+[INFO] [1700874617.283173910] [robot_state_publisher]: got segment base_link
+[INFO] [1700874617.283840032] [robot_state_publisher]: got segment laser_frame
+[INFO] [1700874617.283955864] [robot_state_publisher]: got segment left_wheel
+[INFO] [1700874617.283993178] [robot_state_publisher]: got segment right_wheel
+[INFO] [1700875736.590650485] [rclcpp]: signal_handler(signum=15)

@@ -1,0 +1,5 @@
+[INFO] [1699558394.201960194] [robot_state_publisher]: got segment base_link
+[INFO] [1699558394.202531651] [robot_state_publisher]: got segment laser_frame
+[INFO] [1699558394.202628205] [robot_state_publisher]: got segment left_wheel
+[INFO] [1699558394.202673464] [robot_state_publisher]: got segment right_wheel
+[INFO] [1699558754.644506974] [rclcpp]: signal_handler(signum=15)

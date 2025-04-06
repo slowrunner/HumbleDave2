@@ -1,0 +1,17 @@
+1701138779.7446430 [INFO] [launch]: All log files can be found below /home/ubuntu/HumbleDave/ros2ws/roslogs/2023-11-27-21-32-59-741775-HumbleD-750683
+1701138779.7452457 [INFO] [launch]: Default logging verbosity is set to INFO
+1701138780.2555871 [INFO] [joy_node-1]: process started with pid [750684]
+1701138780.2574251 [INFO] [teleop_node-2]: process started with pid [750686]
+1701138780.5530813 [teleop_node-2] [INFO] [1701138780.551210935] [TeleopTwistJoy]: Teleop enable button 4.
+1701138780.5542545 [teleop_node-2] [INFO] [1701138780.551437618] [TeleopTwistJoy]: Turbo on button 5.
+1701138780.5554960 [teleop_node-2] [INFO] [1701138780.551474303] [TeleopTwistJoy]: Linear axis x on 1 at scale 0.100000.
+1701138780.5578020 [teleop_node-2] [INFO] [1701138780.551508173] [TeleopTwistJoy]: Turbo for linear axis x is scale 0.050000.
+1701138780.5587664 [teleop_node-2] [INFO] [1701138780.551531451] [TeleopTwistJoy]: Angular axis yaw on 0 at scale 1.000000.
+1701138780.5597363 [teleop_node-2] [INFO] [1701138780.551550117] [TeleopTwistJoy]: Turbo for angular axis yaw is scale 0.250000.
+1701138781.6582892 [joy_node-1] [INFO] [1701138781.657140887] [joy_node]: No haptic (rumble) available, skipping initialization
+1701138781.6606560 [joy_node-1] [INFO] [1701138781.657639012] [joy_node]: Opened joystick: Controller.  deadzone: 0.300000
+1701139624.3439455 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1701139624.3563783 [teleop_node-2] [INFO] [1701139624.343166757] [rclcpp]: signal_handler(signum=2)
+1701139624.3586736 [joy_node-1] [INFO] [1701139624.343595769] [rclcpp]: signal_handler(signum=2)
+1701139624.5051739 [INFO] [teleop_node-2]: process has finished cleanly [pid 750686]
+1701139624.5714006 [INFO] [joy_node-1]: process has finished cleanly [pid 750684]

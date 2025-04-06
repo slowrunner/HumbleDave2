@@ -1,0 +1,17 @@
+[9.862s] Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/scan_client': PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/scan_client/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/scan_client/build --no-deps install_data
+[11.825s] running develop
+[13.117s] running egg_info
+[13.119s] writing scan_client.egg-info/PKG-INFO
+[13.121s] writing dependency_links to scan_client.egg-info/dependency_links.txt
+[13.122s] writing entry points to scan_client.egg-info/entry_points.txt
+[13.125s] writing requirements to scan_client.egg-info/requires.txt
+[13.128s] writing top-level names to scan_client.egg-info/top_level.txt
+[13.143s] reading manifest file 'scan_client.egg-info/SOURCES.txt'
+[13.150s] writing manifest file 'scan_client.egg-info/SOURCES.txt'
+[13.172s] running build_ext
+[13.173s] Creating /home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages/scan-client.egg-link (link to .)
+[13.184s] Installing scan_client script to /home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/scan_client
+[13.187s] 
+[13.189s] Installed /home/ubuntu/HumbleDave/ros2ws/build/scan_client
+[13.191s] running install_data
+[14.570s] Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/scan_client' returned '0': PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/scan_client/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/scan_client/build --no-deps install_data

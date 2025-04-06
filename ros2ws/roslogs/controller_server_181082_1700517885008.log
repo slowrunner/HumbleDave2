@@ -1,0 +1,117 @@
+[INFO] [1700517887.422815272] [controller_server]: 
+	controller_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1700517888.126471933] [controller_server]: Creating controller server
+[INFO] [1700517890.167433327] [local_costmap.local_costmap]: 
+	local_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1700517890.199625600] [local_costmap.local_costmap]: Creating Costmap
+[INFO] [1700517890.430933735] [controller_server]: Configuring controller interface
+[INFO] [1700517890.431572153] [controller_server]: getting goal checker plugins..
+[INFO] [1700517890.432019630] [controller_server]: Controller frequency set to 15.0000Hz
+[INFO] [1700517890.432224275] [local_costmap.local_costmap]: Configuring
+[INFO] [1700517890.487943329] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[INFO] [1700517890.514004025] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[INFO] [1700517890.591615194] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[INFO] [1700517890.591826043] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[INFO] [1700517890.601018103] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1700517890.690977498] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[INFO] [1700517890.698751018] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[INFO] [1700517890.703327613] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[INFO] [1700517890.718905468] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[INFO] [1700517890.740717991] [controller_server]: Setting transform_tolerance to 0.200000
+[INFO] [1700517890.868935755] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[INFO] [1700517890.880702377] [controller_server]: Critic plugin initialized
+[INFO] [1700517890.883306254] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[INFO] [1700517890.895905200] [controller_server]: Critic plugin initialized
+[INFO] [1700517890.898132748] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[INFO] [1700517890.903810552] [controller_server]: Critic plugin initialized
+[INFO] [1700517890.906645019] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[INFO] [1700517890.914381651] [controller_server]: Critic plugin initialized
+[INFO] [1700517890.917114804] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[INFO] [1700517890.925864943] [controller_server]: Critic plugin initialized
+[INFO] [1700517890.929407735] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[INFO] [1700517890.935147575] [controller_server]: Critic plugin initialized
+[INFO] [1700517890.938197095] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[INFO] [1700517890.945553972] [controller_server]: Critic plugin initialized
+[INFO] [1700517890.945751044] [controller_server]: Controller Server has FollowPath  controllers available.
+[INFO] [1700517892.954183206] [controller_server]: Activating
+[INFO] [1700517892.954356464] [local_costmap.local_costmap]: Activating
+[INFO] [1700517892.954412574] [local_costmap.local_costmap]: Checking transform
+[INFO] [1700517892.954771144] [local_costmap.local_costmap]: start
+[INFO] [1700517893.164627011] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[INFO] [1700517905.144124556] [local_costmap.local_costmap]: Message Filter dropping message: frame 'laser_frame' at time 1700517904.729 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1700517906.197920984] [controller_server]: Received a goal, begin computing control effort.
+[WARN] [1700517906.200762266] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[WARN] [1700517906.378627691] [controller_server]: Control loop missed its desired rate of 15.0000Hz
+[INFO] [1700517907.245412375] [controller_server]: Passing new path to controller.
+[INFO] [1700517908.246351291] [controller_server]: Passing new path to controller.
+[WARN] [1700517909.320860608] [controller_server]: Control loop missed its desired rate of 15.0000Hz
+[INFO] [1700517909.323041990] [controller_server]: Passing new path to controller.
+[INFO] [1700517910.378770878] [controller_server]: Passing new path to controller.
+[INFO] [1700517911.379143337] [controller_server]: Passing new path to controller.
+[INFO] [1700517912.445390324] [controller_server]: Passing new path to controller.
+[INFO] [1700517913.445406380] [controller_server]: Passing new path to controller.
+[INFO] [1700517914.512096473] [controller_server]: Passing new path to controller.
+[INFO] [1700517915.512769096] [controller_server]: Passing new path to controller.
+[INFO] [1700517916.578947306] [controller_server]: Passing new path to controller.
+[INFO] [1700517917.578745031] [controller_server]: Passing new path to controller.
+[INFO] [1700517918.645405199] [controller_server]: Passing new path to controller.
+[INFO] [1700517919.645582087] [controller_server]: Passing new path to controller.
+[INFO] [1700517920.712131255] [controller_server]: Passing new path to controller.
+[INFO] [1700517921.712100090] [controller_server]: Passing new path to controller.
+[INFO] [1700517922.778909385] [controller_server]: Passing new path to controller.
+[INFO] [1700517923.778952700] [controller_server]: Passing new path to controller.
+[INFO] [1700517924.845404352] [controller_server]: Passing new path to controller.
+[INFO] [1700517925.845406612] [controller_server]: Passing new path to controller.
+[INFO] [1700517926.912057946] [controller_server]: Passing new path to controller.
+[INFO] [1700517927.912070576] [controller_server]: Passing new path to controller.
+[INFO] [1700517928.980224875] [controller_server]: Passing new path to controller.
+[ERROR] [1700517929.779206998] [controller_server]: Failed to make progress
+[WARN] [1700517929.782655199] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[INFO] [1700517929.803119997] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[INFO] [1700517929.808986410] [controller_server]: Received a goal, begin computing control effort.
+[WARN] [1700517929.969457112] [controller_server]: Control loop missed its desired rate of 15.0000Hz
+[INFO] [1700517929.969626388] [controller_server]: Passing new path to controller.
+[INFO] [1700517931.036268963] [controller_server]: Passing new path to controller.
+[INFO] [1700517932.039616647] [controller_server]: Passing new path to controller.
+[INFO] [1700517933.102899354] [controller_server]: Passing new path to controller.
+[INFO] [1700517934.169576095] [controller_server]: Passing new path to controller.
+[INFO] [1700517935.169630003] [controller_server]: Passing new path to controller.
+[INFO] [1700517936.236262504] [controller_server]: Passing new path to controller.
+[INFO] [1700517937.236239264] [controller_server]: Passing new path to controller.
+[INFO] [1700517938.236235969] [controller_server]: Passing new path to controller.
+[INFO] [1700517939.302900321] [controller_server]: Passing new path to controller.
+[INFO] [1700517940.369561637] [controller_server]: Passing new path to controller.
+[INFO] [1700517941.369574915] [controller_server]: Passing new path to controller.
+[INFO] [1700517942.436539190] [controller_server]: Passing new path to controller.
+[INFO] [1700517943.436251880] [controller_server]: Passing new path to controller.
+[INFO] [1700517944.502893770] [controller_server]: Passing new path to controller.
+[INFO] [1700517945.502896455] [controller_server]: Passing new path to controller.
+[INFO] [1700517946.569557086] [controller_server]: Passing new path to controller.
+[ERROR] [1700517946.969742547] [controller_server]: Failed to make progress
+[WARN] [1700517946.970152690] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[INFO] [1700517946.983166890] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[INFO] [1700517947.463490268] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1700517948.532276652] [controller_server]: Passing new path to controller.
+[INFO] [1700517949.598929597] [controller_server]: Passing new path to controller.
+[INFO] [1700517950.598922968] [controller_server]: Passing new path to controller.
+[INFO] [1700517951.665605524] [controller_server]: Passing new path to controller.
+[INFO] [1700517952.665624710] [controller_server]: Passing new path to controller.
+[INFO] [1700517953.732267322] [controller_server]: Passing new path to controller.
+[INFO] [1700517954.732270638] [controller_server]: Passing new path to controller.
+[INFO] [1700517955.798934287] [controller_server]: Passing new path to controller.
+[INFO] [1700517955.976027184] [rclcpp]: signal_handler(signum=2)
+[INFO] [1700517955.976482252] [local_costmap.local_costmap]: Running Nav2 LifecycleNode rcl preshutdown (local_costmap)
+[INFO] [1700517955.977158578] [local_costmap.local_costmap]: Deactivating
+[INFO] [1700517955.999125192] [controller_server]: Goal was canceled. Stopping the robot.
+[WARN] [1700517955.999282283] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[INFO] [1700517956.155193964] [local_costmap.local_costmap]: Cleaning up
+[INFO] [1700517956.422681510] [local_costmap.local_costmap]: Destroying bond (local_costmap) to lifecycle manager.
+[INFO] [1700517956.427101588] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[INFO] [1700517956.433180702] [controller_server]: Deactivating
+[INFO] [1700517956.433340627] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[INFO] [1700517956.464072916] [controller_server]: Cleaning up
+[INFO] [1700517957.168548976] [controller_server]: Destroying bond (controller_server) to lifecycle manager.

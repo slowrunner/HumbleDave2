@@ -1,0 +1,22 @@
+[4.967s] Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node': CMAKE_PREFIX_PATH=/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node/build --no-deps install_data
+[6.233s] running develop
+[6.979s] running egg_info
+[6.980s] writing ros2_gopigo3_node.egg-info/PKG-INFO
+[6.981s] writing dependency_links to ros2_gopigo3_node.egg-info/dependency_links.txt
+[6.982s] writing entry points to ros2_gopigo3_node.egg-info/entry_points.txt
+[6.983s] writing requirements to ros2_gopigo3_node.egg-info/requires.txt
+[6.983s] writing top-level names to ros2_gopigo3_node.egg-info/top_level.txt
+[6.991s] reading manifest file 'ros2_gopigo3_node.egg-info/SOURCES.txt'
+[6.995s] writing manifest file 'ros2_gopigo3_node.egg-info/SOURCES.txt'
+[7.003s] running build_ext
+[7.004s] Creating /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages/ros2-gopigo3-node.egg-link (link to .)
+[7.007s] Installing distance_sensor script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node
+[7.008s] Installing distance_sensor_subscriber script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node
+[7.009s] Installing gopigo3_node script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node
+[7.010s] Installing imu_sensor script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node
+[7.010s] Installing odometer script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node
+[7.011s] Installing ultrasonic_ranger script to /home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/ros2_gopigo3_node
+[7.013s] 
+[7.013s] Installed /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node
+[7.013s] running install_data
+[7.163s] Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/HumbleDave/ros2ws/install/mpu9250driver:/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node/build --no-deps install_data

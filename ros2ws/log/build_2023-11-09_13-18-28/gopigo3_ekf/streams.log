@@ -1,0 +1,23 @@
+[1.214s] Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf -- -j4 -l4
+[3.453s] Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf -- -j4 -l4
+[5.126s] Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf
+[5.169s] -- Install configuration: ""
+[5.170s] -- Execute custom install script
+[5.172s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/config/ekf.yaml
+[5.174s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/launch/ekf_v3.launch.py
+[5.177s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/ament_index/resource_index/package_run_dependencies/gopigo3_ekf
+[5.180s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/ament_index/resource_index/parent_prefix_path/gopigo3_ekf
+[5.182s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/environment/ament_prefix_path.sh
+[5.183s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/environment/ament_prefix_path.dsv
+[5.186s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/environment/path.sh
+[5.186s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/environment/path.dsv
+[5.187s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/local_setup.bash
+[5.189s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/local_setup.sh
+[5.197s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/local_setup.zsh
+[5.198s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/local_setup.dsv
+[5.198s] -- Symlinking: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/package.dsv
+[5.257s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/ament_index/resource_index/packages/gopigo3_ekf
+[5.263s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/cmake/gopigo3_ekfConfig.cmake
+[5.265s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/cmake/gopigo3_ekfConfig-version.cmake
+[5.266s] -- Up-to-date symlink: /home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/package.xml
+[5.280s] Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf

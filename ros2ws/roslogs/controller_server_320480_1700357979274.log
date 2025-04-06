@@ -1,0 +1,61 @@
+[INFO] [1700357979.590328124] [controller_server]: 
+	controller_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1700357979.682519109] [controller_server]: Creating controller server
+[INFO] [1700357979.794336507] [local_costmap.local_costmap]: 
+	local_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1700357979.804168750] [local_costmap.local_costmap]: Creating Costmap
+[INFO] [1700357980.041974168] [controller_server]: Configuring controller interface
+[INFO] [1700357980.042417830] [controller_server]: getting goal checker plugins..
+[INFO] [1700357980.042696530] [controller_server]: Controller frequency set to 20.0000Hz
+[INFO] [1700357980.042838307] [local_costmap.local_costmap]: Configuring
+[INFO] [1700357980.081653398] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[INFO] [1700357980.098013125] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[INFO] [1700357980.134232096] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[INFO] [1700357980.134523926] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[INFO] [1700357980.139404613] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1700357980.171623314] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[INFO] [1700357980.176745276] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[INFO] [1700357980.180240312] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[INFO] [1700357980.192270235] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[INFO] [1700357980.200637587] [controller_server]: Setting transform_tolerance to 0.200000
+[INFO] [1700357980.251333251] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[INFO] [1700357980.256608693] [controller_server]: Critic plugin initialized
+[INFO] [1700357980.258057473] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[INFO] [1700357980.263656615] [controller_server]: Critic plugin initialized
+[INFO] [1700357980.265008600] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[INFO] [1700357980.267470499] [controller_server]: Critic plugin initialized
+[INFO] [1700357980.268933390] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[INFO] [1700357980.272652997] [controller_server]: Critic plugin initialized
+[INFO] [1700357980.273979353] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[INFO] [1700357980.277635313] [controller_server]: Critic plugin initialized
+[INFO] [1700357980.278790244] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[INFO] [1700357980.281351901] [controller_server]: Critic plugin initialized
+[INFO] [1700357980.282850552] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[INFO] [1700357980.285160730] [controller_server]: Critic plugin initialized
+[INFO] [1700357980.285316673] [controller_server]: Controller Server has FollowPath  controllers available.
+[INFO] [1700357981.096136370] [controller_server]: Activating
+[INFO] [1700357981.096283368] [local_costmap.local_costmap]: Activating
+[INFO] [1700357981.096337220] [local_costmap.local_costmap]: Checking transform
+[INFO] [1700357981.096427293] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700357981.596537876] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700357982.096518997] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700357982.596545450] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700357983.096517312] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700357983.596524894] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700357984.096526088] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700357984.596523596] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700357985.096543104] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700357985.596517575] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700357986.096522934] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700357986.596515756] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700357987.096524874] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700357987.596526065] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700357987.717901764] [rclcpp]: signal_handler(signum=2)
+[INFO] [1700357987.718289871] [local_costmap.local_costmap]: Running Nav2 LifecycleNode rcl preshutdown (local_costmap)
+[INFO] [1700357987.718557387] [local_costmap.local_costmap]: Destroying bond (local_costmap) to lifecycle manager.
+[INFO] [1700357987.718645830] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[INFO] [1700357987.718734459] [controller_server]: Destroying bond (controller_server) to lifecycle manager.

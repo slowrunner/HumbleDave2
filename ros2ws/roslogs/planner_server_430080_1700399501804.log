@@ -1,0 +1,846 @@
+[INFO] [1700399502.187478832] [planner_server]: 
+	planner_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1700399502.225684871] [planner_server]: Creating
+[INFO] [1700399502.551356357] [global_costmap.global_costmap]: 
+	global_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1700399502.556605299] [global_costmap.global_costmap]: Creating Costmap
+[INFO] [1700399502.869522166] [planner_server]: Configuring
+[INFO] [1700399502.869653220] [global_costmap.global_costmap]: Configuring
+[INFO] [1700399502.891052816] [global_costmap.global_costmap]: Using plugin "static_layer"
+[INFO] [1700399502.905463694] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[INFO] [1700399502.910718321] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[INFO] [1700399502.910841523] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[INFO] [1700399502.918166572] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[INFO] [1700399502.936047151] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[INFO] [1700399502.936175779] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[INFO] [1700399502.940727636] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1700399502.975762804] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[INFO] [1700399502.975903117] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[INFO] [1700399502.977164140] [planner_server]: Planner Server has GridBased  planners available.
+[INFO] [1700399536.480640684] [planner_server]: Activating
+[INFO] [1700399536.480822238] [global_costmap.global_costmap]: Activating
+[INFO] [1700399536.480895793] [global_costmap.global_costmap]: Checking transform
+[INFO] [1700399536.480989032] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399536.981058077] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399537.481048123] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399537.981125630] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399538.481077861] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399538.981203053] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399539.481072118] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399539.981102903] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399540.481079114] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399540.981091418] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399541.481051333] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399541.981056655] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399542.481061736] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399542.981068854] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399543.481109453] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399543.981041553] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399544.481071412] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399544.981051122] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399545.481006907] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399545.981052209] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399546.481047382] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399546.981055684] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399547.481016653] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399547.981047807] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399548.481015276] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399548.981052521] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399549.481162470] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1700399549.981614655] [global_costmap.global_costmap]: start
+[INFO] [1700399550.041821895] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[INFO] [1700399550.061418473] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[INFO] [1700399550.611683124] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399553.991932097] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399555.992751400] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399558.991925522] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399560.992119439] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399563.992090952] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399565.991913275] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399568.992443664] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399570.991949968] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399573.991919449] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399575.991885150] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399578.991973104] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399580.991910578] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399583.991901619] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399585.991939792] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399588.991953455] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399590.991939272] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399593.991944206] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399595.991892537] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399598.991906817] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399600.991915346] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399603.991960323] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399605.991889460] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399608.991932337] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399610.991932895] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399613.991925729] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399615.991915542] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399618.991900333] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399620.992110232] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399623.992090350] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399625.991907638] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399628.991912675] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399630.991907642] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399633.991870599] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399635.991910950] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399638.991919752] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399640.991919563] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399643.991907322] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399645.991891907] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399648.991930752] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399650.991959295] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399653.991935135] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399655.992033025] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399658.991923785] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399660.991951413] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399663.992024499] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399665.992134307] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399668.991884872] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399670.991935344] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399673.991888271] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399675.991972183] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399678.991952012] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399680.991945847] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399683.991942763] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399685.991971223] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399688.991946948] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399690.991891665] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399693.991981235] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 280 at 0.010000 m/pix
+[INFO] [1700399695.991886023] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 408 X 281 at 0.010000 m/pix
+[INFO] [1700399698.991932217] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 515 X 423 at 0.010000 m/pix
+[INFO] [1700399700.992090721] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 540 X 424 at 0.010000 m/pix
+[INFO] [1700399703.991946949] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 955 X 483 at 0.010000 m/pix
+[INFO] [1700399705.991938784] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 953 X 491 at 0.010000 m/pix
+[INFO] [1700399708.991903839] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 955 X 483 at 0.010000 m/pix
+[INFO] [1700399710.991958577] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 953 X 491 at 0.010000 m/pix
+[INFO] [1700399713.991902961] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 955 X 483 at 0.010000 m/pix
+[INFO] [1700399715.991863937] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 953 X 491 at 0.010000 m/pix
+[INFO] [1700399718.992186644] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 955 X 483 at 0.010000 m/pix
+[INFO] [1700399720.991920489] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 953 X 491 at 0.010000 m/pix
+[INFO] [1700399723.992064230] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 955 X 483 at 0.010000 m/pix
+[INFO] [1700399725.991919275] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 953 X 491 at 0.010000 m/pix
+[INFO] [1700399728.992366767] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 955 X 483 at 0.010000 m/pix
+[INFO] [1700399730.991905089] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 953 X 491 at 0.010000 m/pix
+[INFO] [1700399733.992213318] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 955 X 483 at 0.010000 m/pix
+[INFO] [1700399735.991970078] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 953 X 491 at 0.010000 m/pix
+[INFO] [1700399738.991954010] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 955 X 483 at 0.010000 m/pix
+[WARN] [1700399740.403144346] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 19.3085 Hz
+[INFO] [1700399740.991914450] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 953 X 498 at 0.010000 m/pix
+[INFO] [1700399743.991896357] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 975 X 577 at 0.010000 m/pix
+[INFO] [1700399745.991944979] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1015 X 613 at 0.010000 m/pix
+[INFO] [1700399748.991933400] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1044 X 611 at 0.010000 m/pix
+[INFO] [1700399750.991894167] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 619 at 0.010000 m/pix
+[INFO] [1700399753.991856527] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 618 at 0.010000 m/pix
+[WARN] [1700399754.115191815] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 11.3368 Hz
+[INFO] [1700399755.991912809] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 619 at 0.010000 m/pix
+[INFO] [1700399758.991888701] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 619 at 0.010000 m/pix
+[INFO] [1700399760.991884980] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 620 at 0.010000 m/pix
+[INFO] [1700399763.991904367] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 619 at 0.010000 m/pix
+[INFO] [1700399765.991949401] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 620 at 0.010000 m/pix
+[INFO] [1700399768.991893081] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 619 at 0.010000 m/pix
+[INFO] [1700399770.991877353] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 620 at 0.010000 m/pix
+[INFO] [1700399773.991901305] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 619 at 0.010000 m/pix
+[INFO] [1700399775.991878149] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 620 at 0.010000 m/pix
+[INFO] [1700399778.991909855] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 619 at 0.010000 m/pix
+[INFO] [1700399780.991898806] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 620 at 0.010000 m/pix
+[INFO] [1700399783.991924860] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 619 at 0.010000 m/pix
+[INFO] [1700399785.992109954] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 620 at 0.010000 m/pix
+[WARN] [1700399786.162284586] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 2.7105 Hz
+[WARN] [1700399787.429260812] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 4.2623 Hz
+[WARN] [1700399788.780615852] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 2.9892 Hz
+[INFO] [1700399788.991897746] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 623 at 0.010000 m/pix
+[WARN] [1700399790.014257820] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 4.9315 Hz
+[INFO] [1700399790.991983875] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 623 at 0.010000 m/pix
+[WARN] [1700399791.263518446] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 4.4757 Hz
+[WARN] [1700399792.483200200] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 5.3036 Hz
+[WARN] [1700399793.764271895] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 3.9525 Hz
+[INFO] [1700399793.991955087] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 626 at 0.010000 m/pix
+[WARN] [1700399795.240650551] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 2.2511 Hz
+[INFO] [1700399795.991915122] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[WARN] [1700399796.357628860] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 12.0561 Hz
+[WARN] [1700399797.467645284] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 11.5619 Hz
+[WARN] [1700399798.571048411] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 12.6467 Hz
+[INFO] [1700399798.991937754] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[WARN] [1700399799.810298017] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 4.8354 Hz
+[INFO] [1700399800.993184031] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[WARN] [1700399801.040137079] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 5.0323 Hz
+[INFO] [1700399803.991934728] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399805.992095662] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399808.991888622] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399810.992127089] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399813.991967192] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399815.991894067] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399818.991950478] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399820.991884479] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399823.992147346] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399825.991953643] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399828.991906528] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399830.992106780] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399833.992019328] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399835.991892933] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399838.992217453] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399840.991907873] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399843.991923800] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399845.991924083] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399848.992059338] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399850.991964045] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399853.991917354] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399855.991946391] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399858.991924917] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399860.996410364] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399863.991900789] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399865.991902931] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399868.991899431] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399870.991883405] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399873.991930511] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399875.991909871] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399878.991902382] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399880.991969035] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399883.991903949] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399885.991901841] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399888.991903288] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399890.991874048] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399893.991889621] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399895.991912730] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399898.991907188] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399900.991930424] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399903.991953156] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399905.991945723] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399908.991917044] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399910.991882165] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399913.991894130] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399915.991923084] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399918.991893824] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399920.991921431] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399923.991927881] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399925.991919042] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399928.991928110] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399930.991902731] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399933.991910859] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399935.991847608] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399938.991936147] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399940.991888781] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399943.991961009] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399945.991897695] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399948.991902316] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399950.991910255] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399953.991906694] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399955.991886017] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399958.991882235] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399960.991897016] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399963.991901289] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399965.991902416] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399968.991888893] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399970.991887995] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399973.991899157] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399975.991884067] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399978.991895523] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399980.991878834] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399983.991923287] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399985.991972441] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399988.991926819] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399990.991896428] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399993.991890635] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700399995.991912735] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700399998.991880142] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400000.991895343] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400003.991959800] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400005.991891159] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400008.991891759] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400010.991890330] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400013.991890831] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400015.991875206] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400018.991888608] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400020.991901583] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400023.991889459] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400025.991901237] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400028.991882030] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400030.991892538] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400033.991904655] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400035.991887984] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400038.991919166] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400040.991902056] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400043.991885673] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400045.991917642] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400048.991893470] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400050.991887537] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400053.991882557] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400055.992110237] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400058.991890008] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400060.991892268] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400063.991884450] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400065.991876585] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400068.991939770] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400070.991900076] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400073.991871693] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400075.991870723] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400078.991885419] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400080.991878026] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400083.991884502] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400085.991886111] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400088.991890628] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400090.991883720] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400093.991860814] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400095.991902833] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400098.991935854] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400100.991880042] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400103.991895120] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400105.991891734] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400108.991913516] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400110.991900612] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400113.991907876] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400115.991944898] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400118.991907199] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400120.991879517] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400123.991916335] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400125.991890467] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400128.991886636] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400130.991897489] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400133.991893434] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400135.991890526] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400138.991896006] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400140.991878115] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400143.991916609] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400145.991878754] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400148.991916337] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400150.991876257] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400153.992316424] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400155.991880346] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400158.991924032] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400160.991890427] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400163.991897201] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400165.991883463] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400168.991909454] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400170.991914526] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400173.991938919] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400175.991891840] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400178.991861745] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400180.991911567] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400183.991883817] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400185.991917839] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400188.991881563] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400190.991889598] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400193.991888740] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400195.991856382] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400198.991894589] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400200.991929372] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400203.991890923] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400205.991884016] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400208.991915798] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400210.991939717] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400213.991907768] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400215.991910958] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400218.991894777] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400220.991876961] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400223.991956249] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400225.991891648] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400228.991877426] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400230.991891132] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400233.991867621] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400235.991873190] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400238.991862815] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400240.991914319] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400243.991943617] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400245.991957373] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400248.991877270] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400250.991912906] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400253.991886419] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400255.991912898] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400258.991893138] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400260.991876664] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400263.991893334] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400265.991878499] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400268.991938599] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400270.991886421] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400273.991911191] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400275.991886077] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400278.991889240] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400280.991913504] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400283.991926448] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400285.991922886] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400288.991912055] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400290.991911539] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400293.991914988] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400295.991924997] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400298.991880596] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400300.991888669] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400303.991929694] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400305.992294972] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400308.991891764] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400310.991934109] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400313.991901433] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400315.991886119] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400318.991898795] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400320.991887468] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400323.991892292] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400325.991877787] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400328.991890758] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400330.991888666] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400333.991918081] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400335.991887698] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400338.991909594] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400340.991882012] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400343.991892740] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400345.991962143] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400348.991888426] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400350.991931224] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400353.991887300] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400355.991911640] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400358.991946491] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400360.991900687] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400363.991893332] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400365.991911495] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400368.991938525] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400370.991939285] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400373.991897313] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400375.991921724] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400378.991897599] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400380.991917329] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400383.991880941] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400385.991879804] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400388.991892763] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400390.991878592] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400393.991883306] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400395.991867286] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400398.991874476] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400400.991944865] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400403.991938513] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400405.991899887] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400408.991880863] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400410.991885609] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400413.991882764] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400415.991889827] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400418.991932623] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400420.991877652] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400423.991884441] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400425.991927452] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400428.991922587] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400430.991906341] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400433.991969264] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400435.991886594] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400438.991856973] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400440.991892896] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400443.991907952] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400445.991948486] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400448.991896387] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400450.991906571] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400453.991915870] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400455.991938628] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400458.991923308] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400460.991902326] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400463.991893478] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400465.992037791] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400468.991903546] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400470.991966045] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400473.991903661] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400475.991904493] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400478.991915284] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400480.991895727] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400483.991929544] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400485.991889488] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400488.991903517] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400490.991895922] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400493.991876330] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400495.991897734] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400498.991884261] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400500.991886849] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400503.991869457] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400505.991932081] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400508.991910659] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400510.991944448] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400513.991943830] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400515.992028765] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400518.991904359] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400520.991893385] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400523.991923669] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400525.992098580] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400528.991935261] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400530.991888562] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400533.991898692] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400535.991952119] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400538.991900125] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400540.991937902] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400543.991933636] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400545.991883818] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400548.991869317] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400550.991877607] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400553.991890203] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400555.991973526] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400558.991966719] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400560.991882690] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400563.991884240] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400565.991901854] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400568.991893390] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400570.991854372] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400573.991976207] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400575.991882075] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400578.992030284] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400580.991952593] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400583.991893863] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400585.991878205] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400588.992053791] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400590.991964092] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400593.991932869] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400595.991938184] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400598.991916408] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400600.991973570] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400603.991927038] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400605.991888827] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400608.992253570] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400610.991875043] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400613.991945089] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400615.991921554] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400618.991945028] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400620.991881192] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400623.991898484] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400625.991850217] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400628.991950657] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400630.991930996] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400633.991965624] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400635.991903347] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400638.991923736] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400640.991883639] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400643.991885381] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400645.991969129] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400648.991884040] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400650.991926949] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400653.991891324] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400655.991926616] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400658.991974657] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400660.991927389] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400663.991892673] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400665.991897657] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400668.991884200] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400670.991887068] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400673.991946665] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400675.991905472] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400678.991909088] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400680.991944239] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400683.991892468] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400685.991948020] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400688.991887247] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400690.991931737] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400693.991913909] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400695.991889652] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400698.991906507] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400700.991952151] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400703.991884062] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400705.991973476] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400708.991890885] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400710.991976237] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400713.991905423] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400715.991894954] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400718.992074617] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400720.992243009] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400723.991915973] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400725.991917896] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400728.992098334] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400730.991905382] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400733.991864524] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400735.991918544] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400738.991896813] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400740.991969732] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400743.991909610] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400745.991888689] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400748.991865232] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400750.991974153] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400753.991963545] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400755.991896627] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400758.991892386] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400760.991891107] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400763.991876049] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400765.991967484] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400768.991839202] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400770.991940516] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400773.991975396] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400775.991915908] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400778.991972895] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400780.991914436] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400783.991890105] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400785.991874730] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400788.991891914] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400790.991938714] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400793.991898821] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400795.991980167] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400798.991882438] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400800.992111403] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400803.991904301] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400805.991899205] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400808.991895725] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400810.991883749] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400813.991918339] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400815.991899632] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400818.991893681] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400820.991898669] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400823.991914934] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400825.991913079] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400828.991935989] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400830.991893384] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400833.991964455] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400835.991880082] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400838.991934259] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400840.991893450] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400843.991904122] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400845.991916525] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400848.991962803] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400850.991912493] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400853.991883526] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400855.991883798] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400858.991914602] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400860.991849199] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400863.991894553] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400865.991878732] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400868.991898932] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400870.991903452] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400873.992044126] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400875.991900824] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400878.991905104] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400880.991876031] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400883.992087544] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400885.991942184] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400888.991934823] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400890.991889247] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400893.992026156] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400895.991883793] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400898.992078565] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400900.991888544] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400903.991894923] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400905.991944944] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400908.991907817] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400910.991932957] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400913.991883841] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400915.991860435] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400918.991958051] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400920.991898615] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400923.991907281] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400925.991891945] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400928.991901104] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400930.991873220] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400933.991942278] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400935.991906475] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400938.991886064] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400940.991886417] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400943.991877554] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400945.991909469] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400948.991883598] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400950.991967742] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400953.991964308] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400955.991969905] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400958.991902130] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400960.991863197] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400963.991892802] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400965.991892895] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400968.991879011] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400970.991883702] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400973.991908180] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400975.991928749] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400978.991881201] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400980.991881888] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400983.991886461] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400985.991890507] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400988.991922052] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400990.991930530] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400993.991861790] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700400995.991896108] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700400998.991934859] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401000.991915184] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401003.991955129] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401005.991891998] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401008.991892879] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401010.991882754] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401013.991971848] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401015.991909693] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401018.991969185] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401020.992449808] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401023.991899391] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401025.991892507] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401028.992107238] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401030.991899289] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401033.991981975] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401035.991887642] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401038.991901394] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401040.992030897] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401043.991960697] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401045.991912319] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401048.991895404] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401050.992036123] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401053.994281468] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401055.991971703] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401058.992038120] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401060.991956613] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401063.992018409] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401065.991944555] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401068.991890324] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401070.992036232] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401073.991899567] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401075.991890816] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401078.991903897] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401080.991913837] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401083.991891002] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401085.992377497] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401088.991973452] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401090.991893200] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401093.991977973] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401095.991967244] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401098.991902896] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401100.992057523] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401103.991886389] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401105.991889911] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401108.991958449] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401110.991943236] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401113.992033300] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401115.992064833] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401118.991970517] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401120.991966759] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401123.992112097] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401125.992042271] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401128.991936823] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401130.991877539] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401133.991915301] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401135.991921947] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401138.992073271] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401140.991912220] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401143.991905164] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401145.992042041] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401148.991921012] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401150.991967246] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401153.991973427] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401155.991905612] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401158.991898448] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401160.991946045] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401163.991903184] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401165.992082154] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401168.991917173] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401170.991921742] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401173.992273484] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401175.991905303] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401178.991935074] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401180.991873616] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401183.991980560] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401185.991952958] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401188.991916689] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401190.991960239] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401193.991951457] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401195.991910512] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401198.991921218] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401200.991908241] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401203.991909694] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401205.991921628] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401208.991915773] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401210.991964693] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401213.991878197] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401215.991901066] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401218.991898557] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401220.991926745] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401223.991901428] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401225.992044433] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401228.991873310] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401230.991893413] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401233.991904572] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401235.991972142] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401238.991915807] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401240.991972270] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401243.991951201] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401245.992040075] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401248.991886365] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401250.991912188] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401253.991935834] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401255.992035845] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401258.992024997] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401260.991889405] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401263.991894229] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401265.991912453] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401268.991917765] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401270.991916549] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401273.991977477] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401275.992034060] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401278.991889977] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401280.991901861] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401283.991978486] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401285.992040650] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401288.991921616] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401290.991973174] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401293.992125475] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401295.991901410] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401298.991968847] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401300.992029708] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401303.992092725] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401305.991962148] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401308.991957615] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401310.991942095] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401313.991954864] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401315.991939515] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401318.991852068] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401320.991914332] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401323.991974797] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401325.991892566] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401328.991958054] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401330.992037862] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401333.991903987] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401335.991914391] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401338.991981149] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401340.991960298] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401343.991934172] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401345.992070230] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401348.991964129] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401350.991951767] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401353.991934707] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401355.991936736] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401358.992030327] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401360.991940657] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401363.991957218] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401365.991927828] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401368.991897245] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401370.991975765] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401373.992042908] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401375.992037673] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401378.992028710] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401380.991881831] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401383.991878652] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401385.991907014] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401388.991905580] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401390.991943668] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401393.991908590] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401395.991907311] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401398.991882812] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401400.991918406] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401403.991949985] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401405.991887509] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401408.991899315] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401410.991949007] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401413.991914688] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401415.991938420] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401418.991886495] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401420.991908619] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401423.992190453] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401425.992061082] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401428.991910592] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401430.991948185] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401433.991982882] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401435.991886257] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401438.991973125] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401440.991947557] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401443.991927504] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401445.991895106] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401448.991932260] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401450.991897902] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1051 X 642 at 0.010000 m/pix
+[INFO] [1700401453.991899709] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1053 X 640 at 0.010000 m/pix
+[INFO] [1700401454.276935169] [rclcpp]: signal_handler(signum=2)
+[INFO] [1700401454.277185425] [global_costmap.global_costmap]: Running Nav2 LifecycleNode rcl preshutdown (global_costmap)
+[INFO] [1700401454.277356553] [global_costmap.global_costmap]: Deactivating
+[INFO] [1700401454.992194592] [global_costmap.global_costmap]: Cleaning up
+[INFO] [1700401455.187408282] [global_costmap.global_costmap]: Destroying bond (global_costmap) to lifecycle manager.
+[INFO] [1700401455.187644390] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[INFO] [1700401455.194445032] [planner_server]: Deactivating
+[INFO] [1700401455.194590030] [planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[INFO] [1700401455.194645104] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[INFO] [1700401455.198343597] [planner_server]: Cleaning up
+[INFO] [1700401455.501017996] [planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[INFO] [1700401455.501417417] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[INFO] [1700401455.688434852] [planner_server]: Destroying bond (planner_server) to lifecycle manager.

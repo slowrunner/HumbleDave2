@@ -1,0 +1,24 @@
+[INFO] [1700518186.820548054] [bt_navigator]: 
+	bt_navigator lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1700518186.821319859] [bt_navigator]: Creating
+[INFO] [1700518191.257639623] [bt_navigator]: Configuring
+[INFO] [1700518193.967213494] [bt_navigator]: Activating
+[INFO] [1700518194.735965822] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[INFO] [1700518246.778026724] [bt_navigator]: Begin navigating from current location (0.00, -0.00) to (0.10, 0.00)
+[INFO] [1700518249.601282954] [bt_navigator]: Goal succeeded
+[INFO] [1700518304.376041251] [bt_navigator]: Begin navigating from current location (0.13, 0.37) to (0.10, 0.00)
+[WARN] [1700518304.486715645] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for compute_path_to_pose
+[WARN] [1700518304.508248339] [bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to global_costmap/clear_entirely_global_costmap.
+[WARN] [1700518304.545547181] [bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to local_costmap/clear_entirely_local_costmap.
+[INFO] [1700518368.058509381] [bt_navigator]: Goal succeeded
+[INFO] [1700518544.989208758] [bt_navigator]: Begin navigating from current location (0.15, -0.01) to (1.00, 0.00)
+[INFO] [1700518569.124795611] [bt_navigator]: Goal succeeded
+[INFO] [1700518581.923735775] [rclcpp]: signal_handler(signum=2)
+[INFO] [1700518581.923896193] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[INFO] [1700518581.924147125] [bt_navigator]: Deactivating
+[INFO] [1700518581.924249657] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[INFO] [1700518582.026430764] [bt_navigator]: Cleaning up
+[INFO] [1700518584.138069964] [bt_navigator]: Completed Cleaning up
+[INFO] [1700518584.138302193] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.

@@ -1,0 +1,17 @@
+[8.132s] Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/HoROS8': PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/HoROS8/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/HoROS8/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/HoROS8/build --no-deps install_data
+[9.982s] running develop
+[11.157s] running egg_info
+[11.158s] writing HoROS8.egg-info/PKG-INFO
+[11.160s] writing dependency_links to HoROS8.egg-info/dependency_links.txt
+[11.161s] writing entry points to HoROS8.egg-info/entry_points.txt
+[11.164s] writing requirements to HoROS8.egg-info/requires.txt
+[11.165s] writing top-level names to HoROS8.egg-info/top_level.txt
+[11.178s] reading manifest file 'HoROS8.egg-info/SOURCES.txt'
+[11.184s] writing manifest file 'HoROS8.egg-info/SOURCES.txt'
+[11.201s] running build_ext
+[11.205s] Creating /home/ubuntu/HumbleDave/ros2ws/install/HoROS8/lib/python3.10/site-packages/HoROS8.egg-link (link to .)
+[11.214s] Installing wanderAround script to /home/ubuntu/HumbleDave/ros2ws/install/HoROS8/lib/HoROS8
+[11.219s] 
+[11.221s] Installed /home/ubuntu/HumbleDave/ros2ws/build/HoROS8
+[11.225s] running install_data
+[12.902s] Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/HoROS8' returned '0': PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/HoROS8/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/HoROS8/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/HoROS8/build --no-deps install_data

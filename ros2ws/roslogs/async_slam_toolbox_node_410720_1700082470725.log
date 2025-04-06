@@ -1,0 +1,4 @@
+[INFO] [1700082471.290052328] [slam_toolbox]: Node using stack size 40000000
+[INFO] [1700082471.904207028] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[INFO] [1700082471.918968237] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[INFO] [1700085462.907110290] [rclcpp]: signal_handler(signum=15)

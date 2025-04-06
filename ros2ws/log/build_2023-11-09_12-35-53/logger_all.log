@@ -1,0 +1,606 @@
+[4.411s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--allow-overriding', 'ros2_gopigo3_msg', '--symlink-install']
+[4.412s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=['ros2_gopigo3_msg'], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff88c26d70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff88c25690>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff88c25690>>)
+[4.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.619s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/HumbleDave/ros2ws'
+[4.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.666s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.666s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.666s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.666s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.666s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.667s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.667s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.667s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.668s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.668s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.669s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.669s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.669s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.670s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.670s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs) by extensions ['ignore', 'ignore_ament_install']
+[4.671s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs) by extension 'ignore'
+[4.671s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs) by extension 'ignore_ament_install'
+[4.671s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs) by extensions ['colcon_pkg']
+[4.671s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs) by extension 'colcon_pkg'
+[4.671s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs) by extensions ['colcon_meta']
+[4.671s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs) by extension 'colcon_meta'
+[4.672s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs) by extensions ['ros']
+[4.672s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs) by extension 'ros'
+[4.672s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs) by extensions ['cmake', 'python']
+[4.672s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs) by extension 'cmake'
+[4.672s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs) by extension 'python'
+[4.673s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs) by extensions ['python_setup_py']
+[4.673s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs) by extension 'python_setup_py'
+[4.673s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-48-41-312727-HumbleD-51949) by extensions ['ignore', 'ignore_ament_install']
+[4.673s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-48-41-312727-HumbleD-51949) by extension 'ignore'
+[4.674s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-48-41-312727-HumbleD-51949) by extension 'ignore_ament_install'
+[4.674s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-48-41-312727-HumbleD-51949) by extensions ['colcon_pkg']
+[4.674s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-48-41-312727-HumbleD-51949) by extension 'colcon_pkg'
+[4.674s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-48-41-312727-HumbleD-51949) by extensions ['colcon_meta']
+[4.674s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-48-41-312727-HumbleD-51949) by extension 'colcon_meta'
+[4.674s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-48-41-312727-HumbleD-51949) by extensions ['ros']
+[4.675s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-48-41-312727-HumbleD-51949) by extension 'ros'
+[4.675s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-48-41-312727-HumbleD-51949) by extensions ['cmake', 'python']
+[4.675s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-48-41-312727-HumbleD-51949) by extension 'cmake'
+[4.675s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-48-41-312727-HumbleD-51949) by extension 'python'
+[4.675s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-48-41-312727-HumbleD-51949) by extensions ['python_setup_py']
+[4.675s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-48-41-312727-HumbleD-51949) by extension 'python_setup_py'
+[4.676s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-54-921171-HumbleD-52365) by extensions ['ignore', 'ignore_ament_install']
+[4.676s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-54-921171-HumbleD-52365) by extension 'ignore'
+[4.677s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-54-921171-HumbleD-52365) by extension 'ignore_ament_install'
+[4.677s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-54-921171-HumbleD-52365) by extensions ['colcon_pkg']
+[4.677s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-54-921171-HumbleD-52365) by extension 'colcon_pkg'
+[4.677s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-54-921171-HumbleD-52365) by extensions ['colcon_meta']
+[4.677s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-54-921171-HumbleD-52365) by extension 'colcon_meta'
+[4.677s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-54-921171-HumbleD-52365) by extensions ['ros']
+[4.677s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-54-921171-HumbleD-52365) by extension 'ros'
+[4.678s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-54-921171-HumbleD-52365) by extensions ['cmake', 'python']
+[4.678s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-54-921171-HumbleD-52365) by extension 'cmake'
+[4.678s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-54-921171-HumbleD-52365) by extension 'python'
+[4.678s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-54-921171-HumbleD-52365) by extensions ['python_setup_py']
+[4.678s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-54-921171-HumbleD-52365) by extension 'python_setup_py'
+[4.679s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-55-033844-HumbleD-52362) by extensions ['ignore', 'ignore_ament_install']
+[4.679s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-55-033844-HumbleD-52362) by extension 'ignore'
+[4.679s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-55-033844-HumbleD-52362) by extension 'ignore_ament_install'
+[4.680s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-55-033844-HumbleD-52362) by extensions ['colcon_pkg']
+[4.680s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-55-033844-HumbleD-52362) by extension 'colcon_pkg'
+[4.680s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-55-033844-HumbleD-52362) by extensions ['colcon_meta']
+[4.680s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-55-033844-HumbleD-52362) by extension 'colcon_meta'
+[4.680s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-55-033844-HumbleD-52362) by extensions ['ros']
+[4.680s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-55-033844-HumbleD-52362) by extension 'ros'
+[4.681s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-55-033844-HumbleD-52362) by extensions ['cmake', 'python']
+[4.681s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-55-033844-HumbleD-52362) by extension 'cmake'
+[4.681s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-55-033844-HumbleD-52362) by extension 'python'
+[4.681s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-55-033844-HumbleD-52362) by extensions ['python_setup_py']
+[4.681s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-51-55-033844-HumbleD-52362) by extension 'python_setup_py'
+[4.682s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-021690-HumbleD-52560) by extensions ['ignore', 'ignore_ament_install']
+[4.682s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-021690-HumbleD-52560) by extension 'ignore'
+[4.682s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-021690-HumbleD-52560) by extension 'ignore_ament_install'
+[4.682s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-021690-HumbleD-52560) by extensions ['colcon_pkg']
+[4.683s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-021690-HumbleD-52560) by extension 'colcon_pkg'
+[4.683s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-021690-HumbleD-52560) by extensions ['colcon_meta']
+[4.683s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-021690-HumbleD-52560) by extension 'colcon_meta'
+[4.683s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-021690-HumbleD-52560) by extensions ['ros']
+[4.683s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-021690-HumbleD-52560) by extension 'ros'
+[4.684s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-021690-HumbleD-52560) by extensions ['cmake', 'python']
+[4.684s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-021690-HumbleD-52560) by extension 'cmake'
+[4.684s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-021690-HumbleD-52560) by extension 'python'
+[4.684s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-021690-HumbleD-52560) by extensions ['python_setup_py']
+[4.684s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-021690-HumbleD-52560) by extension 'python_setup_py'
+[4.685s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-161235-HumbleD-52563) by extensions ['ignore', 'ignore_ament_install']
+[4.685s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-161235-HumbleD-52563) by extension 'ignore'
+[4.685s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-161235-HumbleD-52563) by extension 'ignore_ament_install'
+[4.685s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-161235-HumbleD-52563) by extensions ['colcon_pkg']
+[4.685s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-161235-HumbleD-52563) by extension 'colcon_pkg'
+[4.686s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-161235-HumbleD-52563) by extensions ['colcon_meta']
+[4.686s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-161235-HumbleD-52563) by extension 'colcon_meta'
+[4.686s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-161235-HumbleD-52563) by extensions ['ros']
+[4.686s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-161235-HumbleD-52563) by extension 'ros'
+[4.686s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-161235-HumbleD-52563) by extensions ['cmake', 'python']
+[4.687s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-161235-HumbleD-52563) by extension 'cmake'
+[4.687s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-161235-HumbleD-52563) by extension 'python'
+[4.687s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-161235-HumbleD-52563) by extensions ['python_setup_py']
+[4.687s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-52-59-161235-HumbleD-52563) by extension 'python_setup_py'
+[4.687s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-05-947592-HumbleD-52666) by extensions ['ignore', 'ignore_ament_install']
+[4.688s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-05-947592-HumbleD-52666) by extension 'ignore'
+[4.688s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-05-947592-HumbleD-52666) by extension 'ignore_ament_install'
+[4.688s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-05-947592-HumbleD-52666) by extensions ['colcon_pkg']
+[4.688s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-05-947592-HumbleD-52666) by extension 'colcon_pkg'
+[4.689s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-05-947592-HumbleD-52666) by extensions ['colcon_meta']
+[4.689s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-05-947592-HumbleD-52666) by extension 'colcon_meta'
+[4.689s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-05-947592-HumbleD-52666) by extensions ['ros']
+[4.689s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-05-947592-HumbleD-52666) by extension 'ros'
+[4.689s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-05-947592-HumbleD-52666) by extensions ['cmake', 'python']
+[4.689s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-05-947592-HumbleD-52666) by extension 'cmake'
+[4.690s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-05-947592-HumbleD-52666) by extension 'python'
+[4.690s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-05-947592-HumbleD-52666) by extensions ['python_setup_py']
+[4.690s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-05-947592-HumbleD-52666) by extension 'python_setup_py'
+[4.690s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-06-441090-HumbleD-52670) by extensions ['ignore', 'ignore_ament_install']
+[4.691s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-06-441090-HumbleD-52670) by extension 'ignore'
+[4.691s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-06-441090-HumbleD-52670) by extension 'ignore_ament_install'
+[4.691s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-06-441090-HumbleD-52670) by extensions ['colcon_pkg']
+[4.691s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-06-441090-HumbleD-52670) by extension 'colcon_pkg'
+[4.691s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-06-441090-HumbleD-52670) by extensions ['colcon_meta']
+[4.691s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-06-441090-HumbleD-52670) by extension 'colcon_meta'
+[4.692s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-06-441090-HumbleD-52670) by extensions ['ros']
+[4.692s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-06-441090-HumbleD-52670) by extension 'ros'
+[4.692s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-06-441090-HumbleD-52670) by extensions ['cmake', 'python']
+[4.692s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-06-441090-HumbleD-52670) by extension 'cmake'
+[4.692s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-06-441090-HumbleD-52670) by extension 'python'
+[4.693s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-06-441090-HumbleD-52670) by extensions ['python_setup_py']
+[4.693s] Level 1:colcon.colcon_core.package_identification:_identify(roslogs/2023-11-09-11-53-06-441090-HumbleD-52670) by extension 'python_setup_py'
+[4.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/gopigo3_ekf) by extensions ['ignore', 'ignore_ament_install']
+[4.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/gopigo3_ekf) by extension 'ignore'
+[4.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/gopigo3_ekf) by extension 'ignore_ament_install'
+[4.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/gopigo3_ekf) by extensions ['colcon_pkg']
+[4.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/gopigo3_ekf) by extension 'colcon_pkg'
+[4.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/gopigo3_ekf) by extensions ['colcon_meta']
+[4.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/gopigo3_ekf) by extension 'colcon_meta'
+[4.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/gopigo3_ekf) by extensions ['ros']
+[4.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/gopigo3_ekf) by extension 'ros'
+[4.706s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gopigo3_ekf' with type 'ros.ament_cmake' and name 'gopigo3_ekf'
+[4.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gopigo3_msg) by extensions ['ignore', 'ignore_ament_install']
+[4.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gopigo3_msg) by extension 'ignore'
+[4.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gopigo3_msg) by extension 'ignore_ament_install'
+[4.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gopigo3_msg) by extensions ['colcon_pkg']
+[4.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gopigo3_msg) by extension 'colcon_pkg'
+[4.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gopigo3_msg) by extensions ['colcon_meta']
+[4.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gopigo3_msg) by extension 'colcon_meta'
+[4.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gopigo3_msg) by extensions ['ros']
+[4.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gopigo3_msg) by extension 'ros'
+[4.710s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_gopigo3_msg' with type 'ros.ament_cmake' and name 'ros2_gopigo3_msg'
+[4.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gopigo3_node) by extensions ['ignore', 'ignore_ament_install']
+[4.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gopigo3_node) by extension 'ignore'
+[4.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gopigo3_node) by extension 'ignore_ament_install'
+[4.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gopigo3_node) by extensions ['colcon_pkg']
+[4.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gopigo3_node) by extension 'colcon_pkg'
+[4.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gopigo3_node) by extensions ['colcon_meta']
+[4.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gopigo3_node) by extension 'colcon_meta'
+[4.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gopigo3_node) by extensions ['ros']
+[4.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gopigo3_node) by extension 'ros'
+[4.714s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_gopigo3_node' with type 'ros.ament_python' and name 'ros2_gopigo3_node'
+[4.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_libcamera_pub) by extensions ['ignore', 'ignore_ament_install']
+[4.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_libcamera_pub) by extension 'ignore'
+[4.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_libcamera_pub) by extension 'ignore_ament_install'
+[4.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_libcamera_pub) by extensions ['colcon_pkg']
+[4.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_libcamera_pub) by extension 'colcon_pkg'
+[4.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_libcamera_pub) by extensions ['colcon_meta']
+[4.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_libcamera_pub) by extension 'colcon_meta'
+[4.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_libcamera_pub) by extensions ['ros']
+[4.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_libcamera_pub) by extension 'ros'
+[4.719s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_libcamera_pub' with type 'ros.ament_python' and name 'ros2_libcamera_pub'
+[4.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_client) by extensions ['ignore', 'ignore_ament_install']
+[4.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_client) by extension 'ignore'
+[4.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_client) by extension 'ignore_ament_install'
+[4.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_client) by extensions ['colcon_pkg']
+[4.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_client) by extension 'colcon_pkg'
+[4.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_client) by extensions ['colcon_meta']
+[4.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_client) by extension 'colcon_meta'
+[4.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_client) by extensions ['ros']
+[4.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_client) by extension 'ros'
+[4.723s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scan_client' with type 'ros.ament_python' and name 'scan_client'
+[4.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_gopigo3_keyboard) by extensions ['ignore', 'ignore_ament_install']
+[4.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_gopigo3_keyboard) by extension 'ignore'
+[4.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_gopigo3_keyboard) by extension 'ignore_ament_install'
+[4.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_gopigo3_keyboard) by extensions ['colcon_pkg']
+[4.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_gopigo3_keyboard) by extension 'colcon_pkg'
+[4.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_gopigo3_keyboard) by extensions ['colcon_meta']
+[4.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_gopigo3_keyboard) by extension 'colcon_meta'
+[4.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_gopigo3_keyboard) by extensions ['ros']
+[4.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_gopigo3_keyboard) by extension 'ros'
+[4.727s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_gopigo3_keyboard' with type 'ros.ament_python' and name 'teleop_gopigo3_keyboard'
+[4.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[4.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[4.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[4.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[4.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[4.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[4.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[4.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[4.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ros'
+[4.732s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[4.732s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.732s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.732s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.732s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.733s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.262s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/ubuntu/HumbleDave/ros2ws/install
+[5.325s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/ubuntu/ros2ws/install
+[5.394s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 221 installed packages in /opt/ros/humble
+[5.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.726s] Level 5:colcon.colcon_core.verb:set package 'gopigo3_ekf' build argument 'cmake_args' from command line to 'None'
+[5.727s] Level 5:colcon.colcon_core.verb:set package 'gopigo3_ekf' build argument 'cmake_target' from command line to 'None'
+[5.727s] Level 5:colcon.colcon_core.verb:set package 'gopigo3_ekf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.727s] Level 5:colcon.colcon_core.verb:set package 'gopigo3_ekf' build argument 'cmake_clean_cache' from command line to 'False'
+[5.727s] Level 5:colcon.colcon_core.verb:set package 'gopigo3_ekf' build argument 'cmake_clean_first' from command line to 'False'
+[5.727s] Level 5:colcon.colcon_core.verb:set package 'gopigo3_ekf' build argument 'cmake_force_configure' from command line to 'False'
+[5.727s] Level 5:colcon.colcon_core.verb:set package 'gopigo3_ekf' build argument 'ament_cmake_args' from command line to 'None'
+[5.727s] Level 5:colcon.colcon_core.verb:set package 'gopigo3_ekf' build argument 'catkin_cmake_args' from command line to 'None'
+[5.727s] Level 5:colcon.colcon_core.verb:set package 'gopigo3_ekf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.728s] DEBUG:colcon.colcon_core.verb:Building package 'gopigo3_ekf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf', 'merge_install': False, 'path': '/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_ekf', 'symlink_install': True, 'test_result_base': None}
+[5.790s] Level 5:colcon.colcon_core.verb:set package 'ros2_gopigo3_msg' build argument 'cmake_args' from command line to 'None'
+[5.790s] Level 5:colcon.colcon_core.verb:set package 'ros2_gopigo3_msg' build argument 'cmake_target' from command line to 'None'
+[5.790s] Level 5:colcon.colcon_core.verb:set package 'ros2_gopigo3_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.790s] Level 5:colcon.colcon_core.verb:set package 'ros2_gopigo3_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[5.791s] Level 5:colcon.colcon_core.verb:set package 'ros2_gopigo3_msg' build argument 'cmake_clean_first' from command line to 'False'
+[5.791s] Level 5:colcon.colcon_core.verb:set package 'ros2_gopigo3_msg' build argument 'cmake_force_configure' from command line to 'False'
+[5.791s] Level 5:colcon.colcon_core.verb:set package 'ros2_gopigo3_msg' build argument 'ament_cmake_args' from command line to 'None'
+[5.791s] Level 5:colcon.colcon_core.verb:set package 'ros2_gopigo3_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[5.791s] Level 5:colcon.colcon_core.verb:set package 'ros2_gopigo3_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.791s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_gopigo3_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg', 'merge_install': False, 'path': '/home/ubuntu/HumbleDave/ros2ws/src/ros2_gopigo3_msg', 'symlink_install': True, 'test_result_base': None}
+[5.854s] Level 5:colcon.colcon_core.verb:set package 'ros2_libcamera_pub' build argument 'cmake_args' from command line to 'None'
+[5.854s] Level 5:colcon.colcon_core.verb:set package 'ros2_libcamera_pub' build argument 'cmake_target' from command line to 'None'
+[5.854s] Level 5:colcon.colcon_core.verb:set package 'ros2_libcamera_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.854s] Level 5:colcon.colcon_core.verb:set package 'ros2_libcamera_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[5.854s] Level 5:colcon.colcon_core.verb:set package 'ros2_libcamera_pub' build argument 'cmake_clean_first' from command line to 'False'
+[5.854s] Level 5:colcon.colcon_core.verb:set package 'ros2_libcamera_pub' build argument 'cmake_force_configure' from command line to 'False'
+[5.854s] Level 5:colcon.colcon_core.verb:set package 'ros2_libcamera_pub' build argument 'ament_cmake_args' from command line to 'None'
+[5.855s] Level 5:colcon.colcon_core.verb:set package 'ros2_libcamera_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[5.855s] Level 5:colcon.colcon_core.verb:set package 'ros2_libcamera_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.855s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_libcamera_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub', 'merge_install': False, 'path': '/home/ubuntu/HumbleDave/ros2ws/src/ros2_libcamera_pub', 'symlink_install': True, 'test_result_base': None}
+[5.917s] Level 5:colcon.colcon_core.verb:set package 'scan_client' build argument 'cmake_args' from command line to 'None'
+[5.918s] Level 5:colcon.colcon_core.verb:set package 'scan_client' build argument 'cmake_target' from command line to 'None'
+[5.918s] Level 5:colcon.colcon_core.verb:set package 'scan_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.918s] Level 5:colcon.colcon_core.verb:set package 'scan_client' build argument 'cmake_clean_cache' from command line to 'False'
+[5.918s] Level 5:colcon.colcon_core.verb:set package 'scan_client' build argument 'cmake_clean_first' from command line to 'False'
+[5.918s] Level 5:colcon.colcon_core.verb:set package 'scan_client' build argument 'cmake_force_configure' from command line to 'False'
+[5.918s] Level 5:colcon.colcon_core.verb:set package 'scan_client' build argument 'ament_cmake_args' from command line to 'None'
+[5.918s] Level 5:colcon.colcon_core.verb:set package 'scan_client' build argument 'catkin_cmake_args' from command line to 'None'
+[5.918s] Level 5:colcon.colcon_core.verb:set package 'scan_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.918s] DEBUG:colcon.colcon_core.verb:Building package 'scan_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/HumbleDave/ros2ws/build/scan_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/HumbleDave/ros2ws/install/scan_client', 'merge_install': False, 'path': '/home/ubuntu/HumbleDave/ros2ws/src/scan_client', 'symlink_install': True, 'test_result_base': None}
+[5.980s] Level 5:colcon.colcon_core.verb:set package 'teleop_gopigo3_keyboard' build argument 'cmake_args' from command line to 'None'
+[5.981s] Level 5:colcon.colcon_core.verb:set package 'teleop_gopigo3_keyboard' build argument 'cmake_target' from command line to 'None'
+[5.981s] Level 5:colcon.colcon_core.verb:set package 'teleop_gopigo3_keyboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.981s] Level 5:colcon.colcon_core.verb:set package 'teleop_gopigo3_keyboard' build argument 'cmake_clean_cache' from command line to 'False'
+[5.981s] Level 5:colcon.colcon_core.verb:set package 'teleop_gopigo3_keyboard' build argument 'cmake_clean_first' from command line to 'False'
+[5.981s] Level 5:colcon.colcon_core.verb:set package 'teleop_gopigo3_keyboard' build argument 'cmake_force_configure' from command line to 'False'
+[5.981s] Level 5:colcon.colcon_core.verb:set package 'teleop_gopigo3_keyboard' build argument 'ament_cmake_args' from command line to 'None'
+[5.981s] Level 5:colcon.colcon_core.verb:set package 'teleop_gopigo3_keyboard' build argument 'catkin_cmake_args' from command line to 'None'
+[5.981s] Level 5:colcon.colcon_core.verb:set package 'teleop_gopigo3_keyboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.982s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_gopigo3_keyboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard', 'merge_install': False, 'path': '/home/ubuntu/HumbleDave/ros2ws/src/teleop_gopigo3_keyboard', 'symlink_install': True, 'test_result_base': None}
+[6.044s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[6.045s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[6.045s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.045s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[6.045s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[6.045s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[6.045s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[6.045s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[6.045s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.045s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/HumbleDave/ros2ws/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/ubuntu/HumbleDave/ros2ws/src/ydlidar_ros2_driver', 'symlink_install': True, 'test_result_base': None}
+[6.108s] Level 5:colcon.colcon_core.verb:set package 'ros2_gopigo3_node' build argument 'cmake_args' from command line to 'None'
+[6.108s] Level 5:colcon.colcon_core.verb:set package 'ros2_gopigo3_node' build argument 'cmake_target' from command line to 'None'
+[6.108s] Level 5:colcon.colcon_core.verb:set package 'ros2_gopigo3_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.108s] Level 5:colcon.colcon_core.verb:set package 'ros2_gopigo3_node' build argument 'cmake_clean_cache' from command line to 'False'
+[6.108s] Level 5:colcon.colcon_core.verb:set package 'ros2_gopigo3_node' build argument 'cmake_clean_first' from command line to 'False'
+[6.108s] Level 5:colcon.colcon_core.verb:set package 'ros2_gopigo3_node' build argument 'cmake_force_configure' from command line to 'False'
+[6.109s] Level 5:colcon.colcon_core.verb:set package 'ros2_gopigo3_node' build argument 'ament_cmake_args' from command line to 'None'
+[6.109s] Level 5:colcon.colcon_core.verb:set package 'ros2_gopigo3_node' build argument 'catkin_cmake_args' from command line to 'None'
+[6.109s] Level 5:colcon.colcon_core.verb:set package 'ros2_gopigo3_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.109s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_gopigo3_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node', 'merge_install': False, 'path': '/home/ubuntu/HumbleDave/ros2ws/src/ros2_gopigo3_node', 'symlink_install': True, 'test_result_base': None}
+[6.171s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.235s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.236s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/HumbleDave/ros2ws/src/ros2_gopigo3_msg' with build type 'ament_cmake'
+[6.237s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/HumbleDave/ros2ws/src/ros2_gopigo3_msg'
+[6.310s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.586s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_ekf' with build type 'ament_cmake'
+[6.587s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/HumbleDave/ros2ws/src/gopigo3_ekf'
+[6.656s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.656s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.925s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/HumbleDave/ros2ws/src/ros2_libcamera_pub' with build type 'ament_python'
+[6.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_libcamera_pub', 'ament_prefix_path')
+[6.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/share/ros2_libcamera_pub/hook/ament_prefix_path.ps1'
+[6.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/share/ros2_libcamera_pub/hook/ament_prefix_path.dsv'
+[6.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/share/ros2_libcamera_pub/hook/ament_prefix_path.sh'
+[7.063s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.063s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.332s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/HumbleDave/ros2ws/src/scan_client' with build type 'ament_python'
+[7.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_client', 'ament_prefix_path')
+[7.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/scan_client/share/scan_client/hook/ament_prefix_path.ps1'
+[7.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/install/scan_client/share/scan_client/hook/ament_prefix_path.dsv'
+[7.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/scan_client/share/scan_client/hook/ament_prefix_path.sh'
+[7.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg -- -j4 -l4
+[7.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf -- -j4 -l4
+[9.484s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/HumbleDave/ros2ws/src/ros2_libcamera_pub'
+[9.570s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.571s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf -- -j4 -l4
+[11.253s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/HumbleDave/ros2ws/src/scan_client'
+[11.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg -- -j4 -l4
+[11.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf
+[11.775s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gopigo3_ekf)
+[11.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/HumbleDave/ros2ws/build/gopigo3_ekf
+[11.921s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf' for CMake module files
+[11.924s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf' for CMake config files
+[11.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('gopigo3_ekf', 'cmake_prefix_path')
+[12.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/hook/cmake_prefix_path.ps1'
+[12.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/hook/cmake_prefix_path.dsv'
+[12.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/hook/cmake_prefix_path.sh'
+[12.064s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/bin'
+[12.065s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/lib/pkgconfig/gopigo3_ekf.pc'
+[12.066s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/lib/python3.10/site-packages'
+[12.068s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/bin'
+[12.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/package.ps1'
+[12.196s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/package.dsv'
+[12.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/package.sh'
+[12.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/package.bash'
+[12.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/package.zsh'
+[12.214s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/colcon-core/packages/gopigo3_ekf)
+[12.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg
+[12.553s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gopigo3_ekf)
+[12.700s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf' for CMake module files
+[12.703s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf' for CMake config files
+[12.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('gopigo3_ekf', 'cmake_prefix_path')
+[12.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/hook/cmake_prefix_path.ps1'
+[12.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/hook/cmake_prefix_path.dsv'
+[12.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/hook/cmake_prefix_path.sh'
+[12.832s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/bin'
+[12.833s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/lib/pkgconfig/gopigo3_ekf.pc'
+[12.834s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/lib/python3.10/site-packages'
+[12.836s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/bin'
+[12.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/package.ps1'
+[12.985s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/package.dsv'
+[12.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/package.sh'
+[12.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/package.bash'
+[12.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/gopigo3_ekf/package.zsh'
+[12.996s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/HumbleDave/ros2ws/install/gopigo3_ekf/share/colcon-core/packages/gopigo3_ekf)
+[13.000s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/HumbleDave/ros2ws/src/teleop_gopigo3_keyboard' with build type 'ament_python'
+[13.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_gopigo3_keyboard', 'ament_prefix_path')
+[13.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/share/teleop_gopigo3_keyboard/hook/ament_prefix_path.ps1'
+[13.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/share/teleop_gopigo3_keyboard/hook/ament_prefix_path.dsv'
+[13.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/share/teleop_gopigo3_keyboard/hook/ament_prefix_path.sh'
+[13.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.207s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_gopigo3_msg)
+[13.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_msg
+[13.836s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg' for CMake module files
+[13.842s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg' for CMake config files
+[13.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_gopigo3_msg', 'cmake_prefix_path')
+[13.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/hook/cmake_prefix_path.ps1'
+[13.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/hook/cmake_prefix_path.dsv'
+[13.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/hook/cmake_prefix_path.sh'
+[13.988s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib'
+[13.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_gopigo3_msg', 'ld_library_path_lib')
+[14.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/hook/ld_library_path_lib.ps1'
+[14.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/hook/ld_library_path_lib.dsv'
+[14.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/hook/ld_library_path_lib.sh'
+[14.080s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/bin'
+[14.081s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/pkgconfig/ros2_gopigo3_msg.pc'
+[14.082s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/python3.10/site-packages'
+[14.083s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/bin'
+[14.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/package.ps1'
+[14.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/package.dsv'
+[14.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/package.sh'
+[14.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/package.bash'
+[14.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/package.zsh'
+[14.276s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/colcon-core/packages/ros2_gopigo3_msg)
+[15.544s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/HumbleDave/ros2ws/src/teleop_gopigo3_keyboard'
+[15.609s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.609s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub': PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub/build --no-deps install_data
+[15.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/scan_client': PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/scan_client/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/scan_client/build --no-deps install_data
+[16.022s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_gopigo3_msg)
+[16.125s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg' for CMake module files
+[16.131s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg' for CMake config files
+[16.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_gopigo3_msg', 'cmake_prefix_path')
+[16.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/hook/cmake_prefix_path.ps1'
+[16.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/hook/cmake_prefix_path.dsv'
+[16.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/hook/cmake_prefix_path.sh'
+[16.260s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib'
+[16.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_gopigo3_msg', 'ld_library_path_lib')
+[16.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/hook/ld_library_path_lib.ps1'
+[16.373s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/hook/ld_library_path_lib.dsv'
+[16.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/hook/ld_library_path_lib.sh'
+[16.378s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/bin'
+[16.378s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/pkgconfig/ros2_gopigo3_msg.pc'
+[16.380s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/lib/python3.10/site-packages'
+[16.381s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/bin'
+[16.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/package.ps1'
+[16.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/package.dsv'
+[16.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/package.sh'
+[16.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/package.bash'
+[16.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/ros2_gopigo3_msg/package.zsh'
+[16.494s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg/share/colcon-core/packages/ros2_gopigo3_msg)
+[16.517s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/HumbleDave/ros2ws/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[16.518s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/HumbleDave/ros2ws/src/ydlidar_ros2_driver'
+[16.634s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.635s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/HumbleDave/ros2ws/build/ydlidar_ros2_driver -- -j4 -l4
+[17.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/HumbleDave/ros2ws/build/ydlidar_ros2_driver -- -j4 -l4
+[17.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/HumbleDave/ros2ws/build/ydlidar_ros2_driver
+[18.050s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[18.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/HumbleDave/ros2ws/install/scan_client:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node:/home/ubuntu/ros2ws/install/teleop_gopigo3_keyboard:/home/ubuntu/ros2ws/install/ros2_libcamera_pub:/home/ubuntu/ros2ws/install/ros2_gopigo3_node:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/HumbleDave/ros2ws/build/ydlidar_ros2_driver
+[18.172s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver' for CMake module files
+[18.176s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver' for CMake config files
+[18.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[18.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[18.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[18.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[18.307s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/lib'
+[18.308s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/bin'
+[18.308s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[18.310s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[18.311s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/bin'
+[18.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[18.445s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[18.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[18.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[18.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[18.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[18.758s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[18.877s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver' for CMake module files
+[18.882s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver' for CMake config files
+[18.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[19.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[19.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[19.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[19.344s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/lib'
+[19.345s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/bin'
+[19.346s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[19.349s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[19.351s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/bin'
+[19.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[19.451s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[19.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[19.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[19.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[19.459s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[19.463s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/HumbleDave/ros2ws/src/ros2_gopigo3_node' with build type 'ament_python'
+[19.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_gopigo3_node', 'ament_prefix_path')
+[19.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node/hook/ament_prefix_path.ps1'
+[19.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node/hook/ament_prefix_path.dsv'
+[19.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node/hook/ament_prefix_path.sh'
+[19.598s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.598s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.887s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_libcamera_pub', 'pythonpath_develop')
+[19.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub' returned '0': PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub/build --no-deps install_data
+[19.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub/share/ros2_libcamera_pub/hook/pythonpath_develop.ps1'
+[19.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub/share/ros2_libcamera_pub/hook/pythonpath_develop.dsv'
+[19.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/build/ros2_libcamera_pub/share/ros2_libcamera_pub/hook/pythonpath_develop.sh'
+[20.033s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub' for CMake module files
+[20.035s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub' for CMake config files
+[20.038s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib'
+[20.039s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/bin'
+[20.039s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/pkgconfig/ros2_libcamera_pub.pc'
+[20.040s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/lib/python3.10/site-packages'
+[20.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_libcamera_pub', 'pythonpath')
+[20.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/share/ros2_libcamera_pub/hook/pythonpath.ps1'
+[20.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/share/ros2_libcamera_pub/hook/pythonpath.dsv'
+[20.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/share/ros2_libcamera_pub/hook/pythonpath.sh'
+[20.110s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/bin'
+[20.110s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_libcamera_pub)
+[20.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/share/ros2_libcamera_pub/package.ps1'
+[20.177s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/share/ros2_libcamera_pub/package.dsv'
+[20.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/share/ros2_libcamera_pub/package.sh'
+[20.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/share/ros2_libcamera_pub/package.bash'
+[20.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/share/ros2_libcamera_pub/package.zsh'
+[20.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/HumbleDave/ros2ws/install/ros2_libcamera_pub/share/colcon-core/packages/ros2_libcamera_pub)
+[20.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_client', 'pythonpath_develop')
+[20.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/scan_client' returned '0': PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/scan_client/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/scan_client/build --no-deps install_data
+[20.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/build/scan_client/share/scan_client/hook/pythonpath_develop.ps1'
+[20.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/build/scan_client/share/scan_client/hook/pythonpath_develop.dsv'
+[20.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/build/scan_client/share/scan_client/hook/pythonpath_develop.sh'
+[20.326s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/scan_client' for CMake module files
+[20.328s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/scan_client' for CMake config files
+[20.331s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib'
+[20.331s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/scan_client/bin'
+[20.331s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/pkgconfig/scan_client.pc'
+[20.332s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/scan_client/lib/python3.10/site-packages'
+[20.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_client', 'pythonpath')
+[20.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/scan_client/share/scan_client/hook/pythonpath.ps1'
+[20.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/install/scan_client/share/scan_client/hook/pythonpath.dsv'
+[20.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/scan_client/share/scan_client/hook/pythonpath.sh'
+[20.401s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/scan_client/bin'
+[20.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scan_client)
+[20.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/scan_client/share/scan_client/package.ps1'
+[20.469s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/HumbleDave/ros2ws/install/scan_client/share/scan_client/package.dsv'
+[20.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/scan_client/share/scan_client/package.sh'
+[20.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/scan_client/share/scan_client/package.bash'
+[20.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/scan_client/share/scan_client/package.zsh'
+[20.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/HumbleDave/ros2ws/install/scan_client/share/colcon-core/packages/scan_client)
+[20.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard': PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard/build --no-deps install_data
+[21.871s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/HumbleDave/ros2ws/src/ros2_gopigo3_node'
+[21.951s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.951s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.940s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_gopigo3_keyboard', 'pythonpath_develop')
+[22.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard' returned '0': PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard/build --no-deps install_data
+[23.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard/share/teleop_gopigo3_keyboard/hook/pythonpath_develop.ps1'
+[23.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard/share/teleop_gopigo3_keyboard/hook/pythonpath_develop.dsv'
+[23.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/build/teleop_gopigo3_keyboard/share/teleop_gopigo3_keyboard/hook/pythonpath_develop.sh'
+[23.102s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard' for CMake module files
+[23.104s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard' for CMake config files
+[23.107s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib'
+[23.107s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/bin'
+[23.108s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/pkgconfig/teleop_gopigo3_keyboard.pc'
+[23.109s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/lib/python3.10/site-packages'
+[23.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_gopigo3_keyboard', 'pythonpath')
+[23.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/share/teleop_gopigo3_keyboard/hook/pythonpath.ps1'
+[23.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/share/teleop_gopigo3_keyboard/hook/pythonpath.dsv'
+[23.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/share/teleop_gopigo3_keyboard/hook/pythonpath.sh'
+[23.190s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/bin'
+[23.190s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_gopigo3_keyboard)
+[23.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/share/teleop_gopigo3_keyboard/package.ps1'
+[23.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/share/teleop_gopigo3_keyboard/package.dsv'
+[23.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/share/teleop_gopigo3_keyboard/package.sh'
+[23.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/share/teleop_gopigo3_keyboard/package.bash'
+[23.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/share/teleop_gopigo3_keyboard/package.zsh'
+[23.277s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/HumbleDave/ros2ws/install/teleop_gopigo3_keyboard/share/colcon-core/packages/teleop_gopigo3_keyboard)
+[24.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node': CMAKE_PREFIX_PATH=/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node/build --no-deps install_data
+[26.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_gopigo3_node', 'pythonpath_develop')
+[26.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_msg:/home/ubuntu/HumbleDave/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/ydlidar_ros2_driver:/home/ubuntu/ros2ws/install/ros2_gopigo3_msg PYTHONPATH=/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node/prefix_override:/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node/build --no-deps install_data
+[26.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node/share/ros2_gopigo3_node/hook/pythonpath_develop.ps1'
+[26.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node/share/ros2_gopigo3_node/hook/pythonpath_develop.dsv'
+[26.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/build/ros2_gopigo3_node/share/ros2_gopigo3_node/hook/pythonpath_develop.sh'
+[26.350s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node' for CMake module files
+[26.353s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node' for CMake config files
+[26.356s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib'
+[26.356s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/bin'
+[26.356s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/pkgconfig/ros2_gopigo3_node.pc'
+[26.357s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/lib/python3.10/site-packages'
+[26.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_gopigo3_node', 'pythonpath')
+[26.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node/hook/pythonpath.ps1'
+[26.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node/hook/pythonpath.dsv'
+[26.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node/hook/pythonpath.sh'
+[26.428s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/bin'
+[26.428s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_gopigo3_node)
+[26.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node/package.ps1'
+[26.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node/package.dsv'
+[26.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node/package.sh'
+[26.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node/package.bash'
+[26.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/share/ros2_gopigo3_node/package.zsh'
+[26.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/HumbleDave/ros2ws/install/ros2_gopigo3_node/share/colcon-core/packages/ros2_gopigo3_node)
+[26.505s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.506s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.507s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[26.507s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.593s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[26.594s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.594s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.594s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.597s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[26.597s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.663s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/HumbleDave/ros2ws/install/local_setup.ps1'
+[26.667s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/HumbleDave/ros2ws/install/_local_setup_util_ps1.py'
+[26.672s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/HumbleDave/ros2ws/install/setup.ps1'
+[26.741s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/HumbleDave/ros2ws/install/local_setup.sh'
+[26.743s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/HumbleDave/ros2ws/install/_local_setup_util_sh.py'
+[26.746s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/HumbleDave/ros2ws/install/setup.sh'
+[26.815s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/HumbleDave/ros2ws/install/local_setup.bash'
+[26.817s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/HumbleDave/ros2ws/install/setup.bash'
+[26.886s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/HumbleDave/ros2ws/install/local_setup.zsh'
+[26.888s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/HumbleDave/ros2ws/install/setup.zsh'

@@ -1,0 +1,19 @@
+1700517883.3749461 [INFO] [launch]: All log files can be found below /home/ubuntu/HumbleDave/ros2ws/roslogs/2023-11-20-17-04-43-371164-HumbleD-181070
+1700517883.3756495 [INFO] [launch]: Default logging verbosity is set to INFO
+1700517885.2019370 [INFO] [controller_server-1]: process started with pid [181082]
+1700517885.2045701 [INFO] [smoother_server-2]: process started with pid [181084]
+1700517885.2068605 [INFO] [planner_server-3]: process started with pid [181086]
+1700517885.3514183 [INFO] [behavior_server-4]: process started with pid [181088]
+1700517885.3549390 [INFO] [bt_navigator-5]: process started with pid [181090]
+1700517885.3866465 [INFO] [waypoint_follower-6]: process started with pid [181092]
+1700517885.3899186 [INFO] [velocity_smoother-7]: process started with pid [181095]
+1700517885.4043934 [INFO] [lifecycle_manager-8]: process started with pid [181110]
+1700517955.9719150 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1700517957.2011015 [INFO] [waypoint_follower-6]: process has finished cleanly [pid 181092]
+1700517957.2818747 [INFO] [velocity_smoother-7]: process has finished cleanly [pid 181095]
+1700517957.5979037 [INFO] [smoother_server-2]: process has finished cleanly [pid 181084]
+1700517957.7949660 [INFO] [lifecycle_manager-8]: process has finished cleanly [pid 181110]
+1700517957.8296905 [INFO] [behavior_server-4]: process has finished cleanly [pid 181088]
+1700517958.0342164 [INFO] [controller_server-1]: process has finished cleanly [pid 181082]
+1700517958.1750374 [INFO] [planner_server-3]: process has finished cleanly [pid 181086]
+1700517958.4540567 [INFO] [bt_navigator-5]: process has finished cleanly [pid 181090]

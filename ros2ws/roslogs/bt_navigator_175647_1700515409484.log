@@ -1,0 +1,713 @@
+[INFO] [1700515410.971255887] [bt_navigator]: 
+	bt_navigator lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1700515410.972012285] [bt_navigator]: Creating
+[INFO] [1700515415.234379632] [bt_navigator]: Configuring
+[INFO] [1700515417.831579022] [bt_navigator]: Activating
+[INFO] [1700515418.559199380] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[INFO] [1700515436.677337926] [bt_navigator]: Begin navigating from current location (0.31, 0.08) to (0.10, 0.00)
+[WARN] [1700515436.702591615] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for compute_path_to_pose
+[WARN] [1700515436.728876570] [bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to global_costmap/clear_entirely_global_costmap.
+[WARN] [1700515436.750095935] [bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to local_costmap/clear_entirely_local_costmap.
+[WARN] [1700515436.771585705] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for spin
+[WARN] [1700515436.792728923] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for wait
+[WARN] [1700515436.817670727] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for backup
+[ERROR] [1700515436.818292350] [bt_navigator]: Goal failed
+[WARN] [1700515436.818397478] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[INFO] [1700515437.608531462] [bt_navigator]: Begin navigating from current location (0.31, 0.08) to (0.10, 0.00)
+[INFO] [1700515438.625192712] [bt_navigator]: Received goal preemption request
+[INFO] [1700515438.625820186] [bt_navigator]: Begin navigating from current location (0.29, 0.08) to (0.10, 0.00)
+[INFO] [1700515439.623024457] [bt_navigator]: Received goal preemption request
+[INFO] [1700515439.624406034] [bt_navigator]: Begin navigating from current location (0.28, 0.07) to (0.10, 0.00)
+[INFO] [1700515440.615421673] [bt_navigator]: Received goal preemption request
+[INFO] [1700515440.616100017] [bt_navigator]: Begin navigating from current location (0.27, 0.07) to (0.10, 0.00)
+[INFO] [1700515441.615258432] [bt_navigator]: Received goal preemption request
+[INFO] [1700515441.615900573] [bt_navigator]: Begin navigating from current location (0.28, 0.07) to (0.10, 0.00)
+[INFO] [1700515442.615296485] [bt_navigator]: Received goal preemption request
+[INFO] [1700515442.615936496] [bt_navigator]: Begin navigating from current location (0.27, 0.06) to (0.10, 0.00)
+[INFO] [1700515443.615220946] [bt_navigator]: Received goal preemption request
+[INFO] [1700515443.615900401] [bt_navigator]: Begin navigating from current location (0.27, 0.06) to (0.10, 0.00)
+[INFO] [1700515444.625174236] [bt_navigator]: Received goal preemption request
+[INFO] [1700515444.625757359] [bt_navigator]: Begin navigating from current location (0.26, 0.05) to (0.10, 0.00)
+[INFO] [1700515445.615833915] [bt_navigator]: Received goal preemption request
+[INFO] [1700515445.619838572] [bt_navigator]: Begin navigating from current location (0.25, 0.04) to (0.10, 0.00)
+[INFO] [1700515446.615829616] [bt_navigator]: Received goal preemption request
+[INFO] [1700515446.616391943] [bt_navigator]: Begin navigating from current location (0.25, 0.04) to (0.10, 0.00)
+[INFO] [1700515447.605662175] [bt_navigator]: Received goal preemption request
+[INFO] [1700515447.606369907] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515448.615629908] [bt_navigator]: Received goal preemption request
+[INFO] [1700515448.616229012] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515448.626466301] [bt_navigator]: Goal succeeded
+[INFO] [1700515449.608203916] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515449.689164572] [bt_navigator]: Goal succeeded
+[INFO] [1700515450.612222144] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515450.705132253] [bt_navigator]: Goal succeeded
+[INFO] [1700515451.611310169] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515451.701862732] [bt_navigator]: Goal succeeded
+[INFO] [1700515452.607036548] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515452.677903135] [bt_navigator]: Goal succeeded
+[INFO] [1700515453.609570014] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515453.684600868] [bt_navigator]: Goal succeeded
+[INFO] [1700515454.607538663] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515454.698135596] [bt_navigator]: Goal succeeded
+[INFO] [1700515455.614896592] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515455.711580621] [bt_navigator]: Goal succeeded
+[INFO] [1700515456.612402523] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515456.712835601] [bt_navigator]: Goal succeeded
+[INFO] [1700515457.607293281] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515457.698114267] [bt_navigator]: Goal succeeded
+[INFO] [1700515458.609695489] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515458.701352724] [bt_navigator]: Goal succeeded
+[INFO] [1700515459.608930363] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515459.699312928] [bt_navigator]: Goal succeeded
+[INFO] [1700515460.610608024] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515460.693159771] [bt_navigator]: Goal succeeded
+[INFO] [1700515461.611092846] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515461.691400379] [bt_navigator]: Goal succeeded
+[INFO] [1700515462.605880234] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515462.706605790] [bt_navigator]: Goal succeeded
+[INFO] [1700515463.607440932] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515463.707922065] [bt_navigator]: Goal succeeded
+[INFO] [1700515464.611024310] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515464.701561651] [bt_navigator]: Goal succeeded
+[INFO] [1700515465.613945178] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515465.701209315] [bt_navigator]: Goal succeeded
+[INFO] [1700515466.610574155] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515466.691168703] [bt_navigator]: Goal succeeded
+[INFO] [1700515467.605958553] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515467.706304595] [bt_navigator]: Goal succeeded
+[INFO] [1700515468.608558091] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515468.697489172] [bt_navigator]: Goal succeeded
+[INFO] [1700515469.607713742] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515469.700426372] [bt_navigator]: Goal succeeded
+[INFO] [1700515470.605675203] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515470.706020800] [bt_navigator]: Goal succeeded
+[INFO] [1700515471.612265434] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515471.702742368] [bt_navigator]: Goal succeeded
+[INFO] [1700515472.609033797] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515472.703166726] [bt_navigator]: Goal succeeded
+[INFO] [1700515473.618806732] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515473.709694309] [bt_navigator]: Goal succeeded
+[INFO] [1700515474.620542760] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515474.710937250] [bt_navigator]: Goal succeeded
+[INFO] [1700515475.611394617] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515475.694868002] [bt_navigator]: Goal succeeded
+[INFO] [1700515476.613435659] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515476.685858950] [bt_navigator]: Goal succeeded
+[INFO] [1700515477.611152103] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515477.701627556] [bt_navigator]: Goal succeeded
+[INFO] [1700515478.614667573] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515478.695074790] [bt_navigator]: Goal succeeded
+[INFO] [1700515479.611753302] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515479.700756586] [bt_navigator]: Goal succeeded
+[INFO] [1700515480.619571573] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515480.710094765] [bt_navigator]: Goal succeeded
+[INFO] [1700515481.610767277] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515481.691162568] [bt_navigator]: Goal succeeded
+[INFO] [1700515482.613016427] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515482.695160050] [bt_navigator]: Goal succeeded
+[INFO] [1700515483.612177113] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515483.692524404] [bt_navigator]: Goal succeeded
+[INFO] [1700515484.617801446] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515484.698178329] [bt_navigator]: Goal succeeded
+[INFO] [1700515485.606894766] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515485.684852345] [bt_navigator]: Goal succeeded
+[INFO] [1700515486.612725337] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515486.703368324] [bt_navigator]: Goal succeeded
+[INFO] [1700515487.610727054] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515487.703246704] [bt_navigator]: Goal succeeded
+[INFO] [1700515488.609304672] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515488.700714372] [bt_navigator]: Goal succeeded
+[INFO] [1700515489.610558591] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515489.691120936] [bt_navigator]: Goal succeeded
+[INFO] [1700515490.607574319] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515490.697884180] [bt_navigator]: Goal succeeded
+[INFO] [1700515491.612564417] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515491.703126683] [bt_navigator]: Goal succeeded
+[INFO] [1700515492.611747176] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515492.704350436] [bt_navigator]: Goal succeeded
+[INFO] [1700515493.609375970] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515493.703346918] [bt_navigator]: Goal succeeded
+[INFO] [1700515494.611692210] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515494.702227087] [bt_navigator]: Goal succeeded
+[INFO] [1700515495.619148094] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515495.699625698] [bt_navigator]: Goal succeeded
+[INFO] [1700515496.612885062] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515496.704548667] [bt_navigator]: Goal succeeded
+[INFO] [1700515497.608077773] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515497.688554452] [bt_navigator]: Goal succeeded
+[INFO] [1700515498.611925884] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.10, 0.00)
+[INFO] [1700515498.702364725] [bt_navigator]: Goal succeeded
+[INFO] [1700515582.902951662] [bt_navigator]: Begin navigating from current location (0.25, 0.03) to (0.99, 0.00)
+[INFO] [1700515586.583487808] [bt_navigator]: Goal succeeded
+[INFO] [1700515657.894996984] [bt_navigator]: Begin navigating from current location (0.76, 0.05) to (0.10, 0.00)
+[WARN] [1700515658.038105009] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for compute_path_to_pose
+[WARN] [1700515658.059387169] [bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to global_costmap/clear_entirely_global_costmap.
+[WARN] [1700515658.090864470] [bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to global_costmap/clear_entirely_global_costmap.
+[WARN] [1700515658.112175519] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for spin
+[WARN] [1700515658.133397569] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for wait
+[WARN] [1700515658.156003010] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for backup
+[ERROR] [1700515658.164438246] [bt_navigator]: Goal failed
+[WARN] [1700515658.164649651] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[INFO] [1700515658.855211505] [bt_navigator]: Begin navigating from current location (0.75, 0.05) to (0.10, 0.00)
+[INFO] [1700515659.859846733] [bt_navigator]: Received goal preemption request
+[INFO] [1700515659.861345734] [bt_navigator]: Begin navigating from current location (0.73, 0.03) to (0.10, 0.00)
+[INFO] [1700515660.859894532] [bt_navigator]: Received goal preemption request
+[INFO] [1700515660.860545858] [bt_navigator]: Begin navigating from current location (0.74, 0.05) to (0.10, 0.00)
+[INFO] [1700515661.859818629] [bt_navigator]: Received goal preemption request
+[INFO] [1700515661.860704100] [bt_navigator]: Begin navigating from current location (0.63, 0.10) to (0.10, 0.00)
+[INFO] [1700515662.859935001] [bt_navigator]: Received goal preemption request
+[INFO] [1700515662.860620512] [bt_navigator]: Begin navigating from current location (0.53, 0.10) to (0.10, 0.00)
+[INFO] [1700515663.859887634] [bt_navigator]: Received goal preemption request
+[INFO] [1700515663.862873840] [bt_navigator]: Begin navigating from current location (0.38, 0.07) to (0.10, 0.00)
+[INFO] [1700515664.853637506] [bt_navigator]: Received goal preemption request
+[INFO] [1700515664.854625643] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515665.860026768] [bt_navigator]: Received goal preemption request
+[INFO] [1700515665.860656557] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515666.859946272] [bt_navigator]: Received goal preemption request
+[INFO] [1700515666.860892927] [bt_navigator]: Begin navigating from current location (0.29, 0.11) to (0.10, 0.00)
+[INFO] [1700515667.859984163] [bt_navigator]: Received goal preemption request
+[INFO] [1700515667.862917758] [bt_navigator]: Begin navigating from current location (0.29, 0.09) to (0.10, 0.00)
+[INFO] [1700515668.859908999] [bt_navigator]: Received goal preemption request
+[INFO] [1700515668.862499469] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515668.980231417] [bt_navigator]: Goal succeeded
+[INFO] [1700515669.852134111] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515669.937390547] [bt_navigator]: Goal succeeded
+[INFO] [1700515670.852476776] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515670.943097224] [bt_navigator]: Goal succeeded
+[INFO] [1700515671.855854757] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515671.950194791] [bt_navigator]: Goal succeeded
+[INFO] [1700515672.855612373] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515672.939661860] [bt_navigator]: Goal succeeded
+[INFO] [1700515673.853111571] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515673.943475522] [bt_navigator]: Goal succeeded
+[INFO] [1700515674.857830795] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515674.938237806] [bt_navigator]: Goal succeeded
+[INFO] [1700515675.851244670] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515675.941619065] [bt_navigator]: Goal succeeded
+[INFO] [1700515676.860563693] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515676.940891446] [bt_navigator]: Goal succeeded
+[INFO] [1700515677.854495765] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515677.945228730] [bt_navigator]: Goal succeeded
+[INFO] [1700515678.855815714] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515678.946227016] [bt_navigator]: Goal succeeded
+[INFO] [1700515679.858411167] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515679.939472485] [bt_navigator]: Goal succeeded
+[INFO] [1700515680.857884081] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515680.938315444] [bt_navigator]: Goal succeeded
+[INFO] [1700515681.856388989] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515681.938725218] [bt_navigator]: Goal succeeded
+[INFO] [1700515682.853311007] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515682.943659773] [bt_navigator]: Goal succeeded
+[INFO] [1700515683.851207254] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515683.932045353] [bt_navigator]: Goal succeeded
+[INFO] [1700515684.859196014] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515684.939606432] [bt_navigator]: Goal succeeded
+[INFO] [1700515685.852260317] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515685.942672008] [bt_navigator]: Goal succeeded
+[INFO] [1700515686.857205483] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515686.937555716] [bt_navigator]: Goal succeeded
+[INFO] [1700515687.852622962] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515687.923168643] [bt_navigator]: Goal succeeded
+[INFO] [1700515688.858479746] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515688.940640940] [bt_navigator]: Goal succeeded
+[INFO] [1700515689.853738005] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515689.959853051] [bt_navigator]: Goal succeeded
+[INFO] [1700515690.851375199] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515690.911866701] [bt_navigator]: Goal succeeded
+[INFO] [1700515691.853424138] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515691.934582011] [bt_navigator]: Goal succeeded
+[INFO] [1700515692.850995629] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515692.911390965] [bt_navigator]: Goal succeeded
+[INFO] [1700515693.852508093] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515693.954675944] [bt_navigator]: Goal succeeded
+[INFO] [1700515694.855161265] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515694.935499555] [bt_navigator]: Goal succeeded
+[INFO] [1700515695.852884199] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515695.933207025] [bt_navigator]: Goal succeeded
+[INFO] [1700515696.851552603] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515696.911922827] [bt_navigator]: Goal succeeded
+[INFO] [1700515697.851796858] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515697.942227401] [bt_navigator]: Goal succeeded
+[INFO] [1700515698.851489657] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515698.942196345] [bt_navigator]: Goal succeeded
+[INFO] [1700515699.851668302] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515699.932026610] [bt_navigator]: Goal succeeded
+[INFO] [1700515700.852496273] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515700.932810063] [bt_navigator]: Goal succeeded
+[INFO] [1700515701.850620183] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515701.940978337] [bt_navigator]: Goal succeeded
+[INFO] [1700515702.856424207] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515702.936758792] [bt_navigator]: Goal succeeded
+[INFO] [1700515703.850563570] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515703.950890053] [bt_navigator]: Goal succeeded
+[INFO] [1700515704.853127927] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515704.933792009] [bt_navigator]: Goal succeeded
+[INFO] [1700515705.856353148] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515705.936656048] [bt_navigator]: Goal succeeded
+[INFO] [1700515706.852464006] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515706.932767851] [bt_navigator]: Goal succeeded
+[INFO] [1700515707.852366302] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515707.922735577] [bt_navigator]: Goal succeeded
+[INFO] [1700515708.852136173] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515708.942494827] [bt_navigator]: Goal succeeded
+[INFO] [1700515709.850243285] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515709.930546297] [bt_navigator]: Goal succeeded
+[INFO] [1700515710.851169458] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515710.931799651] [bt_navigator]: Goal succeeded
+[INFO] [1700515711.856655670] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515711.938125594] [bt_navigator]: Goal succeeded
+[INFO] [1700515712.851626226] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515712.942065009] [bt_navigator]: Goal succeeded
+[INFO] [1700515713.852796025] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515713.953535947] [bt_navigator]: Goal succeeded
+[INFO] [1700515714.852378601] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515714.932690502] [bt_navigator]: Goal succeeded
+[INFO] [1700515715.852384154] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515715.932718888] [bt_navigator]: Goal succeeded
+[INFO] [1700515716.853172512] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515716.937644420] [bt_navigator]: Goal succeeded
+[INFO] [1700515717.852421926] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515717.923370380] [bt_navigator]: Goal succeeded
+[INFO] [1700515718.850658054] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515718.942540543] [bt_navigator]: Goal succeeded
+[INFO] [1700515719.851803149] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515719.932128661] [bt_navigator]: Goal succeeded
+[INFO] [1700515720.858219812] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515720.938550583] [bt_navigator]: Goal succeeded
+[INFO] [1700515721.850820321] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515721.911895889] [bt_navigator]: Goal succeeded
+[INFO] [1700515722.852524761] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515722.932863809] [bt_navigator]: Goal succeeded
+[INFO] [1700515723.851959264] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515723.942305585] [bt_navigator]: Goal succeeded
+[INFO] [1700515724.852872583] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515724.933208206] [bt_navigator]: Goal succeeded
+[INFO] [1700515725.851461726] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515725.942019026] [bt_navigator]: Goal succeeded
+[INFO] [1700515726.852608931] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515726.943820760] [bt_navigator]: Goal succeeded
+[INFO] [1700515727.851508903] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515727.931838284] [bt_navigator]: Goal succeeded
+[INFO] [1700515728.856713227] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515728.967043057] [bt_navigator]: Goal succeeded
+[INFO] [1700515729.851480580] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515729.937699190] [bt_navigator]: Goal succeeded
+[INFO] [1700515730.851298893] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515730.931636330] [bt_navigator]: Goal succeeded
+[INFO] [1700515731.852633096] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515731.947018721] [bt_navigator]: Goal succeeded
+[INFO] [1700515732.851039202] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515732.931380899] [bt_navigator]: Goal succeeded
+[INFO] [1700515733.851453212] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515733.941814292] [bt_navigator]: Goal succeeded
+[INFO] [1700515734.853012133] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515734.934602278] [bt_navigator]: Goal succeeded
+[INFO] [1700515735.852093491] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515735.932431225] [bt_navigator]: Goal succeeded
+[INFO] [1700515736.852020950] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515736.922344782] [bt_navigator]: Goal succeeded
+[INFO] [1700515737.850899051] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515737.941259835] [bt_navigator]: Goal succeeded
+[INFO] [1700515738.854221304] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515738.954544398] [bt_navigator]: Goal succeeded
+[INFO] [1700515739.852044213] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515739.942990175] [bt_navigator]: Goal succeeded
+[INFO] [1700515740.850563040] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515740.943413017] [bt_navigator]: Goal succeeded
+[INFO] [1700515741.854686616] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515741.935073997] [bt_navigator]: Goal succeeded
+[INFO] [1700515742.855097903] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515742.935433710] [bt_navigator]: Goal succeeded
+[INFO] [1700515743.851622456] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515743.942395346] [bt_navigator]: Goal succeeded
+[INFO] [1700515744.852117815] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515744.937272122] [bt_navigator]: Goal succeeded
+[INFO] [1700515745.858582235] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515745.938959986] [bt_navigator]: Goal succeeded
+[INFO] [1700515746.850993910] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515746.941363175] [bt_navigator]: Goal succeeded
+[INFO] [1700515747.852082410] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515747.932430754] [bt_navigator]: Goal succeeded
+[INFO] [1700515748.851361301] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515748.973813397] [bt_navigator]: Goal succeeded
+[INFO] [1700515749.850920374] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515749.931228608] [bt_navigator]: Goal succeeded
+[INFO] [1700515750.853251119] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515750.933988847] [bt_navigator]: Goal succeeded
+[INFO] [1700515751.851386968] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515751.941879527] [bt_navigator]: Goal succeeded
+[INFO] [1700515752.852698020] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515752.937300259] [bt_navigator]: Goal succeeded
+[INFO] [1700515753.856737745] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515753.937089885] [bt_navigator]: Goal succeeded
+[INFO] [1700515754.853138780] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515754.933483865] [bt_navigator]: Goal succeeded
+[INFO] [1700515755.851430663] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515755.941901464] [bt_navigator]: Goal succeeded
+[INFO] [1700515756.855379092] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515756.935803528] [bt_navigator]: Goal succeeded
+[INFO] [1700515757.851974162] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515757.933599047] [bt_navigator]: Goal succeeded
+[INFO] [1700515758.851346015] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515758.931790710] [bt_navigator]: Goal succeeded
+[INFO] [1700515759.850940123] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515759.932945097] [bt_navigator]: Goal succeeded
+[INFO] [1700515760.851453536] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515760.931792936] [bt_navigator]: Goal succeeded
+[INFO] [1700515761.851186069] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515761.931523358] [bt_navigator]: Goal succeeded
+[INFO] [1700515762.859499984] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515762.939889328] [bt_navigator]: Goal succeeded
+[INFO] [1700515763.851074037] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515763.951727090] [bt_navigator]: Goal succeeded
+[INFO] [1700515764.851904094] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515764.932266994] [bt_navigator]: Goal succeeded
+[INFO] [1700515765.851153059] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515765.943007565] [bt_navigator]: Goal succeeded
+[INFO] [1700515766.852187169] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515766.945410974] [bt_navigator]: Goal succeeded
+[INFO] [1700515767.850597179] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515767.930985097] [bt_navigator]: Goal succeeded
+[INFO] [1700515768.856789988] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515768.947581934] [bt_navigator]: Goal succeeded
+[INFO] [1700515769.850880068] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515769.931235319] [bt_navigator]: Goal succeeded
+[INFO] [1700515770.849980255] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515770.940324409] [bt_navigator]: Goal succeeded
+[INFO] [1700515771.852204184] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515771.932536603] [bt_navigator]: Goal succeeded
+[INFO] [1700515772.851666534] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515772.932075137] [bt_navigator]: Goal succeeded
+[INFO] [1700515773.850674815] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515773.951219610] [bt_navigator]: Goal succeeded
+[INFO] [1700515774.850623363] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515774.930951837] [bt_navigator]: Goal succeeded
+[INFO] [1700515775.850934055] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515775.931329639] [bt_navigator]: Goal succeeded
+[INFO] [1700515776.850748900] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515776.931076504] [bt_navigator]: Goal succeeded
+[INFO] [1700515777.852122394] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515777.932465664] [bt_navigator]: Goal succeeded
+[INFO] [1700515778.850590588] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515778.960879214] [bt_navigator]: Goal succeeded
+[INFO] [1700515779.852906812] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515779.933274637] [bt_navigator]: Goal succeeded
+[INFO] [1700515780.851669391] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515780.932018106] [bt_navigator]: Goal succeeded
+[INFO] [1700515781.850395916] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515781.940805087] [bt_navigator]: Goal succeeded
+[INFO] [1700515782.850948900] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515782.931297948] [bt_navigator]: Goal succeeded
+[INFO] [1700515783.850935650] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515783.953220517] [bt_navigator]: Goal succeeded
+[INFO] [1700515784.851153657] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515784.931791553] [bt_navigator]: Goal succeeded
+[INFO] [1700515785.849787182] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515785.930086045] [bt_navigator]: Goal succeeded
+[INFO] [1700515786.851313859] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515786.931847515] [bt_navigator]: Goal succeeded
+[INFO] [1700515787.851172240] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515787.921528570] [bt_navigator]: Goal succeeded
+[INFO] [1700515788.850885696] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515788.951269789] [bt_navigator]: Goal succeeded
+[INFO] [1700515789.851735917] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515789.932061114] [bt_navigator]: Goal succeeded
+[INFO] [1700515790.851037305] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515790.933170017] [bt_navigator]: Goal succeeded
+[INFO] [1700515791.851400179] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515791.932509829] [bt_navigator]: Goal succeeded
+[INFO] [1700515792.851129617] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515792.931441665] [bt_navigator]: Goal succeeded
+[INFO] [1700515793.851362493] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515793.931691911] [bt_navigator]: Goal succeeded
+[INFO] [1700515794.850948506] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515794.931241462] [bt_navigator]: Goal succeeded
+[INFO] [1700515795.851539767] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515795.932510881] [bt_navigator]: Goal succeeded
+[INFO] [1700515796.850326493] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515796.930601023] [bt_navigator]: Goal succeeded
+[INFO] [1700515797.855830456] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515797.936225818] [bt_navigator]: Goal succeeded
+[INFO] [1700515798.850883910] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515798.941213138] [bt_navigator]: Goal succeeded
+[INFO] [1700515799.851003935] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515799.931908124] [bt_navigator]: Goal succeeded
+[INFO] [1700515800.850379580] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515800.930692683] [bt_navigator]: Goal succeeded
+[INFO] [1700515801.852325157] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515801.932662150] [bt_navigator]: Goal succeeded
+[INFO] [1700515802.850323614] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515802.930638625] [bt_navigator]: Goal succeeded
+[INFO] [1700515803.850980077] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515803.941426081] [bt_navigator]: Goal succeeded
+[INFO] [1700515804.850963455] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515804.931274948] [bt_navigator]: Goal succeeded
+[INFO] [1700515805.850252804] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515805.930542982] [bt_navigator]: Goal succeeded
+[INFO] [1700515806.850432531] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515806.911182955] [bt_navigator]: Goal succeeded
+[INFO] [1700515807.851357546] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515807.941749459] [bt_navigator]: Goal succeeded
+[INFO] [1700515808.850959040] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515808.931255458] [bt_navigator]: Goal succeeded
+[INFO] [1700515809.851237932] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515809.932694652] [bt_navigator]: Goal succeeded
+[INFO] [1700515810.850605021] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515810.911887346] [bt_navigator]: Goal succeeded
+[INFO] [1700515811.849762167] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515811.940101265] [bt_navigator]: Goal succeeded
+[INFO] [1700515812.850443518] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515812.930752584] [bt_navigator]: Goal succeeded
+[INFO] [1700515813.849584479] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515813.939898281] [bt_navigator]: Goal succeeded
+[INFO] [1700515814.850689158] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515814.941257642] [bt_navigator]: Goal succeeded
+[INFO] [1700515815.851968168] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515815.942776927] [bt_navigator]: Goal succeeded
+[INFO] [1700515816.850844373] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515816.932703051] [bt_navigator]: Goal succeeded
+[INFO] [1700515817.850966026] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515817.931876419] [bt_navigator]: Goal succeeded
+[INFO] [1700515818.850301947] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515818.960636183] [bt_navigator]: Goal succeeded
+[INFO] [1700515819.850947538] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515819.931258772] [bt_navigator]: Goal succeeded
+[INFO] [1700515820.850639881] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515820.930997651] [bt_navigator]: Goal succeeded
+[INFO] [1700515821.850394501] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515821.930709031] [bt_navigator]: Goal succeeded
+[INFO] [1700515822.850729615] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515822.931048459] [bt_navigator]: Goal succeeded
+[INFO] [1700515823.855634193] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515823.946008439] [bt_navigator]: Goal succeeded
+[INFO] [1700515824.850331223] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515824.930644031] [bt_navigator]: Goal succeeded
+[INFO] [1700515825.852065098] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515825.942427677] [bt_navigator]: Goal succeeded
+[INFO] [1700515826.851491851] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515826.941895504] [bt_navigator]: Goal succeeded
+[INFO] [1700515827.851527189] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515827.936078873] [bt_navigator]: Goal succeeded
+[INFO] [1700515828.851180625] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515828.932513235] [bt_navigator]: Goal succeeded
+[INFO] [1700515829.850655155] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515829.931164367] [bt_navigator]: Goal succeeded
+[INFO] [1700515830.850387237] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515830.930698396] [bt_navigator]: Goal succeeded
+[INFO] [1700515831.850702794] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515831.931015064] [bt_navigator]: Goal succeeded
+[INFO] [1700515832.854611754] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515832.935261094] [bt_navigator]: Goal succeeded
+[INFO] [1700515833.850404197] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515833.940907367] [bt_navigator]: Goal succeeded
+[INFO] [1700515834.849995799] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515834.930313828] [bt_navigator]: Goal succeeded
+[INFO] [1700515835.850874090] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515835.941213280] [bt_navigator]: Goal succeeded
+[INFO] [1700515836.850702374] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515836.931037737] [bt_navigator]: Goal succeeded
+[INFO] [1700515837.850490622] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515837.910866643] [bt_navigator]: Goal succeeded
+[INFO] [1700515838.850951307] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515838.941557087] [bt_navigator]: Goal succeeded
+[INFO] [1700515839.851208845] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515839.931557263] [bt_navigator]: Goal succeeded
+[INFO] [1700515840.850492599] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515840.930839646] [bt_navigator]: Goal succeeded
+[INFO] [1700515841.856408368] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515841.936729563] [bt_navigator]: Goal succeeded
+[INFO] [1700515842.852140662] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515842.945298727] [bt_navigator]: Goal succeeded
+[INFO] [1700515843.851391286] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515843.961789947] [bt_navigator]: Goal succeeded
+[INFO] [1700515844.850884648] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515844.931198326] [bt_navigator]: Goal succeeded
+[INFO] [1700515845.850953966] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515845.932781811] [bt_navigator]: Goal succeeded
+[INFO] [1700515846.851154523] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515846.931464793] [bt_navigator]: Goal succeeded
+[INFO] [1700515847.850832438] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515847.941867880] [bt_navigator]: Goal succeeded
+[INFO] [1700515848.851687636] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515848.932054313] [bt_navigator]: Goal succeeded
+[INFO] [1700515849.850810687] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515849.931103179] [bt_navigator]: Goal succeeded
+[INFO] [1700515850.851032355] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515850.941887835] [bt_navigator]: Goal succeeded
+[INFO] [1700515851.850975026] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515851.931356813] [bt_navigator]: Goal succeeded
+[INFO] [1700515852.850518775] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515852.941028019] [bt_navigator]: Goal succeeded
+[INFO] [1700515853.850690943] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515853.932787285] [bt_navigator]: Goal succeeded
+[INFO] [1700515854.850828612] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515854.921532345] [bt_navigator]: Goal succeeded
+[INFO] [1700515855.850036809] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515855.940392499] [bt_navigator]: Goal succeeded
+[INFO] [1700515856.852022549] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515856.922387508] [bt_navigator]: Goal succeeded
+[INFO] [1700515857.849935761] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515857.930257068] [bt_navigator]: Goal succeeded
+[INFO] [1700515858.850510720] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515858.940812541] [bt_navigator]: Goal succeeded
+[INFO] [1700515859.850888682] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515859.921773469] [bt_navigator]: Goal succeeded
+[INFO] [1700515860.850130379] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515860.911756773] [bt_navigator]: Goal succeeded
+[INFO] [1700515861.850110715] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515861.930407059] [bt_navigator]: Goal succeeded
+[INFO] [1700515862.850121903] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515862.930419562] [bt_navigator]: Goal succeeded
+[INFO] [1700515863.850237237] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515863.920642882] [bt_navigator]: Goal succeeded
+[INFO] [1700515864.849587581] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515864.929900480] [bt_navigator]: Goal succeeded
+[INFO] [1700515865.850624719] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515865.931079895] [bt_navigator]: Goal succeeded
+[INFO] [1700515866.850934422] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515866.931231099] [bt_navigator]: Goal succeeded
+[INFO] [1700515867.851592565] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515867.931908038] [bt_navigator]: Goal succeeded
+[INFO] [1700515868.851495735] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515868.951864975] [bt_navigator]: Goal succeeded
+[INFO] [1700515869.851044761] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515869.931367438] [bt_navigator]: Goal succeeded
+[INFO] [1700515870.850874931] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515870.941216622] [bt_navigator]: Goal succeeded
+[INFO] [1700515871.851576555] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515871.921925996] [bt_navigator]: Goal succeeded
+[INFO] [1700515872.851131506] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515872.941911432] [bt_navigator]: Goal succeeded
+[INFO] [1700515873.851186767] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515873.961522891] [bt_navigator]: Goal succeeded
+[INFO] [1700515874.850561683] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515874.930906971] [bt_navigator]: Goal succeeded
+[INFO] [1700515875.850353928] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515875.940683137] [bt_navigator]: Goal succeeded
+[INFO] [1700515876.851235253] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515876.931585411] [bt_navigator]: Goal succeeded
+[INFO] [1700515877.852376574] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515877.943289591] [bt_navigator]: Goal succeeded
+[INFO] [1700515878.850018122] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515878.950385733] [bt_navigator]: Goal succeeded
+[INFO] [1700515879.850909891] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515879.931219679] [bt_navigator]: Goal succeeded
+[INFO] [1700515880.849938755] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515880.940437407] [bt_navigator]: Goal succeeded
+[INFO] [1700515881.851842586] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515881.922213435] [bt_navigator]: Goal succeeded
+[INFO] [1700515882.850201458] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515882.930516358] [bt_navigator]: Goal succeeded
+[INFO] [1700515883.850908303] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515883.952347290] [bt_navigator]: Goal succeeded
+[INFO] [1700515884.851118913] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515884.931568773] [bt_navigator]: Goal succeeded
+[INFO] [1700515885.853576237] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515885.936514291] [bt_navigator]: Goal succeeded
+[INFO] [1700515886.851495392] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515886.931827624] [bt_navigator]: Goal succeeded
+[INFO] [1700515887.850985621] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515887.932574079] [bt_navigator]: Goal succeeded
+[INFO] [1700515888.851884203] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515888.943212475] [bt_navigator]: Goal succeeded
+[INFO] [1700515889.850157002] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515889.940518896] [bt_navigator]: Goal succeeded
+[INFO] [1700515890.849900746] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515890.941766845] [bt_navigator]: Goal succeeded
+[INFO] [1700515891.850549036] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515891.941535644] [bt_navigator]: Goal succeeded
+[INFO] [1700515892.850956142] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515892.911566067] [bt_navigator]: Goal succeeded
+[INFO] [1700515893.850474352] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515893.960777680] [bt_navigator]: Goal succeeded
+[INFO] [1700515894.851518229] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515894.922280832] [bt_navigator]: Goal succeeded
+[INFO] [1700515895.851218029] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515895.941639107] [bt_navigator]: Goal succeeded
+[INFO] [1700515896.850339039] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515896.940692618] [bt_navigator]: Goal succeeded
+[INFO] [1700515897.850602185] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515897.945848466] [bt_navigator]: Goal succeeded
+[INFO] [1700515898.850900144] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515898.951206366] [bt_navigator]: Goal succeeded
+[INFO] [1700515899.850497260] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515899.940862431] [bt_navigator]: Goal succeeded
+[INFO] [1700515900.851203918] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515900.941585737] [bt_navigator]: Goal succeeded
+[INFO] [1700515901.850589499] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515901.922717605] [bt_navigator]: Goal succeeded
+[INFO] [1700515902.850105060] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515902.930412033] [bt_navigator]: Goal succeeded
+[INFO] [1700515903.850961605] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515903.956571821] [bt_navigator]: Goal succeeded
+[INFO] [1700515904.851493932] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515904.941860733] [bt_navigator]: Goal succeeded
+[INFO] [1700515905.850883790] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515905.941233684] [bt_navigator]: Goal succeeded
+[INFO] [1700515906.851298470] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515906.931658221] [bt_navigator]: Goal succeeded
+[INFO] [1700515907.850898178] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515907.931242706] [bt_navigator]: Goal succeeded
+[INFO] [1700515908.850000317] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515908.920967362] [bt_navigator]: Goal succeeded
+[INFO] [1700515909.850141019] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515909.940611522] [bt_navigator]: Goal succeeded
+[INFO] [1700515910.850042723] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515910.910979255] [bt_navigator]: Goal succeeded
+[INFO] [1700515911.850409717] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515911.930728135] [bt_navigator]: Goal succeeded
+[INFO] [1700515912.851191152] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515912.942007262] [bt_navigator]: Goal succeeded
+[INFO] [1700515913.850071349] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515913.962614984] [bt_navigator]: Goal succeeded
+[INFO] [1700515914.850132254] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515914.940532981] [bt_navigator]: Goal succeeded
+[INFO] [1700515915.850985317] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515915.933264601] [bt_navigator]: Goal succeeded
+[INFO] [1700515916.850960224] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515916.941302525] [bt_navigator]: Goal succeeded
+[INFO] [1700515917.851966526] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515917.922338059] [bt_navigator]: Goal succeeded
+[INFO] [1700515918.850856204] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515918.931139900] [bt_navigator]: Goal succeeded
+[INFO] [1700515919.850920035] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515919.931215434] [bt_navigator]: Goal succeeded
+[INFO] [1700515920.850885237] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515920.931169137] [bt_navigator]: Goal succeeded
+[INFO] [1700515921.851713652] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515921.934342098] [bt_navigator]: Goal succeeded
+[INFO] [1700515922.856068377] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515922.936589089] [bt_navigator]: Goal succeeded
+[INFO] [1700515923.850633735] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515923.941033128] [bt_navigator]: Goal succeeded
+[INFO] [1700515924.850490809] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515924.921082599] [bt_navigator]: Goal succeeded
+[INFO] [1700515925.850477659] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515925.940847201] [bt_navigator]: Goal succeeded
+[INFO] [1700515926.849654889] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515926.940035079] [bt_navigator]: Goal succeeded
+[INFO] [1700515927.850743597] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515927.911075969] [bt_navigator]: Goal succeeded
+[INFO] [1700515928.850848501] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515928.961168180] [bt_navigator]: Goal succeeded
+[INFO] [1700515929.850729222] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515929.941091782] [bt_navigator]: Goal succeeded
+[INFO] [1700515930.849664325] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515930.922074371] [bt_navigator]: Goal succeeded
+[INFO] [1700515931.855414107] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515931.937602466] [bt_navigator]: Goal succeeded
+[INFO] [1700515932.850599457] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515932.931129928] [bt_navigator]: Goal succeeded
+[INFO] [1700515933.851043283] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515933.941353177] [bt_navigator]: Goal succeeded
+[INFO] [1700515934.849785517] [bt_navigator]: Begin navigating from current location (0.29, 0.10) to (0.10, 0.00)
+[INFO] [1700515934.920190236] [bt_navigator]: Goal succeeded
+[INFO] [1700515934.958485160] [rclcpp]: signal_handler(signum=2)
+[INFO] [1700515934.958633566] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[INFO] [1700515934.958956155] [bt_navigator]: Deactivating
+[INFO] [1700515934.959079117] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[INFO] [1700515935.029949755] [bt_navigator]: Cleaning up
+[INFO] [1700515937.190536493] [bt_navigator]: Completed Cleaning up
+[INFO] [1700515937.192706968] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.

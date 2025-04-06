@@ -1,0 +1,6 @@
+[INFO] [1699749359.031148896] [slam_toolbox]: Node using stack size 40000000
+[INFO] [1699749359.357052345] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[INFO] [1699749359.358049611] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[ERROR] [1699749359.401288199] [slam_toolbox]: serialization::Read: Failed to open requested file: xyzzy.
+[ERROR] [1699749359.401403623] [slam_toolbox]: DeserializePoseGraph: Failed to read file: xyzzy.
+[INFO] [1699749412.739802017] [rclcpp]: signal_handler(signum=15)

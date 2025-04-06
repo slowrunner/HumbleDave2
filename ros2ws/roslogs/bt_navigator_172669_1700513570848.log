@@ -1,0 +1,21 @@
+[INFO] [1700513571.895036599] [bt_navigator]: 
+	bt_navigator lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1700513571.896405156] [bt_navigator]: Creating
+[INFO] [1700513576.710761952] [bt_navigator]: Configuring
+[INFO] [1700513578.335218648] [bt_navigator]: Activating
+[INFO] [1700513579.110915420] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[INFO] [1700513693.928499114] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (1.00, 0.00)
+[WARN] [1700513693.953433221] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for compute_path_to_pose
+[INFO] [1700513791.835209481] [rclcpp]: signal_handler(signum=2)
+[INFO] [1700513791.836844665] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[INFO] [1700513791.837141976] [bt_navigator]: Deactivating
+[WARN] [1700513791.837235031] [bt_navigator]: [navigate_to_pose] [ActionServer] Requested to deactivate server but goal is still executing. Should check if action server is running before deactivating.
+[INFO] [1700513791.851794115] [bt_navigator]: Goal canceled
+[WARN] [1700513791.851944910] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[WARN] [1700513791.852275609] [bt_navigator]: [navigate_to_pose] [ActionServer] Stopping the thread per request.
+[INFO] [1700513791.859199489] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[INFO] [1700513791.890257357] [bt_navigator]: Cleaning up
+[INFO] [1700513793.892027375] [bt_navigator]: Completed Cleaning up
+[INFO] [1700513793.892245650] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.

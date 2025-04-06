@@ -1,0 +1,6 @@
+[INFO] [1699749933.741579247] [slam_toolbox]: Node using stack size 40000000
+[INFO] [1699749934.035787037] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[INFO] [1699749934.036718266] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[ERROR] [1699749934.073902099] [slam_toolbox]: serialization::Read: Failed to open requested file: /home/ubuntu/HumbleDave/ros2ws/xyzzy.map.yaml.
+[ERROR] [1699749934.074067319] [slam_toolbox]: DeserializePoseGraph: Failed to read file: /home/ubuntu/HumbleDave/ros2ws/xyzzy.map.yaml.
+[INFO] [1699750275.550172451] [rclcpp]: signal_handler(signum=15)

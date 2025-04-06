@@ -1,0 +1,4 @@
+[INFO] [1700962620.105722021] [ydlidar_ros2_driver_node]: [YDLIDAR INFO] Current ROS Driver Version: 1.0.2
+
+[ERROR] [1700963031.905352530] [ydlidar_ros2_driver_node]: Failed to get scan
+[INFO] [1700963047.187016128] [rclcpp]: signal_handler(signum=15)

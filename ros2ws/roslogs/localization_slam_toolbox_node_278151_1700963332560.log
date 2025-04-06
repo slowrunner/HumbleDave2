@@ -1,0 +1,133 @@
+[INFO] [1700963333.089817375] [slam_toolbox]: Node using stack size 40000000
+[INFO] [1700963333.237824934] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[INFO] [1700963333.238949630] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[INFO] [1700963334.444088790] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1700963334.222 for reason 'discarding message because the queue is full'
+[INFO] [1700963334.558239829] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1700963334.329 for reason 'discarding message because the queue is full'
+[INFO] [1700963334.678833683] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1700963334.443 for reason 'discarding message because the queue is full'
+[INFO] [1700963334.785701703] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1700963334.557 for reason 'discarding message because the queue is full'
+[INFO] [1700963334.898951874] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1700963334.678 for reason 'discarding message because the queue is full'
+[INFO] [1700963335.013242243] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1700963334.785 for reason 'discarding message because the queue is full'
+[INFO] [1700963335.127651112] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1700963334.898 for reason 'discarding message because the queue is full'
+[INFO] [1700963335.248004382] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1700963335.013 for reason 'discarding message because the queue is full'
+[INFO] [1700963335.354747444] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1700963335.126 for reason 'discarding message because the queue is full'
+[INFO] [1700963335.469088795] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1700963335.247 for reason 'discarding message because the queue is full'
+[INFO] [1700963335.589815649] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1700963335.354 for reason 'discarding message because the queue is full'
+[INFO] [1700963335.704011486] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1700963335.468 for reason 'discarding message because the queue is full'
+[INFO] [1700963335.810125637] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1700963335.589 for reason 'discarding message because the queue is full'
+[INFO] [1700963335.924463451] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1700963335.703 for reason 'discarding message because the queue is full'
+[INFO] [1700963336.036889644] [slam_toolbox]: Message Filter dropping message: frame 'laser_frame' at time 1700963335.809 for reason 'discarding message because the queue is full'
+[WARN] [1700963336.094709880] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963336.151985665] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963336.272870111] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963336.379219980] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963336.494428000] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963336.614085918] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963336.721184770] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963336.835311481] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963336.948727134] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963337.063218708] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963337.183487910] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963337.298245609] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963337.404248951] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963337.518385997] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963337.632455582] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963337.745683130] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963337.860433533] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963337.973512288] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963338.086772208] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963338.202059119] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963338.314897363] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963338.429608510] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963338.542445643] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963338.656742984] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963338.777343034] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963338.884300634] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963338.998863562] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963339.119143269] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963339.226182944] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963339.339744211] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963339.453546399] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963339.574284466] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963339.679487628] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963339.795019517] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963339.908557804] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963340.022491748] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963340.136212977] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963340.257157060] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963340.370849753] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963340.477869764] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963340.599021065] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963340.705628474] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963340.819365277] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963340.934018559] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963341.054046979] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963341.160346601] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963341.274721484] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963341.388661007] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963341.502490180] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963341.616167764] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963341.737546507] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963341.843626967] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963341.957686635] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963342.071191798] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963342.185494797] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963342.299498172] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963342.419672537] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963342.534302935] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963342.640485839] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963342.754361403] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963342.869037800] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963342.988920931] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963343.096513138] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963343.209658980] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963343.331298462] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963343.444639021] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963343.558486069] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963343.665890930] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963343.777885686] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963343.893278402] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963344.006823327] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963344.128184337] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963344.234238674] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963344.347818490] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963344.462318247] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963344.582224456] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963344.689975811] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963344.810411341] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963344.924550848] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963345.031878009] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963345.145005263] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963345.258994275] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963345.371463469] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963345.486456644] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963345.607295853] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963345.713783497] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963345.828403236] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963345.941597803] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963346.055519817] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963346.176058980] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963346.282629495] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963346.397241810] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963346.509468309] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963346.624544891] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963346.745030832] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963346.851911563] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963346.965233574] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963347.079321495] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963347.200722270] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963347.306689634] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963347.420876368] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963347.541257203] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963347.648013198] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963347.768998353] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963347.875615499] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963347.989860880] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963348.104057542] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963348.217158080] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963348.331735290] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963348.451968464] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963348.566311437] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963348.672075160] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963348.786459115] [slam_toolbox]: Failed to compute odom pose
+[WARN] [1700963348.907174889] [slam_toolbox]: Failed to compute odom pose
+[INFO] [1700963348.962055779] [rclcpp]: signal_handler(signum=2)

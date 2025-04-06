@@ -1,0 +1,3 @@
+[INFO] [1700169110.751993167] [subscriber]: readings: left 1.744  lft_fwd 1.978  fwd 0.521   rt_fwd 0.326   right 0.405  back 1.547
+[INFO] [1700169110.754643350] [subscriber]: Forward left 1.978 or right obstacle 0.326 meters
+[INFO] [1700169110.762755525] [publisher]: rotate: readings: left 1.744  lft_fwd 1.978  fwd 0.522   rt_fwd 0.326   right 0.405  back 1.547
