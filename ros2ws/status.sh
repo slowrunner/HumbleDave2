@@ -6,9 +6,10 @@ echo -n `date +"%A %D"`;
 echo ""; 
 uptime; 
 vcgencmd measure_temp && vcgencmd measure_clock arm && vcgencmd get_throttled; 
-python3 /home/ubuntu/HumbleDave2/plib/battery.py; 
+# python3 /home/ubuntu/HumbleDave2/plib/battery.py; 
+python3 /home/ubuntu/HumbleDave2/plib/gopigo3_battery.py; 
+echo ""; 
 free -h; 
-# python3 /home/ubuntu/HumbleDave2/ros2ws/gopigo3_battery.py; 
 echo -e "\n"
 echo -e "ROS 2 NODES"
 ps -ef | grep "ros2 run" | grep -v "grep"  && ps -ef | grep "ros2 launch" | grep -v "grep"
