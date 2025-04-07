@@ -58,7 +58,7 @@ DEBUG = False
 # Uncomment for debug prints to console
 # DEBUG = True
 
-ODOLOGFILE = '/home/pi/GoPi5Go/logs/odometer.log'
+ODOLOGFILE = '/home/ubuntu/HumbleDave2/logs/odometer.log'
 TWO_PI= math.pi * 2.0
 
 def distance(p2,p1):   # (new,old)

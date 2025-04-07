@@ -2,7 +2,7 @@
 
 # file:  daveDataJson.py
 #
-# Serialize data values to /home/pi/GoPi5Go/daveData.json
+# Serialize data values to /home/ubuntu/HumbleDave2/daveData.json
 # (running ./daveDataJson.py will create the file)
 #
 # Methods:
@@ -31,12 +31,12 @@ Example from Carl:
 
 """
 import sys
-sys.path.insert(1,'/home/pi/GoPi5Go/plib')
+sys.path.insert(1,'/home/ubuntu/HumbleDave2/plib')
 
 import json
 import threading
 # import runLog
-DATA_FILE = '/home/pi/GoPi5Go/daveData.json'
+DATA_FILE = '/home/ubuntu/HumbleDave2/daveData.json'
 
 DataLock = threading.Lock()       # with DataLock: any operation to make syncronous
 

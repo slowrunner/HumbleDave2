@@ -4,7 +4,7 @@
 
 # PURPOSE:  call the docking_node  /dock service
 
-basedir=GoPi5Go
+basedir=HumbleDave2
 echo -e "\n*** Switching to ~/${basedir}/ros2ws"
 cd ~/$basedir/ros2ws
 

@@ -63,7 +63,7 @@ import time
 
 DEBUG = False
 # uncomment following for debug 
-# DEBUG = True
+DEBUG = True
 
 
 LIFELOGFILE = "/home/ubuntu/HumbleDave2/logs/life.log"
@@ -149,8 +149,14 @@ class DaveNode(Node):
 
         self.state = "init"
         self.prior_state = self.state
-        self.last_dock_time = dt.datetime.strptime(daveDataJson.getData("lastDockingTime"),DT_FORMAT)
-        self.last_undock_time = dt.datetime.strptime(daveDataJson.getData("lastDismountTime"),DT_FORMAT)
+        try:
+            self.last_dock_time = dt.datetime.strptime(daveDataJson.getData("lastDockingTime"),DT_FORMAT)
+        except:
+            self.last_dock_time = dt.datetime.now()
+        try:
+            self.last_undock_time = dt.datetime.strptime(daveDataJson.getData("lastDismountTime"),DT_FORMAT)
+        except:
+            self.last_undock_time = dt.datetime.now()
         if DEBUG:
             dtstr = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             print(dtstr,"DaveNode.init: last_dock_time:   ",self.last_dock_time.strftime(DT_FORMAT))

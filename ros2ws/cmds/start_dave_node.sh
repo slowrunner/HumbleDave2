@@ -1,5 +1,5 @@
 #!/bin/bash
-basedir=GoPi5Go
+basedir=HumbleDave2
 echo -e "\n*** Switching to ~/${basedir}/ros2ws"
 cd ~/$basedir/ros2ws
 
@@ -10,6 +10,6 @@ echo -e "\n*** Sourcing install/setup.bash"
 . ~/$basedir/ros2ws/install/setup.bash
 
 echo -e "\n*** Start Dave Node"
-echo -e "*** ros2 run gopi5go_dave dave_node "
-ros2 run gopi5go_dave dave_node 
+echo -e "*** ros2 run dave dave_node "
+ros2 run dave dave_node 
 

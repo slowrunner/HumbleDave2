@@ -26,7 +26,7 @@ import logging
 # Set up the start-finished logger
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
-loghandler = logging.FileHandler('/home/ubuntu/HumbleDave2/run.log')
+loghandler = logging.FileHandler('/home/ubuntu/HumbleDave2/logs/run.log')
 logformatter = logging.Formatter('%(asctime)s|%(message)s',"%Y-%m-%d %H:%M")
 loghandler.setFormatter(logformatter)
 logger.addHandler(loghandler)

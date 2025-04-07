@@ -2,9 +2,9 @@
 
 # FILE: echo_dock_status.sh
 
-# PURPOSE:  display  /dock_status topic from gopi5go_node.docking_node
+# PURPOSE:  display  /dock_status topic from dave.docking_node
 
-basedir=GoPi5Go
+basedir=HumbleDave2
 echo -e "\n*** Switching to ~/${basedir}/ros2ws"
 cd ~/$basedir/ros2ws
 
