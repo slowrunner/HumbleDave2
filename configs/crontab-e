@@ -21,11 +21,10 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
-@reboot sleep 10  && /usr/bin/python3 /home/ubuntu/HumbleDave/cleanlifelog.py
-@reboot sleep 15  && /home/ubuntu/HumbleDave/nohup_loglife.sh
-@reboot sleep 30  && python3 /home/ubuntu/HumbleDave/plib/center.py
-@reboot sleep 60  && /home/ubuntu/HumbleDave/nohup_safetyShutdown.sh
-@reboot sleep 75 && /home/ubuntu/HumbleDave/nohup_wheellog.sh
-0 * * * * /usr/bin/python3 /home/ubuntu/HumbleDave/cleanlifelog.py
+@reboot sleep 10  && /usr/bin/python3 /home/ubuntu/HumbleDave2/plib/cleanlifelog.py
+@reboot sleep 15  && /home/ubuntu/HumbleDave2/nohup_loglife.sh
+@reboot sleep 60  && /home/ubuntu/HumbleDave2/nohup_safetyShutdown.sh
+@reboot sleep 75 && /home/ubuntu/HumbleDave2/nohup_wheellog.sh
+0 * * * * /usr/bin/python3 /home/ubuntu/HumbleDave2/plib/cleanlifelog.py
 
 

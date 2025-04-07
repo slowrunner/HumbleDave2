@@ -10,7 +10,7 @@ echo "WHEEL STATS"
 fn="/home/ubuntu/HumbleDave2/logs/wheel.log"
 
 echo "(Cleaning life.log first)"
-/home/ubuntu/HumbleDave2/cleanlifelog.py
+/home/ubuntu/HumbleDave2/plib/cleanlifelog.py
 echo " "
 declare -i catchupSegmentss=0
 totalTravel=`(awk -F'travel:' '{sum+=sqrt($2^2)}END{printf "%.1f", sum/1000;}' $fn)`
