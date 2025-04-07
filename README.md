@@ -43,7 +43,9 @@ ROSbot Specs:
   * YDLIDAR X4 - 360 degrees, 12cm-10m range on half degree increment, ~8Hz scanning
   * MPU9250 Inertial Measurement Unit  
     also provides ambient temperature 
-  
+  * INA219 - Voltage, Current, Power  
+  * Luxonis Oak-D-W97  1280x800 Wide-Angle Fixed-Focus 18cm-Inf Stereo Depth Camera
+
 - Actuators/Effectors (GoPiGo3 Intrinsic)
   * Wheel Motors
   * Multi-color programmable LED (x3)
@@ -55,7 +57,7 @@ ROSbot Specs:
   
 - Available GoPiGo3 Ports
   * I2C (left): MPU9250  
-  * I2C (right): Unused  
+  * I2C (right): INA219   
   * Grove Analog/Digital I/O AD1: Unused  
   * Grove Analog/Digital I/O AD2: Unused  
   * SERVO1: Unused  
@@ -65,8 +67,8 @@ ROSbot Specs:
   * 12.6v to protection circuit cutoff at 8.1-8.4v! 
   * Roughly 24wH 
 
-- Run Time: (Using 9.75v 15minutes left "need to shutdown" limit) 
-  * "Thinking" 5+ hours  (averages 414mA at 11.1v 4.6w 24wH)
+- Run Time: (Using 10.1v 15minutes left "need to shutdown" limit) 
+  * "Playtime" 3.75 hours  (averages 568mA at 11.1v 6.3w 24wH)
   * "100% wandering" TBD hours
 
 - Recharger:  
