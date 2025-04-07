@@ -63,7 +63,7 @@ import time
 
 DEBUG = False
 # uncomment following for debug 
-DEBUG = True
+# DEBUG = True
 
 
 LIFELOGFILE = "/home/ubuntu/HumbleDave2/logs/life.log"

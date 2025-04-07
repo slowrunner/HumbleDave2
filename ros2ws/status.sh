@@ -12,5 +12,5 @@ echo "";
 free -h; 
 echo -e "\n"
 echo -e "ROS 2 NODES"
-ps -ef | grep "ros2 run" | grep -v "grep"  && ps -ef | grep "ros2 launch" | grep -v "grep"
+ps -ef | grep "ros2 run" | grep -v "grep"  && ps -ef | grep "ros2 launch" | grep -v "grep" && ps -ef | grep "publisher" | grep -v "grep"
 echo -e "\n"

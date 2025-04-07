@@ -89,4 +89,4 @@ ros2 run dave dave_node  &
 
 /home/ubuntu/HumbleDave2/ros2ws/status.sh
 
-echo -e "\n*** start_HumbleDave2.sh COMPLETE
+echo -e "\n*** start_HumbleDave2.sh COMPLETE"

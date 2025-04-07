@@ -13,10 +13,10 @@ rosdep install -i --from-path src
 
 
 echo "*** colcon build --packages-select ros2_gopigo3_msg "
-colcon build --packages-select ros2_gopigo3_msg
+colcon build --packages-select --allow-overriding ros2_gopigo3_msg 
 
 echo "*** colcon build --packages-select dave_interfaces "
-colcon build --packages-select dave_interfaces
+colcon build --packages-select --allow-overriding dave_interfaces  
 
 echo "*** colcon build --packages-select ros2_gopigo3_node"
 colcon build --symlink-install --packages-select ros2_gopigo3_node

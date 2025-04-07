@@ -1,8 +1,0 @@
-[console_scripts]
-battery_node = dave.battery_node:main
-dave_node = dave.dave_node:main
-docking_node = dave.docking_node:main
-say_client = dave.say_svc_client:main
-say_node = dave.say_node:main
-test_dock = dave.test_dock:main
-
