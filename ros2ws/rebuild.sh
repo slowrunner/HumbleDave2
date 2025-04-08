@@ -21,8 +21,8 @@ colcon build --packages-select --allow-overriding dave_interfaces
 echo "*** colcon build --packages-select ros2_gopigo3_node"
 colcon build --symlink-install --packages-select ros2_gopigo3_node
 
-echo "*** colcon build --packages-select teleop_gopigo3_keyboard"
-colcon build --symlink-install --packages-select teleop_gopigo3_keyboard
+# echo "*** colcon build --packages-select teleop_gopigo3_keyboard"
+# colcon build --symlink-install --packages-select teleop_gopigo3_keyboard
 
 # echo "*** colcon build --packages-select ros2_libcamera_pub"
 # colcon build --packages-select ros2_libcamera_pub
@@ -39,8 +39,8 @@ colcon build --symlink-install --packages-select teleop_gopigo3_keyboard
 # echo "** colcon build --symlink-install --packages-select explorer_wanderer"
 # colcon build --symlink-install --packages-select explorer_wanderer
 
-echo "** colcon build --symlink-install --packages-select dave"
-colcon build --symlink-install --packages-select dave
+# echo "** colcon build --symlink-install --packages-select dave"
+# colcon build --symlink-install --packages-select dave
 
 # echo "** colcon build --symlink-install --packages-select gpg3_cartographer"
 # colcon build --symlink-install --packages-select gpg3_cartographer

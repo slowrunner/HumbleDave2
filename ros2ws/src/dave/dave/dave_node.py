@@ -380,9 +380,9 @@ class DaveNode(Node):
                     printMsg = "dave_main_cb: exec undocking"
                     print(dtstr, printMsg)
                     print("self.undock_svc_future:", self.undock_svc_future.__dict__)
-                if self.undock_svc_future._done == True:  # print("self.undock_svc_future:", self.undock_svc_future.__dict__)
+                if self.undock_svc_future.done() == True:  # print("self.undock_svc_future:", self.undock_svc_future.__dict__)
                     if DEBUG:
-                        print("undock_svc_future.result._success {}  is_docked: {}".format(self.undock_svc_future._result.success, self.undock_svc_future._result.is_docked))
+                        print("undock_svc_future.result._success {}  is_docked: {}".format(self.undock_svc_future.result().success, self.undock_svc_future.result().is_docked))
                     try:
                         # Announce transition to playtime with say service
                         if self.say_svc_client.service_is_ready():

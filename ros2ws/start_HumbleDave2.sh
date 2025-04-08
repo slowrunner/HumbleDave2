@@ -39,9 +39,9 @@ ros2 launch ros2_gopigo3_node ros2_dave_state_and_joint.launch.py &
 
 sleep 5
 
-# echo -e "\n*** Start Docking Node"
-# echo -e "*** ros2 run dave docking_node & "
-# ros2 run dave docking_node &
+echo -e "\n*** Start Docking Node"
+echo -e "*** ros2 run dave docking_node & "
+ros2 run dave docking_node &
 
 sleep 5 
 
